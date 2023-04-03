@@ -1,4 +1,4 @@
-id,average_rating,title,imdbId
+id,avg_rating,title,imdb_id
 1,3.872469636,Toy Story (1995),114709
 2,3.401869159,Jumanji (1995),113497
 3,3.161016949,Grumpier Old Men (1995),113228
@@ -57,8 +57,8 @@ id,average_rating,title,imdbId
 59,4,"Confessional, The (Confessionnal, Le) (1995)",112714
 60,2.828125,"Indian in the Cupboard, The (1995)",113419
 61,3.571428571,Eye for an Eye (1996),116260
-62,3.689655172,Mr. Holland's Opus (1995),113862
-63,2.833333333,Don't Be a Menace to South Central While Drinking Your Juice in the Hood (1996),116126
+62,3.689655172,Mr. Hollands Opus (1995),113862
+63,2.833333333,Dont Be a Menace to South Central While Drinking Your Juice in the Hood (1996),116126
 64,2.4,Two if by Sea (1996),118002
 65,2.025,Bio-Dome (1996),115683
 66,2,Lawnmower Man 2: Beyond Cyberspace (1996),116839
@@ -74,8 +74,8 @@ id,average_rating,title,imdbId
 78,3.2,"Crossing Guard, The (1995)",112744
 79,2.961538462,"Juror, The (1996)",116731
 80,4.625,"White Balloon, The (Badkonake sefid) (1995)",112445
-81,3.25,Things to Do in Denver When You're Dead (1995),114660
-82,3.8,Antonia's Line (Antonia) (1995),112379
+81,3.25,Things to Do in Denver When Youre Dead (1995),114660
+82,3.8,Antonias Line (Antonia) (1995),112379
 83,3,Once Upon a Time... When We Were Colored (1995),114039
 84,4,Last Summer in the Hamptons (1995),113612
 85,4.0625,Angels and Insects (1995),112365
@@ -103,15 +103,15 @@ id,average_rating,title,imdbId
 111,4.224576271,Taxi Driver (1976),75314
 112,3.295918367,Rumble in the Bronx (Hont faan kui) (1995),113326
 113,3.2,Before and After (1996),115645
-114,3,Margaret's Museum (1995),113774
+114,3,Margarets Museum (1995),113774
 116,4.75,Anne Frank Remembered (1995),112373
-117,3,"Young Poisoner's Handbook, The (1995)",115033
+117,3,"Young Poisoners Handbook, The (1995)",115033
 118,2.8,If Lucy Fell (1996),116606
 119,3,"Steal Big, Steal Little (1995)",114536
 121,3.8,"Boys of St. Vincent, The (1992)",106473
 122,3.052631579,Boomerang (1992),103859
 123,4,Chungking Express (Chung Hing sam lam) (1994),109424
-124,3,"Star Maker, The (Uomo delle stelle, L') (1995)",114808
+124,3,"Star Maker, The (Uomo delle stelle, L) (1995)",114808
 125,3.714285714,Flirting With Disaster (1996),116324
 126,2.7,"NeverEnding Story III, The (1994)",110647
 129,3,Pie in the Sky (1996),114131
@@ -184,7 +184,7 @@ id,average_rating,title,imdbId
 206,3.6,Unzipped (1995),114805
 207,3.375,"Walk in the Clouds, A (1995)",114887
 208,2.752212389,Waterworld (1995),114898
-209,2.6,White Man's Burden (1995),114928
+209,2.6,White Mans Burden (1995),114928
 211,3.333333333,"Browning Version, The (1994)",109340
 213,4.222222222,Burnt by the Sun (Utomlyonnye solntsem) (1994),111579
 214,3,Before the Rain (Pred dozhdot) (1994),110882
@@ -229,13 +229,13 @@ id,average_rating,title,imdbId
 255,2.2,"Jerky Boys, The (1995)",110189
 256,2.702380952,Junior (1994),110216
 257,3.576923077,Just Cause (1995),113501
-258,2.5,"Kid in King Arthur's Court, A (1995)",113538
+258,2.5,"Kid in King Arthurs Court, A (1995)",113538
 259,3.7,Kiss of Death (1995),113552
 260,4.221649485,Star Wars: Episode IV - A New Hope (1977),76759
 261,3.715686275,Little Women (1994),110367
 262,3.85,"Little Princess, A (1995)",113670
 263,3,Ladybird Ladybird (1994),110296
-264,4.5,"Enfer, L' (1994)",109731
+264,4.5,"Enfer, L (1994)",109731
 265,3.879032258,Like Water for Chocolate (Como agua para chocolate) (1992),103994
 266,3.48630137,Legends of the Fall (1994),110322
 267,2.730769231,Major Payne (1995),110443
@@ -244,7 +244,7 @@ id,average_rating,title,imdbId
 270,3.222222222,Love Affair (1994),110391
 271,3.5,Losing Isaiah (1995),113691
 272,4,"Madness of King George, The (1994)",110428
-273,3.12962963,Mary Shelley's Frankenstein (Frankenstein) (1994),109836
+273,3.12962963,Mary Shelleys Frankenstein (Frankenstein) (1994),109836
 274,2.666666667,Man of the House (1995),113755
 275,2.8,Mixed Nuts (1994),110538
 276,2.863636364,Milk Money (1994),110516
@@ -252,7 +252,7 @@ id,average_rating,title,imdbId
 278,3,Miami Rhapsody (1995),113808
 279,2.875,My Family (1995),113896
 280,4.113636364,Murder in the First (1995),113870
-281,3.861111111,Nobody's Fool (1994),110684
+281,3.861111111,Nobodys Fool (1994),110684
 282,3.284090909,Nell (1994),110638
 283,3,New Jersey Drive (1995),113967
 285,4,Beyond Bedlam (1993),106402
@@ -264,7 +264,7 @@ id,average_rating,title,imdbId
 292,3.309090909,Outbreak (1995),114069
 293,4.071969697,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),110413
 294,3.333333333,"Perez Family, The (1995)",114113
-295,3,"Pyromaniac's Love Story, A (1995)",114210
+295,3,"Pyromaniacs Love Story, A (1995)",114210
 296,4.25617284,Pulp Fiction (1994),110912
 299,3.75,Priest (1994),110889
 300,3.75,Quiz Show (1994),110932
@@ -289,7 +289,7 @@ id,average_rating,title,imdbId
 321,3.642857143,Strawberry and Chocolate (Fresa y chocolate) (1993),106966
 322,3.642857143,Swimming with Sharks (1995),114594
 324,3.333333333,"Sum of Us, The (1994)",111309
-325,3,National Lampoon's Senior Trip (1995),113936
+325,3,National Lampoons Senior Trip (1995),113936
 326,4.071428571,To Live (Huozhe) (1994),110081
 327,2.75,Tank Girl (1995),114614
 328,3.625,Tales from the Crypt Presents: Demon Knight (1995),114608
@@ -301,12 +301,12 @@ id,average_rating,title,imdbId
 334,3.071428571,Vanya on 42nd Street (1994),111590
 335,3,Underneath (1995),114788
 336,3,"Walking Dead, The (1995)",114888
-337,3.795454545,What's Eating Gilbert Grape (1993),108550
+337,3.795454545,Whats Eating Gilbert Grape (1993),108550
 338,2.8,Virtuosity (1995),114857
 339,3.440594059,While You Were Sleeping (1995),114924
 340,3,"War, The (1994)",111667
 341,4.5,Double Happiness (1994),109655
-342,3.4375,Muriel's Wedding (1994),110598
+342,3.4375,Muriels Wedding (1994),110598
 343,3,"Baby-Sitters Club, The (1995)",112435
 344,2.871428571,Ace Ventura: Pet Detective (1994),109040
 345,3.75,"Adventures of Priscilla, Queen of the Desert, The (1994)",109045
@@ -329,7 +329,7 @@ id,average_rating,title,imdbId
 363,4.5,"Wonderful, Horrible Life of Leni Riefenstahl, The (Macht der Bilder: Leni Riefenstahl, Die) (1993)",107472
 364,3.7775,"Lion King, The (1994)",110357
 365,3,Little Buddha (1993),107426
-366,3.272727273,"Wes Craven's New Nightmare (Nightmare on Elm Street Part 7: Freddy's Finale, A) (1994)",111686
+366,3.272727273,"Wes Cravens New Nightmare (Nightmare on Elm Street Part 7: Freddys Finale, A) (1994)",111686
 367,3.070063694,"Mask, The (1994)",110475
 368,3.535211268,Maverick (1994),110478
 369,3.055555556,Mrs. Parker and the Vicious Circle (1994),110588
@@ -352,7 +352,7 @@ id,average_rating,title,imdbId
 388,3.666666667,Boys Life (1995),112570
 389,4,"Colonel Chabert, Le (1994)",109454
 390,4.1,Faster Pussycat! Kill! Kill! (1965),59170
-391,3,Jason's Lyric (1994),110186
+391,3,Jasons Lyric (1994),110186
 392,2.666666667,"Secret Adventures of Tom Thumb, The (1993)",108069
 393,2.1,Street Fighter (1994),111301
 401,4,Mirage (1995),113827
@@ -379,8 +379,8 @@ id,average_rating,title,imdbId
 427,2.428571429,Boxing Helena (1993),106471
 428,3.717391304,"Bronx Tale, A (1993)",106489
 429,2.555555556,Cabin Boy (1994),109361
-431,3.671875,Carlito's Way (1993),106519
-432,2.650793651,City Slickers II: The Legend of Curly's Gold (1994),109439
+431,3.671875,Carlitos Way (1993),106519
+432,2.650793651,City Slickers II: The Legend of Curlys Gold (1994),109439
 433,2.857142857,Clean Slate (1994),109443
 434,3.08490566,Cliffhanger (1993),106582
 435,2.463636364,Coneheads (1993),106598
@@ -400,7 +400,7 @@ id,average_rating,title,imdbId
 449,3.5,Fear of a Black Hat (1994),106880
 450,3.4375,With Honors (1994),111732
 451,3.428571429,Flesh and Bone (1993),106926
-452,4,Widows' Peak (1994),111712
+452,4,Widows Peak (1994),111712
 453,2.4,For Love or Money (1993),106941
 454,3.472727273,"Firm, The (1993)",106918
 455,2.838709677,Free Willy (1993),106965
@@ -419,12 +419,12 @@ id,average_rating,title,imdbId
 469,3.125,"House of the Spirits, The (1993)",107151
 470,2,House Party 3 (1994),110064
 471,3.87755102,"Hudsucker Proxy, The (1994)",110074
-472,3.5,I'll Do Anything (1994),110097
+472,3.5,Ill Do Anything (1994),110097
 473,1,In the Army Now (1994),110123
 474,3.8625,In the Line of Fire (1993),107206
 475,4.209677419,In the Name of the Father (1993),107207
 476,4,"Inkwell, The (1994)",110137
-477,3.59375,What's Love Got to Do with It? (1993),108551
+477,3.59375,Whats Love Got to Do with It? (1993),108551
 479,3.25,Judgment Night (1993),107286
 480,3.70620438,Jurassic Park (1993),107290
 481,3.34375,Kalifornia (1993),107302
@@ -471,7 +471,7 @@ id,average_rating,title,imdbId
 523,3.333333333,Ruby in Paradise (1993),108000
 524,3.555555556,Rudy (1993),108002
 526,1,"Savage Nights (Nuits fauves, Les) (1992)",105032
-527,4.303278689,Schindler's List (1993),108052
+527,4.303278689,Schindlers List (1993),108052
 528,2.5,"Scout, The (1994)",111094
 529,3.933333333,Searching for Bobby Fischer (1993),108065
 531,3.564516129,"Secret Garden, The (1993)",108071
@@ -581,7 +581,7 @@ id,average_rating,title,imdbId
 679,4,"Run of the Country, The (1995)",114307
 680,3.916666667,"Alphaville (Alphaville, une étrange aventure de Lemmy Caution) (1965)",58898
 681,3,Coup de torchon (Clean Slate) (1981),82206
-685,3.125,It's My Party (1996),113443
+685,3.125,Its My Party (1996),113443
 687,3,Country Life (1994),109491
 688,2.45,Operation Dumbo Drop (1995),114048
 690,4,"Promise, The (Versprechen, Das) (1995)",111613
@@ -613,7 +613,7 @@ id,average_rating,title,imdbId
 725,2.375,"Great White Hype, The (1996)",116448
 726,3,Last Dance (1996),116827
 728,3.96875,Cold Comfort Farm (1995),112701
-731,2.75,Heaven's Prisoners (1996),116508
+731,2.75,Heavens Prisoners (1996),116508
 733,3.737037037,"Rock, The (1996)",117500
 735,4.125,Cemetery Man (Dellamorte Dellamore) (1994),109592
 736,3.25,Twister (1996),117998
@@ -642,7 +642,7 @@ id,average_rating,title,imdbId
 769,3,Marlene Dietrich: Shadow and Light (1996),116992
 775,2,Spirits of the Dead (1968),63715
 778,4.141129032,Trainspotting (1996),117951
-779,2.625,'Til There Was You (1997),118523
+779,2.625,Til There Was You (1997),118523
 780,3.483944954,Independence Day (a.k.a. ID4) (1996),116629
 781,3.75,Stealing Beauty (1996),117737
 782,3.333333333,"Fan, The (1996)",116277
@@ -652,14 +652,14 @@ id,average_rating,title,imdbId
 786,3.108695652,Eraser (1996),116213
 787,4.5,"Gate of Heavenly Peace, The (1995)",113147
 788,3.080882353,"Nutty Professor, The (1996)",117218
-793,4,My Life and Times With Antonin Artaud (En compagnie d'Antonin Artaud) (1993),106810
+793,4,My Life and Times With Antonin Artaud (En compagnie dAntonin Artaud) (1993),106810
 798,3.416666667,Daylight (1996),116040
 799,3.229166667,"Frighteners, The (1996)",116365
 800,4.071428571,Lone Star (1996),116905
 801,3.208333333,Harriet the Spy (1996),116493
 802,3.326388889,Phenomenon (1996),117333
 803,4.25,Walking and Talking (1996),118113
-804,2.892857143,She's the One (1996),117628
+804,2.892857143,Shes the One (1996),117628
 805,3.765306122,"Time to Kill, A (1996)",117913
 806,2.888888889,American Buffalo (1996),115530
 808,3.25,Alaska (1996),115493
@@ -671,7 +671,7 @@ id,average_rating,title,imdbId
 820,5,"Death in the Garden (Mort en ce jardin, La) (1956)",49521
 824,3,Kaspar Hauser (1993),110246
 828,3.375,"Adventures of Pinocchio, The (1996)",115472
-829,1,Joe's Apartment (1996),116707
+829,1,Joes Apartment (1996),116707
 830,3.134615385,"First Wives Club, The (1996)",116313
 831,3.5,Stonewall (1995),114550
 832,3.565789474,Ransom (1996),117438
@@ -701,8 +701,8 @@ id,average_rating,title,imdbId
 866,3.87037037,Bound (1996),115736
 867,3,Carpool (1996),115836
 869,2.75,Kansas City (1996),116745
-870,1.666666667,Gone Fishin' (1997),119214
-872,5,Vive L'Amour (Ai qing wan sui) (1994),109066
+870,1.666666667,Gone Fishin (1997),119214
+872,5,Vive LAmour (Ai qing wan sui) (1994),109066
 875,4,Nothing to Lose (1994),110693
 876,5,Supercop 2 (Project S) (Chao ji ji hua) (1993),106544
 879,3.3,"Relic, The (1997)",120004
@@ -719,10 +719,10 @@ id,average_rating,title,imdbId
 896,3.666666667,Wild Reeds (Les roseaux sauvages) (1994),111019
 897,3.625,For Whom the Bell Tolls (1943),35896
 898,4.351351351,"Philadelphia Story, The (1940)",32904
-899,4.1953125,Singin' in the Rain (1952),45152
+899,4.1953125,Singin in the Rain (1952),45152
 900,3.954545455,"American in Paris, An (1951)",43278
 901,3.916666667,Funny Face (1957),50419
-902,3.590909091,Breakfast at Tiffany's (1961),54698
+902,3.590909091,Breakfast at Tiffanys (1961),54698
 903,4.224637681,Vertigo (1958),52357
 904,4.315217391,Rear Window (1954),47396
 905,4.38,It Happened One Night (1934),25316
@@ -772,7 +772,7 @@ id,average_rating,title,imdbId
 950,4.205882353,"Thin Man, The (1934)",25878
 951,4.211538462,His Girl Friday (1940),32599
 952,3.357142857,Around the World in 80 Days (1956),48960
-953,4.152777778,It's a Wonderful Life (1946),38650
+953,4.152777778,Its a Wonderful Life (1946),38650
 954,4.225806452,Mr. Smith Goes to Washington (1939),31679
 955,4.066666667,Bringing Up Baby (1938),29947
 956,3.166666667,Penny Serenade (1941),34012
@@ -800,7 +800,7 @@ id,average_rating,title,imdbId
 988,3.75,Grace of My Heart (1996),116442
 990,2.5,Maximum Risk (1996),117011
 991,3.5,Michael Collins (1996),117039
-992,2.5,"Rich Man's Wife, The (1996)",117473
+992,2.5,"Rich Mans Wife, The (1996)",117473
 994,4.25,Big Night (1996),115678
 996,3.25,Last Man Standing (1996),116830
 997,2.666666667,Caught (1996),115847
@@ -833,7 +833,7 @@ id,average_rating,title,imdbId
 1027,3.113636364,Robin Hood: Prince of Thieves (1991),102798
 1028,3.814102564,Mary Poppins (1964),58331
 1029,3.702380952,Dumbo (1941),33563
-1030,3.222222222,Pete's Dragon (1977),76538
+1030,3.222222222,Petes Dragon (1977),76538
 1031,3.5,Bedknobs and Broomsticks (1971),66817
 1032,3.612244898,Alice in Wonderland (1951),43274
 1033,3.523809524,"Fox and the Hound, The (1981)",82406
@@ -856,7 +856,7 @@ id,average_rating,title,imdbId
 1055,2,Shadow Conspiracy (1997),120107
 1056,4,Jude (1996),116722
 1057,3.823529412,Everyone Says I Love You (1996),116242
-1059,3.525862069,William Shakespeare's Romeo + Juliet (1996),117509
+1059,3.525862069,William Shakespeares Romeo + Juliet (1996),117509
 1060,4.226190476,Swingers (1996),117802
 1061,3.545454545,Sleepers (1996),117665
 1063,4.333333333,Johns (1996),116714
@@ -870,7 +870,7 @@ id,average_rating,title,imdbId
 1077,4.051282051,Sleeper (1973),70707
 1078,3.842105263,Bananas (1971),66808
 1079,3.971910112,"Fish Called Wanda, A (1988)",95159
-1080,3.857142857,Monty Python's Life of Brian (1979),79470
+1080,3.857142857,Monty Pythons Life of Brian (1979),79470
 1081,3.672413793,Victor/Victoria (1982),84865
 1082,3.6875,"Candidate, The (1972)",68334
 1083,3,"Great Race, The (1965)",59243
@@ -881,12 +881,12 @@ id,average_rating,title,imdbId
 1088,3.358490566,Dirty Dancing (1987),92890
 1089,4.162878788,Reservoir Dogs (1992),105236
 1090,3.933823529,Platoon (1986),91763
-1091,2.62962963,Weekend at Bernie's (1989),98627
+1091,2.62962963,Weekend at Bernies (1989),98627
 1092,3.294642857,Basic Instinct (1992),103772
 1093,3.111111111,"Doors, The (1991)",101761
 1094,3.92,"Crying Game, The (1992)",104036
 1095,3.87037037,Glengarry Glen Ross (1992),104348
-1096,4.038461538,Sophie's Choice (1982),84707
+1096,4.038461538,Sophies Choice (1982),84707
 1097,3.76875,E.T. the Extra-Terrestrial (1982),83866
 1099,3.545454545,"Christmas Carol, A (1938)",29992
 1100,2.578947368,Days of Thunder (1990),99371
@@ -894,7 +894,7 @@ id,average_rating,title,imdbId
 1103,3.9375,Rebel Without a Cause (1955),48545
 1104,3.9125,"Streetcar Named Desire, A (1951)",44081
 1105,1.75,Children of the Corn IV: The Gathering (1996),115885
-1111,3.9375,Microcosmos (Microcosmos: Le peuple de l'herbe) (1996),117040
+1111,3.9375,Microcosmos (Microcosmos: Le peuple de lherbe) (1996),117040
 1112,3.666666667,Palookaville (1996),117284
 1113,2.428571429,"Associate, The (1996)",115580
 1114,3.166666667,"Funeral, The (1996)",116378
@@ -924,7 +924,7 @@ id,average_rating,title,imdbId
 1161,4.0625,"Tin Drum, The (Blechtrommel, Die) (1979)",78875
 1162,3.6,"Ruling Class, The (1972)",69198
 1163,2.5,Mina Tannenbaum (1994),110521
-1164,1,2 ou 3 choses que je sais d'elle (2 or 3 Things I Know About Her) (1967),60304
+1164,1,2 ou 3 choses que je sais delle (2 or 3 Things I Know About Her) (1967),60304
 1165,1.5,"Bloody Child, The (1996)",115715
 1167,2,Dear God (1996),116059
 1168,3,Bad Moon (1996),115610
@@ -950,8 +950,8 @@ id,average_rating,title,imdbId
 1190,2.1,Tie Me Up! Tie Me Down! (¡Átame!) (1990),101026
 1191,3.55,Madonna: Truth or Dare (1991),102370
 1192,4.388888889,Paris Is Burning (1990),100332
-1193,4.256944444,One Flew Over the Cuckoo's Nest (1975),73486
-1194,3.733333333,Cheech and Chong's Up in Smoke (1978),78446
+1193,4.256944444,One Flew Over the Cuckoos Nest (1975),73486
+1194,3.733333333,Cheech and Chongs Up in Smoke (1978),78446
 1196,4.232905983,Star Wars: Episode V - The Empire Strikes Back (1980),80684
 1197,4.208588957,"Princess Bride, The (1987)",93779
 1198,4.193181818,Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),82971
@@ -964,7 +964,7 @@ id,average_rating,title,imdbId
 1206,4,"Clockwork Orange, A (1971)",66921
 1207,4.18125,To Kill a Mockingbird (1962),56592
 1208,4.138392857,Apocalypse Now (1979),78788
-1209,4.21875,Once Upon a Time in the West (C'era una volta il West) (1968),64116
+1209,4.21875,Once Upon a Time in the West (Cera una volta il West) (1968),64116
 1210,4.059907834,Star Wars: Episode VI - Return of the Jedi (1983),86190
 1211,4.210526316,"Wings of Desire (Himmel über Berlin, Der) (1987)",93191
 1212,4.25,"Third Man, The (1949)",41959
@@ -998,7 +998,7 @@ id,average_rating,title,imdbId
 1242,3.836206897,Glory (1989),97441
 1243,4.045454545,Rosencrantz and Guildenstern Are Dead (1990),100519
 1244,3.962962963,Manhattan (1979),79522
-1245,3.851851852,Miller's Crossing (1990),100150
+1245,3.851851852,Millers Crossing (1990),100150
 1246,3.784210526,Dead Poets Society (1989),97165
 1247,4.123595506,"Graduate, The (1967)",61722
 1248,4.236842105,Touch of Evil (1958),52311
@@ -1063,18 +1063,18 @@ id,average_rating,title,imdbId
 1310,4.5,Hype! (1996),116589
 1311,0.5,Santa with Muscles (1996),117550
 1312,5,Female Perversions (1996),116293
-1317,4,I'm Not Rappaport (1996),116601
+1317,4,Im Not Rappaport (1996),116601
 1320,3.181818182,Alien³ (a.k.a. Alien 3) (1992),103644
 1321,3.631578947,"American Werewolf in London, An (1981)",82010
-1322,2.5,Amityville 1992: It's About Time (1992),103678
+1322,2.5,Amityville 1992: Its About Time (1992),103678
 1323,2.25,Amityville 3-D (1983),85159
 1324,1,Amityville: Dollhouse (1996),115535
 1325,1,Amityville: A New Generation (1993),106262
 1326,2.666666667,Amityville II: The Possession (1982),83550
 1327,3.115384615,"Amityville Horror, The (1979)",78767
 1328,1,"Amityville Curse, The (1990)",99030
-1329,3,Blood for Dracula (Andy Warhol's Dracula) (1974),71233
-1330,3.428571429,April Fool's Day (1986),90655
+1329,3,Blood for Dracula (Andy Warhols Dracula) (1974),71233
+1330,3.428571429,April Fools Day (1986),90655
 1331,2.333333333,Audrey Rose (1977),75704
 1332,3.5,"Believers, The (1987)",92632
 1333,3.754901961,"Birds, The (1963)",56869
@@ -1082,7 +1082,7 @@ id,average_rating,title,imdbId
 1335,4,Blood Beach (1981),82083
 1336,3.5,Body Parts (1991),101492
 1337,2.833333333,"Body Snatcher, The (1945)",37549
-1339,3.298076923,Dracula (Bram Stoker's Dracula) (1992),103874
+1339,3.298076923,Dracula (Bram Stokers Dracula) (1992),103874
 1340,3.75,"Bride of Frankenstein, The (Bride of Frankenstein) (1935)",26138
 1341,4,Burnt Offerings (1976),74258
 1342,3.058823529,Candyman (1992),103919
@@ -1104,11 +1104,11 @@ id,average_rating,title,imdbId
 1358,3.886363636,Sling Blade (1996),117666
 1359,2.136363636,Jingle All the Way (1996),116705
 1361,4.153846154,Paradise Lost: The Child Murders at Robin Hood Hills (1996),117293
-1363,3.357142857,"Preacher's Wife, The (1996)",117372
+1363,3.357142857,"Preachers Wife, The (1996)",117372
 1365,3.6,Ridicule (1996),117477
 1366,3.961538462,"Crucible, The (1996)",115988
 1367,2.959459459,101 Dalmatians (1996),115433
-1369,2.5,I Can't Sleep (J'ai pas sommeil) (1994),110171
+1369,2.5,I Cant Sleep (Jai pas sommeil) (1994),110171
 1370,3.287878788,Die Hard 2 (1990),99423
 1371,3.053191489,Star Trek: The Motion Picture (1979),79945
 1372,3.265957447,Star Trek VI: The Undiscovered Country (1991),102975
@@ -1136,7 +1136,7 @@ id,average_rating,title,imdbId
 1396,3.617647059,Sneakers (1992),105435
 1397,3,Bastard Out of Carolina (1996),115633
 1398,3.5,In Love and War (1996),116621
-1399,3.5,Marvin's Room (1996),116999
+1399,3.5,Marvins Room (1996),116999
 1401,3.5,Ghosts of Mississippi (1996),116410
 1404,2.75,Night Falls on Manhattan (1996),119783
 1405,3.032608696,Beavis and Butt-Head Do America (1996),115641
@@ -1164,14 +1164,14 @@ id,average_rating,title,imdbId
 1432,3.4,Metro (1997),119664
 1433,3,The Machine (1994),110425
 1437,3.5,"Cement Garden, The (1993)",106535
-1438,2.681818182,Dante's Peak (1997),118928
+1438,2.681818182,Dantes Peak (1997),118928
 1440,3,Amos & Andrew (1993),106266
 1441,3.375,Benny & Joon (1993),106387
 1442,2.5,Prefontaine (1997),119937
 1444,4,Guantanamera (1994),109949
-1445,2,McHale's Navy (1997),119640
+1445,2,McHales Navy (1997),119640
 1446,3.833333333,Kolya (Kolja) (1996),116790
-1447,2.833333333,Gridlock'd (1997),119225
+1447,2.833333333,Gridlockd (1997),119225
 1449,3.879310345,Waiting for Guffman (1996),118111
 1450,5,Prisoner of the Mountains (Kavkazsky plennik) (1996),116754
 1453,2.357142857,"Beautician and the Beast, The (1997)",118691
@@ -1182,7 +1182,7 @@ id,average_rating,title,imdbId
 1458,3,Touch (1997),120357
 1459,3.05,Absolute Power (1997),118548
 1460,3.333333333,That Darn Cat (1997),120317
-1461,2.714285714,Vegas Vacation (National Lampoon's Las Vegas Vacation) (1997),120434
+1461,2.714285714,Vegas Vacation (National Lampoons Las Vegas Vacation) (1997),120434
 1463,4.5,That Old Feeling (1997),120318
 1464,3.7,Lost Highway (1997),116922
 1465,4,Rosewood (1997),120036
@@ -1194,14 +1194,14 @@ id,average_rating,title,imdbId
 1475,4,Kama Sutra: A Tale of Love (1996),116743
 1476,3.52173913,Private Parts (1997),119951
 1479,3.071428571,"Saint, The (1997)",120053
-1480,3.583333333,Smilla's Sense of Snow (1997),120152
+1480,3.583333333,Smillas Sense of Snow (1997),120152
 1482,3,"Van, The (1996)",118064
 1483,3.277777778,Crash (1996),115964
 1484,3.833333333,"Daytrippers, The (1996)",116041
 1485,3.190140845,Liar Liar (1997),119528
 1487,3.1875,Selena (1997),120094
-1488,3,"Devil's Own, The (1997)",118972
-1489,3.5,Cats Don't Dance (1997),118829
+1488,3,"Devils Own, The (1997)",118972
+1489,3.5,Cats Dont Dance (1997),118829
 1490,0.75,B*A*P*S (1997),118663
 1493,4,Love and Other Catastrophes (1996),116931
 1495,1,Turbo: A Power Rangers Movie (1997),120389
@@ -1215,14 +1215,14 @@ id,average_rating,title,imdbId
 1504,4.5,Hollow Reed (1996),113314
 1507,3,Paradise Road (1997),119859
 1508,3.333333333,Traveller (1997),120366
-1513,3.255555556,Romy and Michele's High School Reunion (1997),120032
+1513,3.255555556,Romy and Micheles High School Reunion (1997),120032
 1515,2.95,Volcano (1997),120461
 1516,4,Children of the Revolution (1996),115886
 1517,3.378504673,Austin Powers: International Man of Mystery (1997),118655
 1518,3.230769231,Breakdown (1997),118771
 1523,4,"Truth or Consequences, N.M. (1997)",120383
 1525,1.5,Warriors of Virtue (1997),120479
-1526,2.166666667,Fathers' Day (1997),119109
+1526,2.166666667,Fathers Day (1997),119109
 1527,3.677966102,"Fifth Element, The (1997)",119116
 1529,3.833333333,Nowhere (1997),119809
 1531,5,Losing Chase (1996),116920
@@ -1244,11 +1244,11 @@ id,average_rating,title,imdbId
 1556,1.652173913,Speed 2: Cruise Control (1997),120179
 1562,2.14893617,Batman & Robin (1997),118688
 1563,5,Dream With the Fishes (1997),119019
-1564,4.5,For Roseanna (Roseanna's Grave) (1997),120034
+1564,4.5,For Roseanna (Roseannas Grave) (1997),120034
 1566,3.5,Hercules (1997),119282
-1569,3.298076923,My Best Friend's Wedding (1997),119738
+1569,3.298076923,My Best Friends Wedding (1997),119738
 1570,2.5,Tetsuo II: Body Hammer (1992),105569
-1571,1,When the Cat's Away (Chacun cherche son chat) (1996),115856
+1571,1,When the Cats Away (Chacun cherche son chat) (1996),115856
 1572,4.166666667,"Contempt (Mépris, Le) (1963)",57345
 1573,3.451807229,Face/Off (1997),119094
 1575,5,Gabbeh (1996),116384
@@ -1271,7 +1271,7 @@ id,average_rating,title,imdbId
 1597,3.352272727,Conspiracy Theory (1997),118883
 1598,3.75,Desperate Measures (1998),118966
 1599,1.75,Steel (1997),120207
-1600,2.125,She's So Lovely (1997),120112
+1600,2.125,Shes So Lovely (1997),120112
 1601,3.5,Hoodlum (1997),119311
 1602,1,Leave It to Beaver (1997),119509
 1603,2.4,Mimic (1997),119675
@@ -1299,7 +1299,7 @@ id,average_rating,title,imdbId
 1629,3.4,"MatchMaker, The (1997)",119632
 1631,3.5,"Assignment, The (1997)",118647
 1632,2.5,"Smile Like Yours, A (1997)",120151
-1633,3.375,Ulee's Gold (1997),120402
+1633,3.375,Ulees Gold (1997),120402
 1635,3.823529412,"Ice Storm, The (1997)",119349
 1636,1,Stag (1997),120192
 1639,3.569230769,Chasing Amy (1997),118842
@@ -1308,7 +1308,7 @@ id,average_rating,title,imdbId
 1642,2.375,Indian Summer (a.k.a. Alive & Kicking) (1996),116631
 1643,4.05,"Mrs. Brown (a.k.a. Her Majesty, Mrs. Brown) (1997)",119280
 1644,2.516666667,I Know What You Did Last Summer (1997),119345
-1645,3.458333333,The Devil's Advocate (1997),118971
+1645,3.458333333,The Devils Advocate (1997),118971
 1646,2.571428571,RocketMan (a.k.a. Rocket Man) (1997),120029
 1647,2.666666667,Playing God (1997),119906
 1648,3.166666667,"House of Yes, The (1997)",119324
@@ -1319,7 +1319,7 @@ id,average_rating,title,imdbId
 1655,3.5,Phantoms (1998),119891
 1657,3,Wonderland (1997),120529
 1658,3.375,"Life Less Ordinary, A (1997)",119535
-1660,3,Eve's Bayou (1997),119080
+1660,3,Eves Bayou (1997),119080
 1661,3.125,Switchback (1997),119210
 1663,3.7,Stripes (1981),83131
 1665,3.25,Bean (1997),118689
@@ -1399,7 +1399,7 @@ id,average_rating,title,imdbId
 1792,3.363636364,U.S. Marshals (1998),120873
 1794,3.75,Love and Death on Long Island (1997),119574
 1795,4,"Callejón de los milagros, El (1995)",112619
-1796,2,In God's Hands (1998),140282
+1796,2,In Gods Hands (1998),140282
 1797,3.833333333,Everest (1998),120661
 1798,2.333333333,Hush (1998),118744
 1799,3.555555556,Suicide Kings (1997),120241
@@ -1416,7 +1416,7 @@ id,average_rating,title,imdbId
 1821,3.111111111,"Object of My Affection, The (1998)",120772
 1822,3,Meet the Deedles (1998),120645
 1824,3,Homegrown (1998),119305
-1826,0.75,Barney's Great Adventure (1998),120598
+1826,0.75,Barneys Great Adventure (1998),120598
 1827,4,"Big One, The (1997)",124295
 1831,2.134615385,Lost in Space (1998),120738
 1833,2.727272727,Mercury Rising (1998),120749
@@ -1433,10 +1433,10 @@ id,average_rating,title,imdbId
 1848,2.7,"Borrowers, The (1997)",118755
 1852,3,Love Walked In (1998),118727
 1854,4,Kissing a Fool (1998),120723
-1855,2.4,Krippendorf's Tribe (1998),120725
+1855,2.4,Krippendorfs Tribe (1998),120725
 1856,3.3125,Kurt & Courtney (1998),138563
 1858,3.416666667,Mr. Nice Guy (Yat goh ho yan) (1997),117786
-1859,5,Taste of Cherry (Ta'm e guilass) (1997),120265
+1859,5,Taste of Cherry (Tam e guilass) (1997),120265
 1860,4.666666667,Character (Karakter) (1997),119448
 1861,2,Junk Mail (Budbringeren) (1997),118785
 1862,2.3125,Species II (1998),120841
@@ -1463,7 +1463,7 @@ id,average_rating,title,imdbId
 1891,2,"Ugly, The (1997)",120401
 1892,3.260869565,"Perfect Murder, A (1998)",120787
 1894,2.913043478,Six Days Seven Nights (1998),120828
-1895,3.071428571,Can't Hardly Wait (1998),127723
+1895,3.071428571,Cant Hardly Wait (1998),127723
 1896,3,Cousin Bette (1998),118894
 1897,3.214285714,High Art (1998),139362
 1900,3.7,"Children of Heaven, The (Bacheha-Ye Aseman) (1997)",118849
@@ -1478,14 +1478,14 @@ id,average_rating,title,imdbId
 1912,3.75862069,Out of Sight (1998),120780
 1913,3.785714286,Picnic at Hanging Rock (1975),73540
 1914,3.653846154,Smoke Signals (1998),120321
-1916,3.678571429,Buffalo '66 (a.k.a. Buffalo 66) (1998),118789
+1916,3.678571429,Buffalo 66 (a.k.a. Buffalo 66) (1998),118789
 1917,3.044247788,Armageddon (1998),120591
 1918,3.05952381,Lethal Weapon 4 (1998),122151
 1919,4,Madeline (1998),123987
 1920,2.764705882,Small Soldiers (1998),122718
 1921,3.7375,Pi (1998),138704
 1922,3.666666667,Whatever (1998),140688
-1923,3.552845528,There's Something About Mary (1998),129387
+1923,3.552845528,Theres Something About Mary (1998),129387
 1924,3.555555556,Plan 9 from Outer Space (1959),52077
 1925,4.25,Wings (1927),18578
 1926,2,"Broadway Melody, The (1929)",19729
@@ -1495,15 +1495,15 @@ id,average_rating,title,imdbId
 1931,4.25,Mutiny on the Bounty (1935),26752
 1932,2.75,"Great Ziegfeld, The (1936)",27698
 1933,5,"Life of Emile Zola, The (1937)",29146
-1934,4.166666667,You Can't Take It with You (1938),30993
+1934,4.166666667,You Cant Take It with You (1938),30993
 1935,3.875,How Green Was My Valley (1941),33729
 1936,4,Mrs. Miniver (1942),35093
 1937,3.5,Going My Way (1944),36872
 1938,4,"Lost Weekend, The (1945)",37884
 1939,4.636363636,"Best Years of Our Lives, The (1946)",36868
-1940,4.071428571,Gentleman's Agreement (1947),39416
+1940,4.071428571,Gentlemans Agreement (1947),39416
 1941,4.416666667,Hamlet (1948),40416
-1942,4.333333333,All the King's Men (1949),41113
+1942,4.333333333,All the Kings Men (1949),41113
 1943,3.333333333,"Greatest Show on Earth, The (1952)",44672
 1944,3.925,From Here to Eternity (1953),45793
 1945,4.448275862,On the Waterfront (1954),47296
@@ -1530,11 +1530,11 @@ id,average_rating,title,imdbId
 1966,3.583333333,Metropolitan (1990),100142
 1967,3.625,Labyrinth (1986),91369
 1968,3.982905983,"Breakfast Club, The (1985)",88847
-1969,2.6875,"Nightmare on Elm Street 2: Freddy's Revenge, A (1985)",89686
+1969,2.6875,"Nightmare on Elm Street 2: Freddys Revenge, A (1985)",89686
 1970,2.6,"Nightmare on Elm Street 3: Dream Warriors, A (1987)",93629
 1971,2.666666667,"Nightmare on Elm Street 4: The Dream Master, A (1988)",95742
 1972,2.6,"Nightmare on Elm Street 5: The Dream Child, A (1989)",97981
-1973,2.333333333,"Freddy's Dead: The Final Nightmare (Nightmare on Elm Street Part 6: Freddy's Dead, A) (1991)",101917
+1973,2.333333333,"Freddys Dead: The Final Nightmare (Nightmare on Elm Street Part 6: Freddys Dead, A) (1991)",101917
 1974,3.088235294,Friday the 13th (1980),80761
 1975,1.944444444,Friday the 13th Part 2 (1981),82418
 1976,2.166666667,Friday the 13th Part 3: 3D (1982),83972
@@ -1552,9 +1552,9 @@ id,average_rating,title,imdbId
 1988,3,Prom Night II (1987),93176
 1989,2,Prom Night III: The Last Kiss (1989),98136
 1990,3,Prom Night IV: Deliver Us From Evil (1992),105179
-1991,2.95,Child's Play (1988),94862
-1992,2,Child's Play 2 (1990),99253
-1993,2,Child's Play 3 (1991),103956
+1991,2.95,Childs Play (1988),94862
+1992,2,Childs Play 2 (1990),99253
+1993,2,Childs Play 3 (1991),103956
 1994,3.723684211,Poltergeist (1982),84516
 1995,2.375,Poltergeist II: The Other Side (1986),91778
 1996,1.75,Poltergeist III (1988),95889
@@ -1588,14 +1588,14 @@ id,average_rating,title,imdbId
 2024,3.333333333,"Rapture, The (1991)",102757
 2025,2.884615385,Lolita (1997),119558
 2026,3.2,Disturbing Behavior (1998),134619
-2027,2.1875,Jane Austen's Mafia! (1998),120741
+2027,2.1875,Jane Austens Mafia! (1998),120741
 2028,3.945026178,Saving Private Ryan (1998),120815
-2029,4.2,Billy's Hollywood Screen Kiss (1997),137386
+2029,4.2,Billys Hollywood Screen Kiss (1997),137386
 2031,3.25,"Million Dollar Duck, The (a.k.a. $1,000,000 Duck) (1971)",66728
 2032,3,"Barefoot Executive, The (1971)",66811
 2033,3.041666667,"Black Cauldron, The (1985)",88814
 2034,3.222222222,"Black Hole, The (1979)",78869
-2035,3,Blackbeard's Ghost (1968),62737
+2035,3,Blackbeards Ghost (1968),62737
 2036,2.5,Blank Check (1994),109287
 2037,3.666666667,Candleshoe (1977),75807
 2038,3.5625,"Cat from Outer Space, The (1978)",77305
@@ -1603,7 +1603,7 @@ id,average_rating,title,imdbId
 2040,3.333333333,"Computer Wore Tennis Shoes, The (1969)",65566
 2041,3.333333333,Condorman (1981),82199
 2042,2.75,D2: The Mighty Ducks (1994),109520
-2043,3.5625,Darby O'Gill and the Little People (1959),52722
+2043,3.5625,Darby OGill and the Little People (1959),52722
 2044,2.25,"Devil and Max Devlin, The (1981)",82263
 2045,3.4,"Far Off Place, A (1993)",106868
 2046,3.823529412,Flight of the Navigator (1986),91059
@@ -1631,7 +1631,7 @@ id,average_rating,title,imdbId
 2069,3.777777778,"Trip to Bountiful, The (1985)",90203
 2070,4.038461538,Tender Mercies (1983),86423
 2071,3.75,And the Band Played On (1993),106273
-2072,3.052631579,"'burbs, The (1989)",96734
+2072,3.052631579,"burbs, The (1989)",96734
 2073,4,Fandango (1985),89126
 2074,4,"Night Porter, The (Portiere di notte, Il) (1974)",71910
 2075,3.833333333,Mephisto (1981),82736
@@ -1660,7 +1660,7 @@ id,average_rating,title,imdbId
 2098,2,Son of Flubber (1963),57518
 2099,3.7,Song of the South (1946),38969
 2100,3.163461538,Splash (1984),88161
-2101,2.5,Squanto: A Warrior's Tale (1994),111271
+2101,2.5,Squanto: A Warriors Tale (1994),111271
 2102,4.285714286,Steamboat Willie (1928),19422
 2103,3,Tall Tale (1995),111359
 2104,3.666666667,Tex (1982),84783
@@ -1669,10 +1669,10 @@ id,average_rating,title,imdbId
 2107,3.2,Halloween H20: 20 Years Later (Halloween 7: The Revenge of Laurie Strode) (1998),120694
 2108,3.692307692,L.A. Story (1991),102250
 2109,3.696078431,"Jerk, The (1979)",79367
-2110,3.366666667,Dead Men Don't Wear Plaid (1982),83798
+2110,3.366666667,Dead Men Dont Wear Plaid (1982),83798
 2111,3.307692308,"Man with Two Brains, The (1983)",85894
 2112,3.294117647,Grand Canyon (1991),101969
-2113,3,Graveyard Shift (Stephen King's Graveyard Shift) (1990),99697
+2113,3,Graveyard Shift (Stephen Kings Graveyard Shift) (1990),99697
 2114,3.652173913,"Outsiders, The (1983)",86066
 2115,3.765306122,Indiana Jones and the Temple of Doom (1984),87469
 2116,3.421052632,"Lord of the Rings, The (1978)",77869
@@ -1689,12 +1689,12 @@ id,average_rating,title,imdbId
 2128,3,Safe Men (1998),120813
 2130,4.125,Atlantic City (1980),80388
 2131,4.5,Autumn Sonata (Höstsonaten) (1978),77711
-2132,4.195652174,Who's Afraid of Virginia Woolf? (1966),61184
+2132,4.195652174,Whos Afraid of Virginia Woolf? (1966),61184
 2133,3.113636364,Adventures in Babysitting (1987),92513
 2134,3.138888889,Weird Science (1985),90305
 2135,3,Doctor Dolittle (1967),61584
 2136,2.694444444,"Nutty Professor, The (1963)",57372
-2137,3.8,Charlotte's Web (1973),70016
+2137,3.8,Charlottes Web (1973),70016
 2138,4,Watership Down (1978),78480
 2139,3.222222222,"Secret of NIMH, The (1982)",84649
 2140,3.678571429,"Dark Crystal, The (1982)",83791
@@ -1703,7 +1703,7 @@ id,average_rating,title,imdbId
 2143,3.366666667,Legend (1985),89469
 2144,3.826086957,Sixteen Candles (1984),88128
 2145,3.380952381,Pretty in Pink (1986),91790
-2146,3.166666667,St. Elmo's Fire (1985),90060
+2146,3.166666667,St. Elmos Fire (1985),90060
 2147,1.8,"Clan of the Cave Bear, The (1986)",90848
 2148,3.666666667,House (1986),91223
 2149,2,House II: The Second Story (1987),93220
@@ -1714,7 +1714,7 @@ id,average_rating,title,imdbId
 2154,2.666666667,How Stella Got Her Groove Back (1998),120703
 2155,3.3,"Slums of Beverly Hills, The (1998)",120831
 2159,3.125,Henry: Portrait of a Serial Killer (1986),99763
-2160,3.736111111,Rosemary's Baby (1968),63522
+2160,3.736111111,Rosemarys Baby (1968),63522
 2161,3.302631579,"NeverEnding Story, The (1984)",88323
 2162,2.666666667,"NeverEnding Story II: The Next Chapter, The (1990)",100240
 2163,3.166666667,Attack of the Killer Tomatoes! (1978),80391
@@ -1767,7 +1767,7 @@ id,average_rating,title,imdbId
 2236,2.5625,Simon Birch (1998),124879
 2237,2,Without Limits (1998),119934
 2238,3.333333333,Seven Beauties (Pasqualino Settebellezze) (1976),75040
-2239,3,Swept Away (Travolti da un insolito destino nell'azzurro mare d'Agosto) (1975),73817
+2239,3,Swept Away (Travolti da un insolito destino nellazzurro mare dAgosto) (1975),73817
 2240,3.153846154,My Bodyguard (1980),81207
 2241,2.833333333,Class (1983),85346
 2243,3.944444444,Broadcast News (1987),92699
@@ -1777,7 +1777,7 @@ id,average_rating,title,imdbId
 2247,3.40625,Married to the Mob (1988),95593
 2248,3.936170213,Say Anything... (1989),98258
 2249,3.461538462,My Blue Heaven (1990),100212
-2250,3.2,Men Don't Leave (1990),100134
+2250,3.2,Men Dont Leave (1990),100134
 2252,3.538461538,Hero (1992),104412
 2253,2.75,Toys (1992),105629
 2254,3,Choices (1981),82172
@@ -1789,9 +1789,9 @@ id,average_rating,title,imdbId
 2261,3.75,One Crazy Summer (1986),91680
 2262,2.705882353,About Last Night... (1986),90583
 2263,3.375,"Seventh Sign, The (1988)",96073
-2264,3,We're No Angels (1989),98625
+2264,3,Were No Angels (1989),98625
 2265,2,Nothing But Trouble (1991),102558
-2266,2.666666667,"Butcher's Wife, The (1991)",101523
+2266,2.666666667,"Butchers Wife, The (1991)",101523
 2267,4.5,Mortal Thoughts (1991),102469
 2268,3.861842105,"Few Good Men, A (1992)",104257
 2269,2.7,Indecent Proposal (1993),107211
@@ -1799,7 +1799,7 @@ id,average_rating,title,imdbId
 2272,3.7,One True Thing (1998),120776
 2273,3.558139535,Rush Hour (1998),120812
 2275,3.166666667,Six-String Samurai (1998),118736
-2276,3,"Soldier's Daughter Never Cries, A (1998)",120835
+2276,3,"Soldiers Daughter Never Cries, A (1998)",120835
 2278,3.5625,Ronin (1998),122690
 2279,3.409090909,Urban Legend (1998),146336
 2280,3.5,Clay Pigeons (1998),118863
@@ -1831,7 +1831,7 @@ id,average_rating,title,imdbId
 2312,3.733333333,Children of a Lesser God (1986),90830
 2313,3.857142857,"Elephant Man, The (1980)",80678
 2314,3.5,Beloved (1998),120603
-2315,3,Bride of Chucky (Child's Play 4) (1998),144120
+2315,3,Bride of Chucky (Childs Play 4) (1998),144120
 2316,2.785714286,Practical Magic (1998),120791
 2318,4.326086957,Happiness (1998),147612
 2320,2.75,Apt Pupil (1998),118636
@@ -1851,7 +1851,7 @@ id,average_rating,title,imdbId
 2336,3.729166667,Elizabeth (1998),127536
 2337,3.583333333,Velvet Goldmine (1998),120879
 2338,2.5,I Still Know What You Did Last Summer (1998),130018
-2339,3,I'll Be Home For Christmas (1998),155753
+2339,3,Ill Be Home For Christmas (1998),155753
 2340,2.934782609,Meet Joe Black (1998),119643
 2342,3,Hard Core Logo (1996),116488
 2344,4.333333333,Runaway Train (1985),89941
@@ -1865,7 +1865,7 @@ id,average_rating,title,imdbId
 2352,3.777777778,"Big Chill, The (1983)",85244
 2353,3.47761194,Enemy of the State (1998),120660
 2354,2.5,"Rugrats Movie, The (1998)",134067
-2355,3.60952381,"Bug's Life, A (1998)",120623
+2355,3.60952381,"Bugs Life, A (1998)",120623
 2356,3.15,Celebrity (1998),120533
 2357,4.318181818,Central Station (Central do Brasil) (1998),140888
 2359,4.133333333,Waking Ned Devine (a.k.a. Waking Ned) (1998),166396
@@ -1932,8 +1932,8 @@ id,average_rating,title,imdbId
 2420,3.368421053,"Karate Kid, The (1984)",87538
 2421,2.574074074,"Karate Kid, Part II, The (1986)",91326
 2422,2.236842105,"Karate Kid, Part III, The (1989)",97647
-2423,3.74,Christmas Vacation (National Lampoon's Christmas Vacation) (1989),97958
-2424,3.241666667,You've Got Mail (1998),128853
+2423,3.74,Christmas Vacation (National Lampoons Christmas Vacation) (1989),97958
+2424,3.241666667,Youve Got Mail (1998),128853
 2425,3.6,"General, The (1998)",120706
 2427,3.347222222,"Thin Red Line, The (1998)",120863
 2428,2.590909091,"Faculty, The (1998)",133751
@@ -1973,7 +1973,7 @@ id,average_rating,title,imdbId
 2464,2.5,Trick or Treat (1986),92112
 2465,4,Deadly Friend (1986),90917
 2467,4.239130435,"Name of the Rose, The (Name der Rose, Der) (1986)",91605
-2468,2.966666667,Jumpin' Jack Flash (1986),91306
+2468,2.966666667,Jumpin Jack Flash (1986),91306
 2469,3.318181818,Peggy Sue Got Married (1986),91738
 2470,3.233333333,Crocodile Dundee (1986),90555
 2471,2.613636364,Crocodile Dundee II (1988),92493
@@ -1987,7 +1987,7 @@ id,average_rating,title,imdbId
 2481,3.75,My Name Is Joe (1998),151691
 2482,3.25,Still Crazy (1998),149151
 2483,2.75,"Day of the Beast, The (Día de la Bestia, El) (1995)",112922
-2485,3.189655172,She's All That (1999),160862
+2485,3.189655172,Shes All That (1999),160862
 2486,3,"24 Hour Woman, The (1998)",138279
 2487,3,"Blood, Guts, Bullets and Octane (1998)",163984
 2488,3.8,Peeping Tom (1960),54167
@@ -2000,7 +2000,7 @@ id,average_rating,title,imdbId
 2496,3.30952381,Blast from the Past (1999),124298
 2497,1.8,Message in a Bottle (1999),139462
 2498,2.333333333,My Favorite Martian (1999),120764
-2499,3.5,God Said 'Ha!' (1998),119207
+2499,3.5,God Said Ha! (1998),119207
 2500,2.166666667,Jawbreaker (1999),155776
 2501,4.1,October Sky (1999),132477
 2502,3.91509434,Office Space (1999),151804
@@ -2018,13 +2018,13 @@ id,average_rating,title,imdbId
 2519,2,House on Haunted Hill (1959),51744
 2520,3.366666667,Airport (1970),65377
 2521,2.777777778,Airport 1975 (1974),71110
-2522,2.409090909,Airport '77 (1977),75648
+2522,2.409090909,Airport 77 (1977),75648
 2523,2.666666667,Rollercoaster (1977),76636
 2524,3.4,"Towering Inferno, The (1974)",72308
 2525,2.7,Alligator (1980),80354
 2526,3,Meteor (1979),79550
 2527,3.384615385,Westworld (1973),70909
-2528,3.303571429,Logan's Run (1976),74812
+2528,3.303571429,Logans Run (1976),74812
 2529,3.631578947,Planet of the Apes (1968),63442
 2530,2.875,Beneath the Planet of the Apes (1970),65462
 2531,2.666666667,Battle for the Planet of the Apes (1973),69768
@@ -2032,19 +2032,19 @@ id,average_rating,title,imdbId
 2533,2.730769231,Escape from the Planet of the Apes (1971),67065
 2534,3,Avalanche (1978),77189
 2535,2.666666667,Earthquake (1974),71455
-2536,3.166666667,"Concorde: Airport '79, The (1979)",78740
+2536,3.166666667,"Concorde: Airport 79, The (1979)",78740
 2537,2,Beyond the Poseidon Adventure (1979),78856
 2539,3.245098039,Analyze This (1999),122933
 2540,3.1,"Corruptor, The (1999)",142192
 2541,3.12745098,Cruel Intentions (1999),139134
 2542,4.128378378,"Lock, Stock & Two Smoking Barrels (1998)",120735
-2545,4.25,Relax... It's Just Sex (1998),159696
+2545,4.25,Relax... Its Just Sex (1998),159696
 2546,2.375,"Deep End of the Ocean, The (1999)",120646
 2548,1.125,"Rage: Carrie 2, The (1999)",144814
 2549,2.055555556,Wing Commander (1999),131646
 2550,4.166666667,"Haunting, The (1963)",57129
 2551,3.75,Dead Ringers (1988),94964
-2552,2.5,My Boyfriend's Back (1993),107626
+2552,2.5,My Boyfriends Back (1993),107626
 2553,4.4,Village of the Damned (1960),54443
 2554,3.333333333,Children of the Damned (1963),56931
 2555,0.875,Baby Geniuses (1999),118665
@@ -2056,7 +2056,7 @@ id,average_rating,title,imdbId
 2562,5,Bandits (1997),118682
 2563,4.666666667,Dangerous Beauty (1998),118892
 2565,3.380952381,"King and I, The (1956)",49408
-2566,3,Doug's 1st Movie (1999),187819
+2566,3,Dougs 1st Movie (1999),187819
 2567,3,EDtv (1999),131369
 2568,1.583333333,"Mod Squad, The (1999)",120757
 2569,4,Among Giants (1998),122906
@@ -2071,7 +2071,7 @@ id,average_rating,title,imdbId
 2580,3.87,Go (1999),139239
 2581,3.042857143,Never Been Kissed (1999),151738
 2582,3.125,Twin Dragons (Shuang long hui) (1992),105399
-2583,3.333333333,Cookie's Fortune (1999),126250
+2583,3.333333333,Cookies Fortune (1999),126250
 2585,3.5,"Lovers of the Arctic Circle, The (Los Amantes del Círculo Polar) (1998)",133363
 2586,4,Goodbye Lover (1999),119219
 2587,2.6,Life (1999),123964
@@ -2097,21 +2097,21 @@ id,average_rating,title,imdbId
 2618,3.5,"Castle, The (1997)",118826
 2620,4.333333333,This Is My Father (1998),120865
 2621,3.375,Xiu Xiu: The Sent-Down Girl (Tian yu) (1998),115005
-2622,3.238095238,William Shakespeare's A Midsummer Night's Dream (1999),140379
+2622,3.238095238,William Shakespeares A Midsummer Nights Dream (1999),140379
 2624,3.666666667,After Life (Wandafuru raifu) (1998),165078
 2625,4,Black Mask (Hak hap) (1996),115693
 2626,4.5,Edge of Seventeen (1998),138414
 2627,5,Endurance (1999),120659
 2628,3.199275362,Star Wars: Episode I - The Phantom Menace (1999),120915
 2629,3.5,"Love Letter, The (1999)",166252
-2630,3.5,Besieged (a.k.a. L' Assedio) (1998),149723
+2630,3.5,Besieged (a.k.a. L Assedio) (1998),149723
 2631,3,Frogs for Snakes (1998),120680
 2633,3.666666667,"Mummy, The (1932)",23245
 2634,3.666666667,"Mummy, The (1959)",53085
-2635,4,"Mummy's Curse, The (1944)",37098
-2636,5,"Mummy's Ghost, The (1944)",37099
-2637,4,"Mummy's Hand, The (1940)",32818
-2638,3,"Mummy's Tomb, The (1942)",35096
+2635,4,"Mummys Curse, The (1944)",37098
+2636,5,"Mummys Ghost, The (1944)",37099
+2637,4,"Mummys Hand, The (1940)",32818
+2638,3,"Mummys Tomb, The (1942)",35096
 2639,3.4,Mommie Dearest (1981),82766
 2640,3.433333333,Superman (1978),78346
 2641,3.197368421,Superman II (1980),81573
@@ -2149,10 +2149,10 @@ id,average_rating,title,imdbId
 2683,3.272321429,Austin Powers: The Spy Who Shagged Me (1999),145660
 2686,3.818181818,"Red Violin, The (Violon rouge, Le) (1998)",120802
 2687,3.625,Tarzan (1999),120855
-2688,3.241935484,"General's Daughter, The (1999)",144214
+2688,3.241935484,"Generals Daughter, The (1999)",144214
 2689,2.833333333,Get Bruce (1999),184510
 2690,4.25,"Ideal Husband, An (1999)",122541
-2691,2.75,"Legend of 1900, The (a.k.a. The Legend of the Pianist on the Ocean) (Leggenda del pianista sull'oceano) (1998)",120731
+2691,2.75,"Legend of 1900, The (a.k.a. The Legend of the Pianist on the Ocean) (Leggenda del pianista sulloceano) (1998)",120731
 2692,4.2,Run Lola Run (Lola rennt) (1998),130827
 2693,3.85,Trekkies (1997),120370
 2694,3.344827586,Big Daddy (1999),142342
@@ -2165,7 +2165,7 @@ id,average_rating,title,imdbId
 2704,3.666666667,"Lovers on the Bridge, The (Amants du Pont-Neuf, Les) (1991)",101318
 2706,3.297297297,American Pie (1999),163651
 2707,3.513888889,Arlington Road (1999),137363
-2708,4,"Autumn Tale, An (Conte d'automne) (1998)",137439
+2708,4,"Autumn Tale, An (Conte dautomne) (1998)",137439
 2709,2.642857143,Muppets From Space (1999),158811
 2710,2.738372093,"Blair Witch Project, The (1999)",185937
 2712,3.626984127,Eyes Wide Shut (1999),120663
@@ -2183,7 +2183,7 @@ id,average_rating,title,imdbId
 2724,2.811111111,Runaway Bride (1999),163187
 2725,3.6,Twin Falls Idaho (1999),162830
 2726,4.090909091,"Killing, The (1956)",49406
-2727,3.5,Killer's Kiss (1955),48254
+2727,3.5,Killers Kiss (1955),48254
 2728,3.921052632,Spartacus (1960),54331
 2729,3.6875,Lolita (1962),56193
 2730,3.333333333,Barry Lyndon (1975),72684
@@ -2230,15 +2230,15 @@ id,average_rating,title,imdbId
 2783,3,"Tomb of Ligeia, The (1965)",59821
 2784,4,"Masque of the Red Death, The (1964)",58333
 2786,2.5,Haunted Honeymoon (1986),91178
-2787,3.25,Cat's Eye (1985),88889
-2788,4.090909091,Monty Python's And Now for Something Completely Different (1971),66765
+2787,3.25,Cats Eye (1985),88889
+2788,4.090909091,Monty Pythons And Now for Something Completely Different (1971),66765
 2789,2.4,Damien: Omen II (1978),77394
 2790,2.416666667,"Final Conflict, The (a.k.a. Omen III: The Final Conflict) (1981)",82377
 2791,3.820754717,Airplane! (1980),80339
 2792,3.36,Airplane II: The Sequel (1982),83530
 2793,2.555555556,"American Werewolf in Paris, An (1997)",118604
-2794,2.875,European Vacation (aka National Lampoon's European Vacation) (1985),89670
-2795,3.683333333,National Lampoon's Vacation (1983),85995
+2794,2.875,European Vacation (aka National Lampoons European Vacation) (1985),89670
+2795,3.683333333,National Lampoons Vacation (1983),85995
 2796,2.555555556,Funny Farm (1988),95188
 2797,3.831775701,Big (1988),94737
 2798,2.5,Problem Child (1990),100419
@@ -2263,7 +2263,7 @@ id,average_rating,title,imdbId
 2822,2.9,Medicine Man (1992),104839
 2824,3,On the Ropes (1999),181733
 2826,2.9,"13th Warrior, The (1999)",120657
-2827,2.409090909,"Astronaut's Wife, The (1999)",138304
+2827,2.409090909,"Astronauts Wife, The (1999)",138304
 2828,2.5,Dudley Do-Right (1999),160236
 2829,3,"Muse, The (1999)",164108
 2832,3,"Lost Son, The (1999)",144286
@@ -2282,7 +2282,7 @@ id,average_rating,title,imdbId
 2849,2,Queens Logic (1991),102741
 2850,2,Public Access (1993),107895
 2851,3,Saturn 3 (1980),81454
-2852,3.666666667,"Soldier's Story, A (1984)",88146
+2852,3.666666667,"Soldiers Story, A (1984)",88146
 2853,3.5,"Alice, Sweet Alice (a.k.a. Communion) (a.k.a. Holy Terror) (1976)",76150
 2855,4,Nightmares (1983),86014
 2856,3.4,I Saw What You Did (1965),59297
@@ -2292,7 +2292,7 @@ id,average_rating,title,imdbId
 2860,3.3,Blue Streak (1999),181316
 2861,3.066666667,For Love of the Game (1999),126916
 2862,3.125,Caligula (1979),80491
-2863,3.883333333,"Hard Day's Night, A (1964)",58182
+2863,3.883333333,"Hard Days Night, A (1964)",58182
 2864,2.75,Splendor (1999),127296
 2866,3.75,"Buddy Holly Story, The (1978)",77280
 2867,3.25,Fright Night (1985),89175
@@ -2324,7 +2324,7 @@ id,average_rating,title,imdbId
 2894,2,Romance (1999),194314
 2897,5,And the Ship Sails On (E la nave va) (1983),87188
 2898,3.5,"Dark Half, The (1993)",106664
-2899,3.666666667,Gulliver's Travels (1939),31397
+2899,3.666666667,Gullivers Travels (1939),31397
 2900,3,Monkey Shines (1988),95652
 2901,3.833333333,Phantasm (1979),79714
 2902,2.375,Psycho II (1983),86154
@@ -2333,28 +2333,28 @@ id,average_rating,title,imdbId
 2905,3.642857143,Sanjuro (Tsubaki Sanjûrô) (1962),56443
 2906,2.666666667,Random Hearts (1999),156934
 2907,3,Superstar (1999),167427
-2908,3.897727273,Boys Don't Cry (1999),171804
+2908,3.897727273,Boys Dont Cry (1999),171804
 2912,3.764705882,"Limey, The (1999)",165854
 2913,3,The Mating Habits of the Earthbound Human (1999),165874
 2915,3.345238095,Risky Business (1983),86200
 2916,3.5625,Total Recall (1990),100802
 2917,4.25,Body Heat (1981),82089
-2918,4.007518797,Ferris Bueller's Day Off (1986),91042
+2918,4.007518797,Ferris Buellers Day Off (1986),91042
 2919,3.794117647,"Year of Living Dangerously, The (1982)",86617
 2920,4.5,Children of Paradise (Les enfants du paradis) (1945),37674
 2921,3.5,High Plains Drifter (1973),68699
-2922,3.833333333,Hang 'Em High (1968),61747
-2923,4,Handle with Care (a.k.a. Citizen's Band) (1977),76123
+2922,3.833333333,Hang Em High (1968),61747
+2923,4,Handle with Care (a.k.a. Citizens Band) (1977),76123
 2924,4.583333333,Drunken Master (Jui kuen) (1978),80179
 2925,4.214285714,"Conformist, The (Conformista, Il) (1970)",65571
 2926,3.666666667,Hairspray (1988),95270
 2927,4.5,Brief Encounter (1946),37558
-2928,3.666666667,"Razor's Edge, The (1984)",87980
+2928,3.666666667,"Razors Edge, The (1984)",87980
 2929,3.892857143,Reds (1981),82979
 2930,4,Return with Honor (1998),176093
 2932,4,Days of Heaven (1978),77405
 2935,4.2,"Lady Eve, The (1941)",33804
-2936,4.25,Sullivan's Travels (1941),34240
+2936,4.25,Sullivans Travels (1941),34240
 2937,4,"Palm Beach Story, The (1942)",35169
 2938,4.666666667,Man Facing Southeast (1986),91214
 2939,3,Niagara (1953),46126
@@ -2363,7 +2363,7 @@ id,average_rating,title,imdbId
 2942,3.216666667,Flashdance (1983),85549
 2943,2.666666667,Indochine (1992),104507
 2944,3.671428571,"Dirty Dozen, The (1967)",61578
-2945,5,Mike's Murder (1984),87722
+2945,5,Mikes Murder (1984),87722
 2946,3.545454545,Help! (1965),59260
 2947,3.716981132,Goldfinger (1964),58150
 2948,3.640625,From Russia with Love (1963),57076
@@ -2418,7 +2418,7 @@ id,average_rating,title,imdbId
 3007,4.178571429,American Movie (1999),181288
 3008,3.5,Last Night (1998),156729
 3010,4.5,Rosetta (1999),200071
-3011,3.7,"They Shoot Horses, Don't They? (1969)",65088
+3011,3.7,"They Shoot Horses, Dont They? (1969)",65088
 3013,2.5,Bride of Re-Animator (1990),99180
 3015,3.333333333,Coma (1978),77355
 3016,3.733333333,Creepshow (1982),83767
@@ -2447,7 +2447,7 @@ id,average_rating,title,imdbId
 3042,2.333333333,Meatballs III (1987),93516
 3043,1,Meatballs 4 (1992),104837
 3044,3.875,Dead Again (1991),101669
-3045,3,Peter's Friends (1992),105130
+3045,3,Peters Friends (1992),105130
 3046,2.666666667,"Incredibly True Adventure of Two Girls in Love, The (1995)",113416
 3047,1,Experience Preferred... But Not Essential (1982),83911
 3048,3.5,Under the Rainbow (1981),83254
@@ -2455,8 +2455,8 @@ id,average_rating,title,imdbId
 3052,3.32278481,Dogma (1999),120655
 3053,2.8,"Messenger: The Story of Joan of Arc, The (1999)",151137
 3054,2.571428571,Pokémon: The First Movie (1998),190641
-3055,3.5,Felicia's Journey (1999),165773
-3057,3.5,Where's Marlowe? (1998),118150
+3055,3.5,Felicias Journey (1999),165773
+3057,3.5,Wheres Marlowe? (1998),118150
 3060,3.928571429,"Commitments, The (1991)",101605
 3061,3.590909091,Holiday Inn (1942),34862
 3062,4.090909091,"Longest Day, The (1962)",56197
@@ -2503,7 +2503,7 @@ id,average_rating,title,imdbId
 3109,4,"River, The (1984)",88007
 3110,3.666666667,Country (1984),87091
 3111,4.222222222,Places in the Heart (1984),87921
-3112,5,'night Mother (1986),90556
+3112,5,night Mother (1986),90556
 3113,2.026315789,End of Days (1999),146675
 3114,3.844,Toy Story 2 (1999),120363
 3115,3.666666667,Flawless (1999),155711
@@ -2555,7 +2555,7 @@ id,average_rating,title,imdbId
 3176,3.5,"Talented Mr. Ripley, The (1999)",134119
 3177,3.166666667,Next Friday (2000),195945
 3178,3.636363636,"Hurricane, The (1999)",174856
-3179,3.227272727,Angela's Ashes (1999),145653
+3179,3.227272727,Angelas Ashes (1999),145653
 3180,2,Play it to the Bone (1999),196857
 3181,3.833333333,Titus (1999),120866
 3182,3.3125,"Mr. Death: The Rise and Fall of Fred A. Leuchter, Jr. (1999)",192335
@@ -2579,7 +2579,7 @@ id,average_rating,title,imdbId
 3205,3,Black Sunday (La maschera del demonio) (1960),54067
 3206,2.75,Against All Odds (1984),86859
 3207,3,"Snows of Kilimanjaro, The (1952)",45162
-3208,1.75,Loaded Weapon 1 (National Lampoon's Loaded Weapon 1) (1993),107659
+3208,1.75,Loaded Weapon 1 (National Lampoons Loaded Weapon 1) (1993),107659
 3210,3.615384615,Fast Times at Ridgemont High (1982),83929
 3211,4,"Cry in the Dark, A (1988)",94924
 3213,3.85,Batman: Mask of the Phantasm (1993),106364
@@ -2588,14 +2588,14 @@ id,average_rating,title,imdbId
 3217,4,"Star Is Born, A (1937)",29606
 3218,3.6,Poison (1991),102687
 3219,3.692307692,Pacific Heights (1990),100318
-3221,4,"Draughtsman's Contract, The (1982)",83851
+3221,4,"Draughtsmans Contract, The (1982)",83851
 3223,3.75,"Zed & Two Noughts, A (1985)",90366
 3224,3.75,Woman in the Dunes (Suna no onna) (1964),58625
 3225,2.6,Down to You (2000),186975
 3232,4,Seven Chances (1925),16332
 3235,3,Where the Buffalo Roam (1980),81748
 3238,2,Eye of the Beholder (1999),120662
-3239,4,Isn't She Great? (2000),141399
+3239,4,Isnt She Great? (2000),141399
 3240,2.5,"Big Tease, The (1999)",156639
 3241,3.5,"Cup, The (Phörpa) (1999)",201840
 3243,2.375,Encino Man (1992),104187
@@ -2608,8 +2608,8 @@ id,average_rating,title,imdbId
 3250,2.75,Alive (1993),106246
 3251,3.85,Agnes of God (1985),88683
 3252,3.95,Scent of a Woman (1992),105323
-3253,3.391891892,Wayne's World (1992),105793
-3254,3.136363636,Wayne's World 2 (1993),108525
+3253,3.391891892,Waynes World (1992),105793
+3254,3.136363636,Waynes World 2 (1993),108525
 3255,3.447368421,"League of Their Own, A (1992)",104694
 3256,3.53125,Patriot Games (1992),105112
 3257,2.724137931,"Bodyguard, The (1992)",103855
@@ -2618,10 +2618,10 @@ id,average_rating,title,imdbId
 3260,3.823529412,Howards End (1992),104454
 3261,3.666666667,Singles (1992),105415
 3262,3.291666667,Twin Peaks: Fire Walk with Me (1992),105665
-3263,3.379310345,White Men Can't Jump (1992),105812
+3263,3.379310345,White Men Cant Jump (1992),105812
 3264,2.866666667,Buffy the Vampire Slayer (1992),103893
 3265,4.1,Hard-Boiled (Lat sau san taam) (1992),104684
-3266,3.25,Man Bites Dog (C'est arrivé près de chez vous) (1992),103905
+3266,3.25,Man Bites Dog (Cest arrivé près de chez vous) (1992),103905
 3267,3.571428571,"Mariachi, El (1992)",104815
 3268,1.8,Stop! Or My Mom Will Shoot (1992),105477
 3269,2.625,Forever Young (1992),104291
@@ -2652,14 +2652,14 @@ id,average_rating,title,imdbId
 3306,4.375,"Circus, The (1928)",18773
 3307,4,City Lights (1931),21749
 3308,3.5,"Flamingo Kid, The (1984)",87265
-3309,4.25,"Dog's Life, A (1918)",9018
+3309,4.25,"Dogs Life, A (1918)",9018
 3310,4.4375,"Kid, The (1921)",12349
 3313,3.5,Class Reunion (1982),84395
 3314,2.5,"Big Trees, The (1952)",44420
 3316,2.227272727,Reindeer Games (2000),184858
 3317,3.842857143,Wonder Boys (2000),185014
 3318,3,Deterrence (1999),158583
-3320,4.5,Mifune's Last Song (Mifunes sidste sang) (1999),164756
+3320,4.5,Mifunes Last Song (Mifunes sidste sang) (1999),164756
 3324,2.071428571,Drowning Mona (2000),186045
 3325,3,"Next Best Thing, The (2000)",156841
 3326,2.333333333,What Planet Are You From? (2000),181151
@@ -2700,10 +2700,10 @@ id,average_rating,title,imdbId
 3384,4.166666667,"Taking of Pelham One Two Three, The (1974)",72251
 3385,2.666666667,Volunteers (1985),90274
 3386,3.821428571,JFK (1991),102138
-3387,3.4,Who's Harry Crumb? (1989),98645
+3387,3.4,Whos Harry Crumb? (1989),98645
 3388,2.388888889,Harry and the Hendersons (1987),93148
 3390,1.5,Shanghai Surprise (1986),91934
-3391,3.333333333,Who's That Girl? (1987),94321
+3391,3.333333333,Whos That Girl? (1987),94321
 3392,2.4,She-Devil (1989),98309
 3393,2,Date with an Angel (1987),92834
 3394,3,Blind Date (1987),92666
@@ -2712,7 +2712,7 @@ id,average_rating,title,imdbId
 3397,3.45,"Great Muppet Caper, The (1981)",82474
 3398,3.5,"Muppets Take Manhattan, The (1984)",87755
 3399,3,Sesame Street Presents Follow That Bird (1985),89994
-3400,2,We're Back! A Dinosaur's Story (1993),108526
+3400,2,Were Back! A Dinosaurs Story (1993),108526
 3401,2,Baby... Secret of the Lost Legend (1985),88760
 3402,4,Turtle Diary (1985),90219
 3404,3.083333333,Titanic (1953),46435
@@ -2720,19 +2720,19 @@ id,average_rating,title,imdbId
 3406,4.125,Captain Horatio Hornblower R.N. (1951),43379
 3408,3.552941176,Erin Brockovich (2000),195685
 3409,3,Final Destination (2000),195714
-3412,3.6875,"Bear, The (Ours, L') (1988)",95800
+3412,3.6875,"Bear, The (Ours, L) (1988)",95800
 3414,4,Love Is a Many-Splendored Thing (1955),48316
 3415,3.25,"Mirror, The (Zerkalo) (1975)",72443
 3417,4.333333333,"Crimson Pirate, The (1952)",44517
 3418,3.533333333,Thelma & Louise (1991),103074
 3420,3.692307692,...And Justice for All (1979),78718
 3421,3.805084746,Animal House (1978),77975
-3422,3.4375,She's Gotta Have It (1986),91939
+3422,3.4375,Shes Gotta Have It (1986),91939
 3423,4,School Daze (1988),96054
 3424,3.734375,Do the Right Thing (1989),97216
-3425,3,Mo' Better Blues (1990),100168
+3425,3,Mo Better Blues (1990),100168
 3426,3.416666667,Jungle Fever (1991),102175
-3427,1.5,Coogan's Bluff (1968),62824
+3427,1.5,Coogans Bluff (1968),62824
 3428,3,"Champ, The (1979)",78950
 3429,4,Creature Comforts (1989),99317
 3430,2.571428571,Death Wish (1974),71402
@@ -2754,7 +2754,7 @@ id,average_rating,title,imdbId
 3448,3.660377358,"Good Morning, Vietnam (1987)",93105
 3449,3.5,"Good Mother, The (1988)",95238
 3450,3.209677419,Grumpy Old Men (1993),107050
-3451,3.666666667,Guess Who's Coming to Dinner (1967),61735
+3451,3.666666667,Guess Whos Coming to Dinner (1967),61735
 3452,3.052631579,Romeo Must Die (2000),165929
 3453,3,Here on Earth (2000),195778
 3454,4,Whatever It Takes (2000),202402
@@ -2764,8 +2764,8 @@ id,average_rating,title,imdbId
 3460,3,Hillbillys in a Haunted House (1967),61765
 3461,3.230769231,Lord of the Flies (1963),57261
 3462,4.359375,Modern Times (1936),27977
-3463,1,Last Resort (National Lampoon's Last Resort) (1994),110629
-3465,4,That's Life! (1986),92079
+3463,1,Last Resort (National Lampoons Last Resort) (1994),110629
+3465,4,Thats Life! (1986),92079
 3466,3.4,Heart and Souls (1993),107091
 3467,3.852941176,Hud (1963),57163
 3468,4.108695652,"Hustler, The (1961)",54997
@@ -2774,7 +2774,7 @@ id,average_rating,title,imdbId
 3471,3.903225806,Close Encounters of the Third Kind (1977),75860
 3474,4,Retroactive (1997),117468
 3475,4.125,"Place in the Sun, A (1951)",43924
-3476,3.9375,Jacob's Ladder (1990),99871
+3476,3.9375,Jacobs Ladder (1990),99871
 3477,3.55,Empire Records (1995),112950
 3478,3.333333333,"Bamba, La (1987)",93378
 3479,3.476190476,Ladyhawke (1985),89457
@@ -2794,7 +2794,7 @@ id,average_rating,title,imdbId
 3498,3.923076923,Midnight Express (1978),77928
 3499,3.877777778,Misery (1990),100157
 3500,3,Mr. Saturday Night (1992),104928
-3501,3.875,Murphy's Romance (1985),89643
+3501,3.875,Murphys Romance (1985),89643
 3502,4.25,My Life (1993),107630
 3503,3.6,Solaris (Solyaris) (1972),69293
 3504,4.092105263,Network (1976),74958
@@ -2878,7 +2878,7 @@ id,average_rating,title,imdbId
 3604,3.8,Gypsy (1962),56048
 3605,1.5,King Creole (1958),51818
 3606,4.111111111,On the Town (1949),41716
-3608,3.25862069,Pee-wee's Big Adventure (1985),89791
+3608,3.25862069,Pee-wees Big Adventure (1985),89791
 3609,4.25,Regret to Inform (1998),181786
 3611,3,Saludos Amigos (1943),36326
 3612,5,The Slipper and the Rose: The Story of Cinderella (1976),75232
@@ -2899,7 +2899,7 @@ id,average_rating,title,imdbId
 3628,4,Flying Tigers (1942),34742
 3629,4.045454545,"Gold Rush, The (1925)",15864
 3632,4,Monsieur Verdoux (1947),39631
-3633,3.666666667,On Her Majesty's Secret Service (1969),64757
+3633,3.666666667,On Her Majestys Secret Service (1969),64757
 3634,3.416666667,Seven Days in May (1964),58576
 3635,3.75,"Spy Who Loved Me, The (1977)",76752
 3637,4,Vagabond (Sans toit ni loi) (1985),89960
@@ -2907,7 +2907,7 @@ id,average_rating,title,imdbId
 3639,3.5,"Man with the Golden Gun, The (1974)",71807
 3640,3.25,"King in New York, A (1957)",50598
 3643,3.5,"Fighting Seabees, The (1944)",36824
-3646,1.875,Big Momma's House (2000),208003
+3646,1.875,Big Mommas House (2000),208003
 3649,3.136363636,American Gigolo (1980),80365
 3653,4.1,"Endless Summer, The (1966)",60371
 3654,4.038461538,"Guns of Navarone, The (1961)",54953
@@ -2918,7 +2918,7 @@ id,average_rating,title,imdbId
 3659,3,Quatermass 2 (Enemy from Space) (1957),50873
 3660,3.5,Puppet Master (1989),98143
 3661,3,Puppet Master II (1991),100438
-3662,3,Puppet Master III: Toulon's Revenge (1991),102728
+3662,3,Puppet Master III: Toulons Revenge (1991),102728
 3663,3,Puppet Master 4 (1993),107899
 3664,3,Puppet Master 5: The Final Chapter (1994),110916
 3665,4,Curse of the Puppet Master (Puppet Master 6: The Curse) (1998),132451
@@ -2938,14 +2938,14 @@ id,average_rating,title,imdbId
 3682,2.714285714,Magnum Force (1973),70355
 3683,4.291666667,Blood Simple (1984),86979
 3684,3.888888889,"Fabulous Baker Boys, The (1989)",97322
-3685,3.6,Prizzi's Honor (1985),89841
+3685,3.6,Prizzis Honor (1985),89841
 3686,3.575,Flatliners (1990),99582
 3687,3.5,Light Years (Gandahar) (1988),95525
-3688,2.916666667,Porky's (1982),84522
-3689,2,Porky's II: The Next Day (1983),86129
-3690,2,Porky's Revenge (1985),89826
+3688,2.916666667,Porkys (1982),84522
+3689,2,Porkys II: The Next Day (1983),86129
+3690,2,Porkys Revenge (1985),89826
 3691,2.5,Private School (1983),86143
-3692,3.5,Class of Nuke 'Em High (1986),90849
+3692,3.5,Class of Nuke Em High (1986),90849
 3693,3.1,"Toxic Avenger, The (1985)",90190
 3694,2.333333333,"Toxic Avenger, Part II, The (1989)",98503
 3695,2.5,"Toxic Avenger Part III: The Last Temptation of Toxie, The (1989)",98502
@@ -2966,12 +2966,12 @@ id,average_rating,title,imdbId
 3710,3,Action Jackson (1988),94612
 3712,3.416666667,Soapdish (1991),102951
 3713,3.75,"Long Walk Home, The (1990)",100046
-3714,3,Clara's Heart (1988),94882
+3714,3,Claras Heart (1988),94882
 3715,3,Burglar (1987),92710
 3716,3.5,Fatal Beauty (1987),93011
 3717,2.776785714,Gone in 60 Seconds (2000),187078
 3718,3,American Pimp (1999),179074
-3719,2,Love's Labour's Lost (2000),182295
+3719,2,Loves Labours Lost (2000),182295
 3720,3.5,Sunshine (1999),145503
 3721,1.75,Trixie (2000),162711
 3723,3.9,Hamlet (1990),99726
@@ -2982,7 +2982,7 @@ id,average_rating,title,imdbId
 3728,3.571428571,One False Move (1992),102592
 3729,4.333333333,Shaft (1971),67741
 3730,4.304347826,"Conversation, The (1974)",71360
-3731,4,Cutter's Way (1981),82220
+3731,4,Cutters Way (1981),82220
 3732,3.333333333,"Fury, The (1978)",77588
 3733,3.714285714,"Paper Chase, The (1973)",70509
 3734,3.625,Prince of the City (1981),82945
@@ -2998,7 +2998,7 @@ id,average_rating,title,imdbId
 3744,2.692307692,Shaft (2000),162650
 3745,3.304347826,Titan A.E. (2000),120913
 3746,5,Butterfly (La lengua de las mariposas) (1999),188030
-3747,3.285714286,Jesus' Son (1999),186253
+3747,3.285714286,Jesus Son (1999),186253
 3751,3.429292929,Chicken Run (2000),120630
 3752,2.76744186,"Me, Myself & Irene (2000)",183505
 3753,3.292307692,"Patriot, The (2000)",187393
@@ -3025,7 +3025,7 @@ id,average_rating,title,imdbId
 3783,3.928571429,Croupier (1998),159382
 3784,3,"Kid, The (2000)",219854
 3785,2.581081081,Scary Movie (2000),175142
-3786,3.2,But I'm a Cheerleader (1999),179116
+3786,3.2,But Im a Cheerleader (1999),179116
 3787,3.75,Shower (Xizao) (1999),215369
 3788,3.733333333,Blow-Up (Blowup) (1966),60176
 3789,4.4,"Pawnbroker, The (1964)",59575
@@ -3042,7 +3042,7 @@ id,average_rating,title,imdbId
 3802,2.5,Freejack (1992),104299
 3804,3.5,H.O.T.S. (1979),79257
 3805,4,Knightriders (1981),82622
-3806,2.666666667,Mackenna's Gold (1969),64615
+3806,2.666666667,Mackennas Gold (1969),64615
 3807,3.2,Sinbad and the Eye of the Tiger (1977),76716
 3809,3.344827586,What About Bob? (1991),103241
 3810,2.5,White Sands (1992),105813
@@ -3063,10 +3063,10 @@ id,average_rating,title,imdbId
 3829,2,Mad About Mambo (2000),156757
 3831,3.5,Saving Grace (2000),195234
 3832,3,"Black Sabbath (Tre volti della paura, I) (1963)",57603
-3833,3.166666667,"Brain That Wouldn't Die, The (1962)",52646
+3833,3.166666667,"Brain That Wouldnt Die, The (1962)",52646
 3834,3,Bronco Billy (1980),80472
 3835,2.833333333,"Crush, The (1993)",106627
-3836,3.5,Kelly's Heroes (1970),65938
+3836,3.5,Kellys Heroes (1970),65938
 3837,5,Phantasm II (1988),95863
 3838,2,Phantasm III: Lord of the Dead (1994),110823
 3839,1,Phantasm IV: Oblivion (1998),138703
@@ -3079,7 +3079,7 @@ id,average_rating,title,imdbId
 3847,3,"Ilsa, She Wolf of the SS (1974)",71650
 3848,4,Silent Fall (1994),111187
 3849,4,The Spiral Staircase (1945),38975
-3851,5,I'm the One That I Want (2000),251739
+3851,5,Im the One That I Want (2000),251739
 3852,3.666666667,"Tao of Steve, The (2000)",234853
 3854,4,Aimée & Jaguar (1999),130444
 3855,3.75,"Affair of Love, An (Liaison pornographique, Une) (1999)",204709
@@ -3100,7 +3100,7 @@ id,average_rating,title,imdbId
 3875,2.5,"Devil Rides Out, The (1968)",62885
 3877,2.8,Supergirl (1984),88206
 3879,5,"Art of War, The (2000)",160009
-3880,4,"Ballad of Ramblin' Jack, The (2000)",236008
+3880,4,"Ballad of Ramblin Jack, The (2000)",236008
 3882,2.875,Bring It On (2000),204946
 3883,0.5,Catfish in Black Bean Sauce (2000),162903
 3885,3,Love & Sex (2000),234137
@@ -3175,13 +3175,13 @@ id,average_rating,title,imdbId
 3967,3.709302326,Billy Elliot (2000),249462
 3968,2.470588235,Bedazzled (2000),230030
 3969,2.956521739,Pay It Forward (2000),223897
-3970,3.833333333,"Beyond, The (E tu vivrai nel terrore - L'aldilà) (1981)",82307
+3970,3.833333333,"Beyond, The (E tu vivrai nel terrore - Laldilà) (1981)",82307
 3971,4,"Private Eyes, The (1981)",81376
 3972,3.545454545,"Legend of Drunken Master, The (Jui kuen II) (1994)",111512
 3973,2.9,Book of Shadows: Blair Witch 2 (2000),229260
 3975,2.625,Lucky Numbers (2000),219952
 3976,4,Stardom (2000),192949
-3977,2.727848101,Charlie's Angels (2000),160127
+3977,2.727848101,Charlies Angels (2000),160127
 3978,3.05,"Legend of Bagger Vance, The (2000)",146984
 3979,1.861111111,Little Nicky (2000),185431
 3980,3.25,Men of Honor (2000),203019
@@ -3205,18 +3205,18 @@ id,average_rating,title,imdbId
 4000,3,"Bounty, The (1984)",86993
 4001,2,Code of Silence (1985),88936
 4002,3.375,"Planes, Trains & Automobiles (1987)",93748
-4003,3,She's Having a Baby (1988),96094
+4003,3,Shes Having a Baby (1988),96094
 4005,3.4,"Living Daylights, The (1987)",93428
 4006,3.5,Transformers: The Movie (1986),92106
 4007,3.9,Wall Street (1987),94291
 4008,3.645833333,Born on the Fourth of July (1989),96969
 4009,4,Talk Radio (1988),96219
-4010,3.227272727,Brewster's Millions (1985),88850
+4010,3.227272727,Brewsters Millions (1985),88850
 4011,4.036842105,Snatch (2000),208092
 4012,2.5,Punchline (1988),95927
 4014,3.777777778,Chocolat (2000),241303
-4015,2.659090909,"Dude, Where's My Car? (2000)",242423
-4016,3.5,"Emperor's New Groove, The (2000)",120917
+4015,2.659090909,"Dude, Wheres My Car? (2000)",242423
+4016,3.5,"Emperors New Groove, The (2000)",120917
 4017,4.045454545,Pollock (2000),183659
 4018,3.125,What Women Want (2000),207201
 4019,3.423076923,Finding Forrester (2000),181536
@@ -3237,7 +3237,7 @@ id,average_rating,title,imdbId
 4036,3.1,Shadow of the Vampire (2000),189998
 4037,4.125,House of Games (1987),93223
 4039,3.307692308,Annie (1982),83564
-4040,2.388888889,Don't Tell Mom the Babysitter's Dead (1991),101757
+4040,2.388888889,Dont Tell Mom the Babysitters Dead (1991),101757
 4041,3.454545455,"Officer and a Gentleman, An (1982)",84434
 4042,3.25,"Alamo, The (1960)",53580
 4043,3.5,At Close Range (1986),90670
@@ -3255,7 +3255,7 @@ id,average_rating,title,imdbId
 4061,3.2,The Man in the Moon (1991),102388
 4062,3.214285714,Mystic Pizza (1988),95690
 4063,3,Prelude to a Kiss (1992),105165
-4066,3.444444444,I'm Gonna Git You Sucka (1988),95348
+4066,3.444444444,Im Gonna Git You Sucka (1988),95348
 4067,1.666666667,Untamed Heart (1993),108451
 4068,3.25,Sugar & Spice (2001),186589
 4069,2.480769231,"Wedding Planner, The (2001)",209475
@@ -3272,7 +3272,7 @@ id,average_rating,title,imdbId
 4088,5,"Big Town, The (1987)",92656
 4089,3,Born in East L.A. (1987),92690
 4090,2.8125,"Brave Little Toaster, The (1987)",92695
-4091,3.2,Can't Buy Me Love (1987),92718
+4091,3.2,Cant Buy Me Love (1987),92718
 4092,2.5,Cherry 2000 (1987),92746
 4095,4.5,Cry Freedom (1987),92804
 4098,3,"Dead, The (1987)",92843
@@ -3301,7 +3301,7 @@ id,average_rating,title,imdbId
 4133,3.333333333,Masters of the Universe (1987),93507
 4135,3.5,"Monster Squad, The (1987)",93560
 4136,2,"Month in the Country, A (1987)",93562
-4139,2,No Man's Land (1987),93638
+4139,2,No Mans Land (1987),93638
 4140,5,North Shore (1987),93648
 4141,3.75,Head Over Heels (2001),192111
 4142,2.5,Left Behind: The Movie (2000),190524
@@ -3322,25 +3322,25 @@ id,average_rating,title,imdbId
 4167,2.4375,15 Minutes (2001),179626
 4168,3.166666667,Get Over It (2001),192071
 4169,4.5,Blow Dry (a.k.a. Never Better) (2001),212380
-4171,4,Long Night's Journey Into Day (2000),236447
+4171,4,Long Nights Journey Into Day (2000),236447
 4173,3.5,When Brendan Met Trudy (2000),220157
 4174,3.8,Avalon (1990),99073
-4175,3,Gray's Anatomy (1996),116447
-4177,3.666666667,"Mirror Crack'd, The (1980)",81163
+4175,3,Grays Anatomy (1996),116447
+4177,3.666666667,"Mirror Crackd, The (1980)",81163
 4178,3.916666667,Of Mice and Men (1939),31742
 4179,4.333333333,Pixote (1981),82912
 4180,4,Reform School Girls (1986),91836
 4181,4,Tapeheads (1988),96223
 4183,3,"Unbelievable Truth, The (1989)",100842
-4184,3.833333333,"Bishop's Wife, The (1947)",39190
-4185,4,Elvis: That's the Way It Is (1970),65687
+4184,3.833333333,"Bishops Wife, The (1947)",39190
+4185,4,Elvis: Thats the Way It Is (1970),65687
 4186,3.6,"Fortune Cookie, The (1966)",60424
 4187,3.9375,Lilies of the Field (1963),57251
 4188,3.75,Hans Christian Andersen (1952),44685
 4189,4.5,"Greatest Story Ever Told, The (1965)",59245
 4190,4,Elmer Gantry (1960),53793
 4191,3.666666667,Alfie (1966),60086
-4194,3.5,I Know Where I'm Going! (1945),37800
+4194,3.5,I Know Where Im Going! (1945),37800
 4195,4,"Abominable Dr. Phibes, The (1971)",66740
 4197,4,Real Life (1979),79781
 4198,3,Battle Beyond the Stars (1980),80421
@@ -3358,7 +3358,7 @@ id,average_rating,title,imdbId
 4215,1,Revenge of the Nerds II: Nerds in Paradise (1987),93857
 4216,3.833333333,Longtime Companion (1990),100049
 4217,3.7,4 Little Girls (1997),118540
-4218,4,River's Edge (1986),91860
+4218,4,Rivers Edge (1986),91860
 4219,3.5,Girls Just Want to Have Fun (1985),89208
 4220,3.666666667,"Longest Yard, The (1974)",71771
 4221,3,Necessary Roughness (1991),102517
@@ -3368,18 +3368,18 @@ id,average_rating,title,imdbId
 4225,3.545454545,"Dish, The (2001)",205873
 4226,4.227272727,Memento (2000),209144
 4228,3.15,Heartbreakers (2001),125022
-4229,3.25,Say It Isn't So (2001),239949
+4229,3.25,Say It Isnt So (2001),239949
 4231,3.25,Someone Like You (2001),244970
 4232,2.785714286,Spy Kids (2001),227538
 4233,2.5,Tomcats (2001),246989
 4234,3.166666667,"Tailor of Panama, The (2001)",236784
-4235,4.183333333,Amores Perros (Love's a Bitch) (2000),245712
+4235,4.183333333,Amores Perros (Loves a Bitch) (2000),245712
 4236,3.5,Keep the River on Your Right: A Modern Cannibal Tale (2000),206187
 4237,3.5,"Gleaners & I, The (Les glaneurs et la glaneuse) (2000)",247380
 4238,3.205882353,Along Came a Spider (2001),164334
 4239,3.486486486,Blow (2001),221027
 4241,2.5,Pokémon 3: The Movie (2001),266860
-4246,3.471830986,Bridget Jones's Diary (2001),243155
+4246,3.471830986,Bridget Joness Diary (2001),243155
 4247,2.45,Joe Dirt (2001),245686
 4248,2.5,Josie and the Pussycats (2001),236348
 4251,4,Chopper (2000),221073
@@ -3390,7 +3390,7 @@ id,average_rating,title,imdbId
 4263,4.333333333,Days of Wine and Roses (1962),55895
 4265,0.833333333,Driven (2001),132245
 4266,3,"Forsaken, The (2001)",245120
-4267,3.333333333,One Night at McCool's (2001),203755
+4267,3.333333333,One Night at McCools (2001),203755
 4268,2,Town & Country (2001),141907
 4270,2.734375,"Mummy Returns, The (2001)",209163
 4271,3.333333333,Eureka (Yurîka) (2000),243889
@@ -3413,7 +3413,7 @@ id,average_rating,title,imdbId
 4296,2.75,Love Story (1970),66011
 4297,4,Pelle the Conqueror (Pelle erobreren) (1987),93713
 4298,3.75,Rififi (Du rififi chez les hommes) (1955),48021
-4299,3.339285714,"Knight's Tale, A (2001)",183790
+4299,3.339285714,"Knights Tale, A (2001)",183790
 4300,2.5,Bread and Roses (2000),212826
 4302,5,"King Is Alive, The (2000)",208911
 4304,4.3,Startup.com (2001),256408
@@ -3421,7 +3421,7 @@ id,average_rating,title,imdbId
 4306,3.847701149,Shrek (2001),126029
 4308,3.636363636,Moulin Rouge (2001),203009
 4310,2.869047619,Pearl Harbor (2001),213149
-4312,3.875,Himalaya (Himalaya - l'enfance d'un chef) (1999),210727
+4312,3.875,Himalaya (Himalaya - lenfance dun chef) (1999),210727
 4316,2,Ice Castles (1978),77716
 4317,2.8,Love Potion #9 (1992),102343
 4318,2.875,Postcards From the Edge (1990),100395
@@ -3436,8 +3436,8 @@ id,average_rating,title,imdbId
 4333,3,Throw Momma from the Train (1987),94142
 4334,3.5,Yi Yi (2000),244316
 4337,3,"Sand Pebbles, The (1966)",60934
-4338,4.75,Twelve O'Clock High (1949),41996
-4339,3.625,Von Ryan's Express (1965),59885
+4338,4.75,Twelve OClock High (1949),41996
+4339,3.625,Von Ryans Express (1965),59885
 4340,2.5,"Animal, The (2001)",255798
 4342,5,Big Eden (2000),212815
 4343,2.725,Evolution (2001),251075
@@ -3454,7 +3454,7 @@ id,average_rating,title,imdbId
 4356,3.916666667,Gentlemen Prefer Blondes (1953),45810
 4357,3.857142857,How to Marry a Millionaire (1953),45891
 4359,3.25,"Seven Year Itch, The (1955)",48605
-4360,3,There's No Business Like Show Business (1954),47574
+4360,3,Theres No Business Like Show Business (1954),47574
 4361,3.810344828,Tootsie (1982),84805
 4366,3.333333333,Atlantis: The Lost Empire (2001),230011
 4367,2.842857143,Lara Croft: Tomb Raider (2001),146316
@@ -3479,8 +3479,8 @@ id,average_rating,title,imdbId
 4394,2.333333333,Beach Blanket Bingo (1965),58953
 4396,3.5,"Cannonball Run, The (1981)",82136
 4397,3,Cannonball Run II (1984),87032
-4399,1,"Diary of a Chambermaid (Journal d'une femme de chambre, Le) (1964)",58249
-4401,4,Donovan's Reef (1963),57007
+4399,1,"Diary of a Chambermaid (Journal dune femme de chambre, Le) (1964)",58249
+4401,4,Donovans Reef (1963),57007
 4402,2,Dr. Goldfoot and the Bikini Machine (1965),59124
 4403,3,"Fall of the House of Usher, The (House of Usher) (1960)",53925
 4404,3,Faust (1926),16847
@@ -3491,7 +3491,7 @@ id,average_rating,title,imdbId
 4410,4,Something Wild (1986),91983
 4411,3,Sons of Katie Elder (1965),59740
 4414,3.5,X: The Man with the X-Ray Eyes (1963),57693
-4415,3.5,Cheech & Chong's Nice Dreams (1981),82163
+4415,3.5,Cheech & Chongs Nice Dreams (1981),82163
 4417,2.5,"House by the Cemetery, The (Quella villa accanto al cimitero) (1981)",82966
 4420,3.125,"Barefoot Contessa, The (1954)",46754
 4422,4.5,Cries and Whispers (Viskningar och rop) (1972),69467
@@ -3551,7 +3551,7 @@ id,average_rating,title,imdbId
 4500,4.5,Drowning by Numbers (1988),92929
 4501,3,"Elvira, Mistress of the Dark (1988)",95088
 4502,1.166666667,Ernest Saves Christmas (1988),95107
-4503,3,Everybody's All-American (1988),95119
+4503,3,Everybodys All-American (1988),95119
 4506,3.375,Frantic (1988),95174
 4508,3.3,Gorillas in the Mist (1988),95243
 4509,3.25,"Great Outdoors, The (1988)",95253
@@ -3575,7 +3575,7 @@ id,average_rating,title,imdbId
 4534,3.75,Return to Snowy River (a.k.a. The Man From Snowy River II) (1988),95993
 4535,3.8,"Man from Snowy River, The (1982)",84296
 4537,4.25,Running on Empty (1988),96018
-4538,1,Salome's Last Dance (1988),96029
+4538,1,Salomes Last Dance (1988),96029
 4539,3,Salsa (1988),96030
 4541,3,"Serpent and the Rainbow, The (1988)",96071
 4543,3,Shoot to Kill (1988),96098
@@ -3600,7 +3600,7 @@ id,average_rating,title,imdbId
 4568,4,Best of the Best (1989),96913
 4569,1,Best of the Best 2 (1993),106393
 4570,4.166666667,"Big Picture, The (1989)",96926
-4571,3.4625,Bill & Ted's Excellent Adventure (1989),96928
+4571,3.4625,Bill & Teds Excellent Adventure (1989),96928
 4572,3,Black Rain (1989),96933
 4573,4,Blaze (1989),96943
 4577,4,Casualties of War (1989),97027
@@ -3627,7 +3627,7 @@ id,average_rating,title,imdbId
 4617,5,Let It Ride (1989),97731
 4618,2.9,Leviathan (1989),97737
 4619,3.25,Little Monsters (1989),97758
-4621,2.642857143,Look Who's Talking (1989),97778
+4621,2.642857143,Look Whos Talking (1989),97778
 4622,3,Loverboy (1989),97790
 4623,3.52173913,Major League (1989),97815
 4624,2,Meet the Feebles (1989),97858
@@ -3641,7 +3641,7 @@ id,average_rating,title,imdbId
 4634,3,Penn & Teller Get Killed (1989),98073
 4636,2,"Punisher, The (1989)",98141
 4638,2.483870968,Jurassic Park III (2001),163025
-4639,2.607142857,America's Sweethearts (2001),265029
+4639,2.607142857,Americas Sweethearts (2001),265029
 4640,2.5,Brother (2000),222851
 4641,3.666666667,Ghost World (2001),162346
 4642,4,Hedwig and the Angry Inch (2000),248845
@@ -3657,7 +3657,7 @@ id,average_rating,title,imdbId
 4660,4,Scenes from the Class Struggle in Beverly Hills (1989),98261
 4661,3.9,Sea of Love (1989),98273
 4662,3.5,"See No Evil, Hear No Evil (1989)",98282
-4663,4,She's Out of Control (1989),98308
+4663,4,Shes Out of Control (1989),98308
 4664,3.625,Shirley Valentine (1989),98319
 4666,1.25,Skin Deep (1989),98343
 4667,2,Slaves of New York (1989),98347
@@ -3669,11 +3669,11 @@ id,average_rating,title,imdbId
 4677,2.75,Turner & Hooch (1989),98536
 4678,3.5625,UHF (1989),98546
 4679,3.3,Uncle Buck (1989),98554
-4680,2,Vampire's Kiss (1989),98577
+4680,2,Vampires Kiss (1989),98577
 4681,3.611111111,"War of the Roses, The (1989)",98621
 4682,3.666666667,Warlock (1989),98622
 4684,0.5,Worth Winning (1989),98678
-4686,1.75,Weekend at Bernie's II (1993),108539
+4686,1.75,Weekend at Bernies II (1993),108539
 4687,1,Billy Liar (1963),56868
 4688,4,Black Robe (1991),101465
 4690,2.25,"Cotton Club, The (1984)",87089
@@ -3704,7 +3704,7 @@ id,average_rating,title,imdbId
 4723,3.9,"Deep End, The (2001)",250323
 4724,5,On the Edge (2001),221559
 4725,4.5,Session 9 (2001),261983
-4727,2.333333333,Captain Corelli's Mandolin (2001),238112
+4727,2.333333333,Captain Corellis Mandolin (2001),238112
 4728,2.9375,Rat Race (2001),250687
 4731,5,Innocence (2000),251141
 4732,2.666666667,Bubble Boy (2001),258470
@@ -3742,16 +3742,16 @@ id,average_rating,title,imdbId
 4775,1,Glitter (2001),118589
 4776,3.310810811,Training Day (2001),139654
 4782,2.5,Sidewalks of New York (2001),239986
-4783,4.666666667,"Endurance: Shackleton's Legendary Antarctic Expedition, The (2000)",264578
-4784,2.375,"French Lieutenant's Woman, The (1981)",82416
+4783,4.666666667,"Endurance: Shackletons Legendary Antarctic Expedition, The (2000)",264578
+4784,2.375,"French Lieutenants Woman, The (1981)",82416
 4787,3.785714286,Little Man Tate (1991),102316
 4789,5,Phantom of the Paradise (1974),71994
 4792,2.75,13 Ghosts (1960),53559
 4795,3.5,Father Goose (1964),58092
 4796,5,"Grass Is Greener, The (1960)",53877
 4798,3.5,Indiscreet (1958),51773
-4799,3.785714286,"It's a Mad, Mad, Mad, Mad World (1963)",57193
-4800,3.75,King Solomon's Mines (1937),29081
+4799,3.785714286,"Its a Mad, Mad, Mad, Mad World (1963)",57193
+4800,3.75,King Solomons Mines (1937),29081
 4801,4.5,"Little Foxes, The (1941)",33836
 4802,4.083333333,Operation Petticoat (1959),53143
 4803,3.083333333,Play Misty for Me (1971),67588
@@ -3761,20 +3761,20 @@ id,average_rating,title,imdbId
 4810,4,I Never Promised You a Rose Garden (1977),76172
 4811,4,Quadrophenia (1979),79766
 4812,3,SpaceCamp (1986),91993
-4814,3.272727273,Don't Say a Word (2001),260866
+4814,3.272727273,Dont Say a Word (2001),260866
 4815,3.5,Hearts in Atlantis (2001),252501
 4816,3.22826087,Zoolander (2001),196229
 4818,2,Extreme Days (2001),245891
 4821,4.333333333,Joy Ride (2001),206314
-4822,5,Max Keeble's Big Move (2001),273799
+4822,5,Max Keebles Big Move (2001),273799
 4823,3.210526316,Serendipity (2001),240890
 4826,3.5,"Big Red One, The (1980)",80437
 4830,3.5,Brubaker (1980),80474
-4831,3,Can't Stop the Music (1980),80492
+4831,3,Cant Stop the Music (1980),80492
 4832,3,Carny (1980),80500
 4833,4,"Changeling, The (1980)",80516
-4834,2.5,Cheech & Chong's Next Movie (1980),80520
-4835,3.1875,Coal Miner's Daughter (1980),80549
+4834,2.5,Cheech & Chongs Next Movie (1980),80520
+4835,3.1875,Coal Miners Daughter (1980),80549
 4836,3,"Competition, The (1980)",80556
 4837,2.25,Cruising (1980),80569
 4840,2,"Last Metro, The (Dernier métro, Le) (1980)",80610
@@ -3800,7 +3800,7 @@ id,average_rating,title,imdbId
 4876,1.125,Thirteen Ghosts (a.k.a. Thir13en Ghosts) (2001),245674
 4878,4.02688172,Donnie Darko (2001),246578
 4880,3.8125,Life as a House (2001),264796
-4881,3.65,"Man Who Wasn't There, The (2001)",243133
+4881,3.65,"Man Who Wasnt There, The (2001)",243133
 4885,2.25,Domestic Disturbance (2001),249478
 4886,3.884615385,"Monsters, Inc. (2001)",198781
 4887,3,"One, The (2001)",267804
@@ -3809,12 +3809,12 @@ id,average_rating,title,imdbId
 4890,2.760869565,Shallow Hal (2001),256380
 4893,3,When a Stranger Calls (1979),80130
 4895,2.5,"Wash, The (2001)",290332
-4896,3.657142857,Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001),241527
+4896,3.657142857,Harry Potter and the Sorcerers Stone (a.k.a. Harry Potter and the Philosophers Stone) (2001),241527
 4897,3,"Fluffer, The (2001)",245115
 4898,3.125,Novocaine (2001),234354
 4899,3.25,Black Knight (2001),265087
 4901,3.519230769,Spy Game (2001),266987
-4902,3,"Devil's Backbone, The (Espinazo del diablo, El) (2001)",256009
+4902,3,"Devils Backbone, The (Espinazo del diablo, El) (2001)",256009
 4903,4.1,In the Bedroom (2001),247425
 4911,3,Jabberwocky (1977),76221
 4912,3.5,Funny Girl (1968),62994
@@ -3838,29 +3838,29 @@ id,average_rating,title,imdbId
 4949,2,Invasion U.S.A. (1985),89348
 4951,2.642857143,Lord of the Flies (1990),100054
 4952,2.5,Morons From Outer Space (1985),89622
-4954,2.8,Ocean's Eleven (a.k.a. Ocean's 11) (1960),54135
+4954,2.8,Oceans Eleven (a.k.a. Oceans 11) (1960),54135
 4956,3,"Stunt Man, The (1980)",81568
 4957,4,Sudden Impact (1983),86383
 4958,2.958333333,Behind Enemy Lines (2001),159273
 4960,4,"Independent, The (2000)",160403
 4961,3,Pornstar: The Legend of Ron Jeremy (2001),282856
-4963,3.880769231,Ocean's Eleven (2001),240772
+4963,3.880769231,Oceans Eleven (2001),240772
 4964,4.5,Baran (2001),233841
 4965,3.9,"Business of Strangers, The (2001)",270259
-4967,3.944444444,No Man's Land (2001),283509
+4967,3.944444444,No Mans Land (2001),283509
 4968,2.75,Piñero (2001),261066
 4969,3.6,And Then There Were None (1945),37515
 4970,3.722222222,"Blue Angel, The (Blaue Engel, Der) (1930)",20697
 4971,3.5,Moscow on the Hudson (1984),87747
 4972,3.25,"Owl and the Pussycat, The (1970)",66195
-4973,4.096,"Amelie (Fabuleux destin d'Amélie Poulain, Le) (2001)",211915
+4973,4.096,"Amelie (Fabuleux destin dAmélie Poulain, Le) (2001)",211915
 4974,2.923076923,Not Another Teen Movie (2001),277371
 4975,3.013513514,Vanilla Sky (2001),259711
 4976,3,Iris (2001),280778
 4977,3.333333333,Kandahar (Safar e Ghandehar) (2001),283431
 4978,3.6,Lantana (2001),259393
 4979,3.753623188,"Royal Tenenbaums, The (2001)",265666
-4980,3.1,Bill & Ted's Bogus Journey (1991),101452
+4980,3.1,Bill & Teds Bogus Journey (1991),101452
 4981,4.25,Clockwise (1986),90852
 4984,1,Morgan! (1966),60714
 4987,3,Spacehunter: Adventures in the Forbidden Zone (1983),86346
@@ -3885,7 +3885,7 @@ id,average_rating,title,imdbId
 5012,1.5,Yentl (1983),86619
 5013,3.362068966,Gosford Park (2001),280707
 5014,3.428571429,I Am Sam (2001),277027
-5015,3.277777778,Monster's Ball (2001),285742
+5015,3.277777778,Monsters Ball (2001),285742
 5016,2.25,"Shipping News, The (2001)",120824
 5017,4.666666667,"Big Heat, The (1953)",45555
 5018,3,Motorama (1991),104922
@@ -3925,7 +3925,7 @@ id,average_rating,title,imdbId
 5069,3.75,Escaflowne: The Movie (Escaflowne) (2000),270933
 5071,5,Maelström (2000),220627
 5072,2.333333333,Metropolis (2001),293416
-5073,3.5,"Son's Room, The (Stanza del figlio, La) (2001)",208990
+5073,3.5,"Sons Room, The (Stanza del figlio, La) (2001)",208990
 5074,3.5,Storytelling (2001),250081
 5075,4,Waydowntown (2000),219405
 5076,3.5,"Adventures of Huck Finn, The (1993)",106223
@@ -3940,16 +3940,16 @@ id,average_rating,title,imdbId
 5093,2.166666667,Collateral Damage (2002),233469
 5094,1,Rollerball (2002),246894
 5095,3.666666667,"Scotland, Pa. (2001)",265713
-5096,3,Baby's Day Out (1994),109190
+5096,3,Babys Day Out (1994),109190
 5097,3.75,Bright Eyes (1934),24914
 5098,3,Dimples (1936),27527
 5099,3.666666667,Heidi (1937),28988
 5101,5,Richard Pryor Here and Now (1983),86194
 5102,4,Rookie of the Year (1993),107985
 5103,3.880952381,"Sandlot, The (1993)",108037
-5105,3.75,Don't Look Now (1973),69995
+5105,3.75,Dont Look Now (1973),69995
 5106,2.25,Crossroads (2002),275022
-5107,3.5,Hart's War (2002),251114
+5107,3.5,Harts War (2002),251114
 5108,3.9,John Q (2002),251160
 5109,3.5,Return to Never Land (2002),280030
 5110,3.181818182,Super Troopers (2001),247745
@@ -3959,7 +3959,7 @@ id,average_rating,title,imdbId
 5119,4,Saturday Night and Sunday Morning (1960),54269
 5120,3.333333333,Sleuth (1972),69281
 5121,4.5,Stroszek (1977),75276
-5122,4,Summer of '42 (1971),67803
+5122,4,Summer of 42 (1971),67803
 5125,2,Used Cars (1980),81698
 5127,2.666666667,Dragonfly (2002),259288
 5128,2.333333333,Queen of the Damned (2002),238546
@@ -3968,7 +3968,7 @@ id,average_rating,title,imdbId
 5137,4.5,Scratch (2001),143861
 5139,3.5,"Bad News Bears, The (1976)",74174
 5141,3,"Bad News Bears in Breaking Training, The (1977)",75718
-5142,4,"Firemen's Ball, The (Horí, má panenko) (1967)",61781
+5142,4,"Firemens Ball, The (Horí, má panenko) (1967)",61781
 5146,3.636363636,Vampire Hunter D: Bloodlust (Banpaia hantâ D) (2000),216651
 5147,4.125,Wild Strawberries (Smultronstället) (1957),50986
 5151,2.884615385,40 Days and 40 Nights (2002),243736
@@ -3985,14 +3985,14 @@ id,average_rating,title,imdbId
 5172,2.5,Full Frontal (2002),290212
 5177,4,"Magnificent Ambersons, The (1942)",35015
 5179,3,Gloria (1980),80798
-5180,3,"Great Rock 'n' Roll Swindle, The (1980)",80813
+5180,3,"Great Rock n Roll Swindle, The (1980)",80813
 5182,3.5,Hawk the Slayer (1980),80846
 5186,2.5,Honeysuckle Rose (a.k.a. On the Road Again) (1980),80888
 5187,4,Hopscotch (1980),80889
 5193,3.666666667,"Jazz Singer, The (1980)",80948
 5198,4,"Long Good Friday, The (1980)",81070
 5199,3,"Long Riders, The (1980)",81071
-5202,2,Mon oncle d'Amérique (1980),81176
+5202,2,Mon oncle dAmérique (1980),81176
 5203,4,The Monster Club (1981),81178
 5205,3.5,Motel Hell (1980),81184
 5208,4,"Ninth Configuration, The (a.k.a. Twinkle, Twinkle, Killer Kane) (1980)",81237
@@ -4040,7 +4040,7 @@ id,average_rating,title,imdbId
 5278,0.5,Fraternity Vacation (1985),89167
 5279,1.833333333,Impromptu (1991),102103
 5282,3.166666667,High Crimes (2002),257756
-5283,2.954545455,National Lampoon's Van Wilder (2002),283111
+5283,2.954545455,National Lampoons Van Wilder (2002),283111
 5285,3,Lucky Break (2001),246134
 5288,4,"Atomic Cafe, The (1982)",83590
 5291,3.96875,Rashomon (Rashômon) (1950),42876
@@ -4048,7 +4048,7 @@ id,average_rating,title,imdbId
 5293,3.2,Changing Lanes (2002),264472
 5294,2.95,Frailty (2001),264616
 5296,2.6875,"Sweetest Thing, The (2002)",253867
-5297,4,"Cat's Meow, The (2002)",266391
+5297,4,"Cats Meow, The (2002)",266391
 5298,3.333333333,Human Nature (2001),219822
 5299,3.362745098,My Big Fat Greek Wedding (2002),259446
 5300,4,3:10 to Yuma (1957),50086
@@ -4091,7 +4091,7 @@ id,average_rating,title,imdbId
 5361,3.5,White Fang (1991),103247
 5363,1,"New Guy, The (2002)",241760
 5364,3.416666667,Unfaithful (2002),250797
-5365,3.5,"Lady and the Duke, The (Anglaise et le duc, L') (2001)",239234
+5365,3.5,"Lady and the Duke, The (Anglaise et le duc, L) (2001)",239234
 5366,1,Whore (1991),103253
 5367,4.166666667,My Beautiful Laundrette (1985),91578
 5372,3.5,Calamity Jane (1953),45591
@@ -4124,11 +4124,11 @@ id,average_rating,title,imdbId
 5419,2.125,Scooby-Doo (2002),267913
 5420,2.666666667,Windtalkers (2002),245562
 5421,3.5,"Dangerous Lives of Altar Boys, The (2002)",238924
-5422,4.5,"Emperor's New Clothes, The (2001)",282768
+5422,4.5,"Emperors New Clothes, The (2001)",282768
 5425,2,Dark Blue World (Tmavomodrý svet) (2001),244479
 5427,5,Caveman (1981),82146
-5428,3,Cheech & Chong's The Corsican Brothers (1984),87042
-5433,2.75,Silver Bullet (Stephen King's Silver Bullet) (1985),90021
+5428,3,Cheech & Chongs The Corsican Brothers (1984),87042
+5433,2.75,Silver Bullet (Stephen Kings Silver Bullet) (1985),90021
 5434,3.5,"Sorry, Wrong Number (1948)",40823
 5438,2.833333333,Men at Work (1990),100135
 5440,4.5,She Wore a Yellow Ribbon (1949),41866
@@ -4140,7 +4140,7 @@ id,average_rating,title,imdbId
 5448,2.5,Hey Arnold! The Movie (2002),314166
 5449,2.736842105,Mr. Deeds (2002),280590
 5450,2.5,Lovely & Amazing (2001),258273
-5452,1.833333333,Look Who's Talking Now (1993),107438
+5452,1.833333333,Look Whos Talking Now (1993),107438
 5458,1,Like Mike (2002),308506
 5459,3.071428571,Men in Black II (a.k.a. MIIB) (a.k.a. MIB 2) (2002),120912
 5460,3.875,"Powerpuff Girls, The (2002)",289408
@@ -4164,7 +4164,7 @@ id,average_rating,title,imdbId
 5500,3.958333333,Top Secret! (1984),88286
 5501,3,"Master of Disguise, The (2002)",295427
 5502,3.166666667,Signs (2002),286106
-5503,1,"Last Kiss, The (Ultimo bacio, L') (2001)",265930
+5503,1,"Last Kiss, The (Ultimo bacio, L) (2001)",265930
 5504,1.8125,Spy Kids 2: The Island of Lost Dreams (2002),287717
 5505,3.583333333,"Good Girl, The (2002)",279113
 5506,3.375,Blood Work (2002),309377
@@ -4184,7 +4184,7 @@ id,average_rating,title,imdbId
 5530,2.5,Simone (S1m0ne) (2002),258153
 5531,2.5,Undisputed (2002),281322
 5534,4,Hush! (2001),290662
-5535,1,How I Killed My Father (a.k.a. My Father and I) (Comment j'ai tué mon Père) (2001),268219
+5535,1,How I Killed My Father (a.k.a. My Father and I) (Comment jai tué mon Père) (2001),268219
 5538,3,"Care Bears Movie, The (1985)",88885
 5539,3,Care Bears Movie II: A New Generation (1986),90799
 5540,3.75,Clash of the Titans (1981),82186
@@ -4206,7 +4206,7 @@ id,average_rating,title,imdbId
 5574,3.088235294,"Transporter, The (2002)",293662
 5575,1,Alias Betty (Betty Fisher et autres histoires) (2001),269329
 5577,3.291666667,Igby Goes Down (2002),280760
-5581,2.5,Betsy's Wedding (1990),99128
+5581,2.5,Betsys Wedding (1990),99128
 5582,2,Captain Ron (1992),103924
 5585,1,Ernest Scared Stupid (1991),101821
 5588,2.5,"Hills Have Eyes, The (1977)",77681
@@ -4293,7 +4293,7 @@ id,average_rating,title,imdbId
 5745,4,"Four Seasons, The (1981)",82405
 5746,4.5,Galaxy of Terror (Quest) (1981),82431
 5747,3.714285714,Gallipoli (1981),82432
-5752,2.833333333,Gregory's Girl (1981),82477
+5752,2.833333333,Gregorys Girl (1981),82477
 5754,2,"Hand, The (1981)",82497
 5765,5,"Looney, Looney, Looney Bugs Bunny Movie, The (1981)",82679
 5768,3.5,Modern Problems (1981),82763
@@ -4333,15 +4333,15 @@ id,average_rating,title,imdbId
 5833,3,Dog Soldiers (2002),280609
 5834,3,Fingers (1978),77549
 5836,4,Houseboat (1958),51745
-5839,4,My Father's Glory (La gloire de mon père) (1990),99669
-5840,4,"My Mother's Castle (Château de ma mère, Le) (1990)",99266
+5839,4,My Fathers Glory (La gloire de mon père) (1990),99669
+5840,4,"My Mothers Castle (Château de ma mère, Le) (1990)",99266
 5841,2,Return to the Blue Lagoon (1991),102782
 5843,4,Toy Soldiers (1991),103112
 5846,4,Raggedy Man (1981),82969
 5847,3,Ragtime (1981),82970
 5850,0.5,Road Games (a.k.a. Roadgames) (1981),83000
 5853,3.166666667,Scanners (1981),81455
-5854,4,Sharky's Machine (1981),83064
+5854,4,Sharkys Machine (1981),83064
 5857,1,So Fine (1981),83099
 5859,2.5,Southern Comfort (1981),83111
 5864,0.5,"Tarzan, the Ape Man (1981)",83170
@@ -4350,12 +4350,12 @@ id,average_rating,title,imdbId
 5868,4,This Is Elvis (1981),83193
 5869,4,True Confessions (1981),83232
 5872,3.096774194,Die Another Day (2002),246460
-5873,3.5,The Emperor's Club (2002),283530
+5873,3.5,The Emperors Club (2002),283530
 5874,1.75,Friday After Next (2002),293815
 5875,2,Personal Velocity (2002),295238
 5876,3.95,"Quiet American, The (2002)",258068
 5878,3.90625,Talk to Her (Hable con Ella) (2002),287467
-5879,2,Eight Crazy Nights (Adam Sandler's Eight Crazy Nights) (2002),271263
+5879,2,Eight Crazy Nights (Adam Sandlers Eight Crazy Nights) (2002),271263
 5880,0.75,Extreme Ops (2002),283160
 5881,2.4375,Solaris (2002),307479
 5882,3,Treasure Planet (2002),133240
@@ -4400,7 +4400,7 @@ id,average_rating,title,imdbId
 5960,5,Bad Influence (1990),99091
 5961,3.5,Blue Steel (1990),99160
 5962,1.75,Body of Evidence (1993),106453
-5963,3.5,"Children's Hour, The (1961)",54743
+5963,3.5,"Childrens Hour, The (1961)",54743
 5965,3,"Duellists, The (1977)",75968
 5966,2.5,"Kiss Before Dying, A (1956)",49414
 5968,3.5,Miami Blues (1990),100143
@@ -4438,7 +4438,7 @@ id,average_rating,title,imdbId
 6037,3,Summer Lovers (1982),84737
 6039,3.5,"Woman in Red, The (1984)",88414
 6040,1.666666667,Darkness Falls (2003),282209
-6042,4,Blind Spot: Hitler's Secretary (Im toten Winkel - Hitlers Sekretärin) (2002),311320
+6042,4,Blind Spot: Hitlers Secretary (Im toten Winkel - Hitlers Sekretärin) (2002),311320
 6047,3.5,Dead Reckoning (1947),39305
 6051,3.5,"Harder They Come, The (1973)",70155
 6056,4,Chaos (2001),265116
@@ -4458,7 +4458,7 @@ id,average_rating,title,imdbId
 6093,4.125,"Last Unicorn, The (1982)",84237
 6095,2.75,Dragon Lord (a.k.a. Dragon Strike) (Long Xiao Ye) (1982),84266
 6096,3,Making Love (1982),84293
-6100,2.5,"Midsummer Night's Sex Comedy, A (1982)",84329
+6100,2.5,"Midsummer Nights Sex Comedy, A (1982)",84329
 6101,4,Missing (1982),84335
 6103,2,Monsignor (1982),84351
 6104,3.95,Monty Python Live at the Hollywood Bowl (1982),84352
@@ -4472,7 +4472,7 @@ id,average_rating,title,imdbId
 6122,4.5,Richard Pryor Live on the Sunset Strip (1982),84597
 6123,4,Sunless (Sans Soleil) (1983),84628
 6124,3,Savannah Smiles (1982),84633
-6125,4,"Secret Policeman's Other Ball, The (1982)",84648
+6125,4,"Secret Policemans Other Ball, The (1982)",84648
 6126,4,"Veronika Voss (Sehnsucht der Veronika Voss, Die) (1982)",84654
 6127,2.25,Shoot the Moon (1982),84675
 6132,3.5,"New York Ripper, The (Squartatore di New York, Lo) (1982)",84719
@@ -4561,7 +4561,7 @@ id,average_rating,title,imdbId
 6295,4,Chasing Papi (a.k.a. Papi Chulo) (2003),323572
 6296,3.523809524,"Mighty Wind, A (2003)",310281
 6297,3.1875,Holes (2003),311289
-6298,0.5,Malibu's Most Wanted (2003),328099
+6298,0.5,Malibus Most Wanted (2003),328099
 6299,3.666666667,"Winged Migration (Peuple migrateur, Le) (2001)",301727
 6300,2,Flickering Lights (Blinkende lygter) (2000),236027
 6301,3,Straw Dogs (1971),67800
@@ -4584,13 +4584,13 @@ id,average_rating,title,imdbId
 6335,1.5,"Dancer Upstairs, The (2002)",118926
 6337,3.833333333,Owning Mahowny (2003),285861
 6338,2.25,Daddy Day Care (2003),317303
-6339,4,"Man on the Train (Homme du train, L') (2002)",301414
+6339,4,"Man on the Train (Homme du train, L) (2002)",301414
 6341,3.5,"Shape of Things, The (2003)",308878
 6342,5,"Trip, The (2002)",250067
 6344,3.5,101 Reykjavik (101 Reykjavík) (2000),237993
 6345,3.2,"Chorus Line, A (1985)",88915
-6348,2,Breakin' 2: Electric Boogaloo (1984),86999
-6349,2,Breakin' (1984),86998
+6348,2,Breakin 2: Electric Boogaloo (1984),86999
+6349,2,Breakin (1984),86998
 6350,4.068181818,Laputa: Castle in the Sky (Tenkû no shiro Rapyuta) (1986),92067
 6355,3.75,"Girls, Les (1957)",50631
 6356,3.5,Gunfight at the O.K. Corral (1957),50468
@@ -4600,7 +4600,7 @@ id,average_rating,title,imdbId
 6367,2.888888889,Down with Love (2003),309530
 6368,4.5,Cinemania (2002),281724
 6369,5,Friends and Family (2001),206762
-6370,3.833333333,"Spanish Apartment, The (L'auberge espagnole) (2002)",283900
+6370,3.833333333,"Spanish Apartment, The (Lauberge espagnole) (2002)",283900
 6373,3.1,Bruce Almighty (2003),315327
 6375,4.75,Gigantic (A Tale of Two Johns) (2002),304081
 6377,3.803278689,Finding Nemo (2003),266543
@@ -4632,11 +4632,11 @@ id,average_rating,title,imdbId
 6426,4,"Far Country, The (1954)",48055
 6427,4,"Railway Children, The (1970)",66279
 6428,2.7,Two Mules for Sister Sara (1970),65134
-6429,3.5,Winchester '73 (1950),43137
+6429,3.5,Winchester 73 (1950),43137
 6431,3,Battle Cry (1955),47860
-6432,3.5,"Courtship of Eddie's Father, The (1963)",56956
+6432,3.5,"Courtship of Eddies Father, The (1963)",56956
 6433,3.833333333,"Man with the Movie Camera, The (Chelovek s kino-apparatom) (1929)",19760
-6436,3.583333333,This Boy's Life (1993),108330
+6436,3.583333333,This Boys Life (1993),108330
 6440,3.934782609,Barton Fink (1991),101410
 6442,3.5,Belle époque (1992),103791
 6446,3.5,"Comancheros, The (1961)",54757
@@ -4663,9 +4663,9 @@ id,average_rating,title,imdbId
 6482,1.25,Dumb and Dumberer: When Harry Met Lloyd (2003),329028
 6484,3.5,Hollywood Homicide (2003),329717
 6493,3.25,Alex and Emma (2003),318283
-6498,2,Murphy's War (1971),67458
+6498,2,Murphys War (1971),67458
 6502,3.807692308,28 Days Later (2002),289043
-6503,2.020833333,Charlie's Angels: Full Throttle (2003),305357
+6503,2.020833333,Charlies Angels: Full Throttle (2003),305357
 6506,4,Fulltime Killer (Chuen jik sat sau) (2001),286635
 6509,4,Ali: Fear Eats the Soul (Angst essen Seele auf) (1974),71141
 6513,3,Made for Each Other (1939),31602
@@ -4673,13 +4673,13 @@ id,average_rating,title,imdbId
 6516,4,Anastasia (1956),48947
 6518,3,Flight of the Intruder (1991),99587
 6521,2.5,"Main Event, The (1979)",79510
-6522,3,Man's Favorite Sport? (1964),58324
+6522,3,Mans Favorite Sport? (1964),58324
 6525,2.833333333,Nuts (1987),93660
 6527,3.5,Scaramouche (1952),45125
 6528,3.5,Start the Revolution Without Me (1970),66402
 6530,4.125,"Tenant, The (Locataire, Le) (1976)",74811
 6531,1,"Hour of the Pig, The (1993)",107146
-6533,3.6,"What's Up, Doc? (1972)",69495
+6533,3.6,"Whats Up, Doc? (1972)",69495
 6534,2.375,Hulk (2003),286716
 6535,2.166666667,"Legally Blonde 2: Red, White & Blonde (2003)",333780
 6536,4.5,Sinbad: Legend of the Seven Seas (2003),165982
@@ -4693,7 +4693,7 @@ id,average_rating,title,imdbId
 6552,3.85,Dirty Pretty Things (2002),301199
 6559,4,Little Giants (1994),110364
 6561,3.875,"Mouse That Roared, The (1959)",53084
-6562,3.5,Spencer's Mountain (1963),57523
+6562,3.5,Spencers Mountain (1963),57523
 6564,2.583333333,Lara Croft Tomb Raider: The Cradle of Life (2003),325703
 6565,3.82,Seabiscuit (2003),329575
 6566,0.5,Spy Kids 3-D: Game Over (2003),338459
@@ -4701,7 +4701,7 @@ id,average_rating,title,imdbId
 6571,4,"Mondays in the Sun (Lunes al sol, Los) (2002)",319769
 6579,3,"One, Two, Three (1961)",55256
 6582,3.166666667,Remo Williams: The Adventure Begins (1985),89901
-6584,2.833333333,"What's Up, Tiger Lily? (1966)",61177
+6584,2.833333333,"Whats Up, Tiger Lily? (1966)",61177
 6585,2,White Lightning (1973),70915
 6586,3,American Wedding (American Pie 3) (2003),328828
 6587,1,Gigli (2003),299930
@@ -4717,7 +4717,7 @@ id,average_rating,title,imdbId
 6603,3,"Double Life, A (1947)",39335
 6609,3.25,"Gospel According to St. Matthew, The (Vangelo secondo Matteo, Il) (1964)",58715
 6611,4.5,Umberto D. (1952),45274
-6612,4.1,Brother's Keeper (1992),103888
+6612,4.1,Brothers Keeper (1992),103888
 6613,2.25,"Day of the Dolphin, The (1973)",69946
 6615,2.166666667,Freddy vs. Jason (2003),329101
 6617,3.833333333,Open Range (2003),316356
@@ -4746,11 +4746,11 @@ id,average_rating,title,imdbId
 6669,4.75,Ikiru (1952),44741
 6671,0.5,"Angel at My Table, An (1990)",99040
 6676,3,Incident at Oglala (1992),104504
-6678,2.333333333,"Handmaid's Tale, The (1990)",99731
+6678,2.333333333,"Handmaids Tale, The (1990)",99731
 6679,3.5,Revolution OS (2001),308808
 6684,2.5,Death in Venice (Morte a Venezia) (1971),67445
 6686,2.166666667,"Medallion, The (2003)",288045
-6690,3.5,Don't Tempt Me (Sin noticias de Dios) (2001),284491
+6690,3.5,Dont Tempt Me (Sin noticias de Dios) (2001),284491
 6695,1.5,Jeepers Creepers 2 (2003),301470
 6703,3.5,"Order, The (2003)",304711
 6706,2,Taking Sides (2001),260414
@@ -4765,7 +4765,7 @@ id,average_rating,title,imdbId
 6722,3.75,Once Upon a Time in China II (Wong Fei-hung Ji Yi: Naam yi dong ji keung) (1992),105839
 6723,3.5,Once Upon a Time in China III (Wong Fei-hung tsi sam: Siwong tsangba) (1993),108592
 6724,3.916666667,Paper Moon (1973),70510
-6725,5,Sgt. Pepper's Lonely Hearts Club Band (1978),78239
+6725,5,Sgt. Peppers Lonely Hearts Club Band (1978),78239
 6728,2.5,"Ugly American, The (1963)",56632
 6730,3.5,Convoy (1978),77369
 6731,3.25,Day of the Dead (1985),88993
@@ -4800,33 +4800,33 @@ id,average_rating,title,imdbId
 6783,4,"Rules of the Game, The (La règle du jeu) (1939)",31885
 6785,3.2,Seven Brides for Seven Brothers (1954),47472
 6786,3.75,Kiss of the Spider Woman (1985),89424
-6787,4.125,All the President's Men (1976),74119
+6787,4.125,All the Presidents Men (1976),74119
 6788,2.25,Angie (1994),109129
 6790,3.625,Avalon (2001),267287
-6791,3.8,Babette's Feast (Babettes gæstebud) (1987),92603
+6791,3.8,Babettes Feast (Babettes gæstebud) (1987),92603
 6793,3.125,Beethoven (1992),103786
-6794,2.166666667,Beethoven's 2nd (1993),106375
+6794,2.166666667,Beethovens 2nd (1993),106375
 6796,3.981481481,Boyz N the Hood (1991),101507
 6797,2.25,Bugsy (1991),101516
 6798,3,Bugsy Malone (1976),74256
 6800,3,Cobra (1986),90859
 6803,4,Phenomena (a.k.a. Creepers) (1985),87909
 6806,3,Time and Tide (Seunlau Ngaklau) (2000),251433
-6807,4.054054054,Monty Python's The Meaning of Life (1983),85959
+6807,4.054054054,Monty Pythons The Meaning of Life (1983),85959
 6808,2.375,Where Eagles Dare (1968),65207
 6810,2.333333333,Sleeping with the Enemy (1991),102945
 6811,2.875,PCU (1994),110759
 6812,2.5,"Rookie, The (1990)",100514
 6813,2.25,"Ghost and Mr. Chicken, The (1966)",59221
 6814,3,City Heat (1984),87062
-6816,4,Three O'Clock High (1987),94138
+6816,4,Three OClock High (1987),94138
 6818,4.25,Come and See (Idi i smotri) (1985),91251
 6820,3,Ginger Snaps (2000),210070
 6822,3,"Ballad of Little Jo, The (1993)",106350
 6826,1,"Shakiest Gun in the West, The (1968)",63591
-6827,2.5,It's Pat (1994),110169
+6827,2.5,Its Pat (1994),110169
 6828,4,"Sunday in the Country, A (Un dimanche à la campagne) (1984)",88318
-6829,4,"Gun in Betty Lou's Handbag, The (1992)",104376
+6829,4,"Gun in Betty Lous Handbag, The (1992)",104376
 6832,3.125,Regarding Henry (1991),102768
 6835,4,Alien Contamination (1980),82000
 6840,3.5,"Hospital, The (1971)",67217
@@ -4876,7 +4876,7 @@ id,average_rating,title,imdbId
 6940,4,In My Skin (Dans ma Peau) (2002),337961
 6942,3.581818182,Love Actually (2003),314331
 6944,3.136363636,Father of the Bride (1991),101862
-6945,3.666666667,My Architect: A Son's Journey (2003),373175
+6945,3.666666667,My Architect: A Sons Journey (2003),373175
 6947,3.455882353,Master and Commander: The Far Side of the World (2003),311113
 6950,2.5,"Missing, The (2003)",338188
 6951,2.333333333,"Cat in the Hat, The (2003)",312528
@@ -4887,7 +4887,7 @@ id,average_rating,title,imdbId
 6958,2.5,"Haunted Mansion, The (2003)",338094
 6959,4,Timeline (2003),300556
 6961,3.25,Damage (Fatale) (1992),104237
-6963,4,Devil's Playground (2002),293088
+6963,4,Devils Playground (2002),293088
 6964,3.5,Dance with a Stranger (1985),88987
 6966,3.5,Darkman (1990),99365
 6970,3.5,Desk Set (1957),50307
@@ -4900,7 +4900,7 @@ id,average_rating,title,imdbId
 6981,2.5,"Ordet (Word, The) (1955)",48452
 6982,3.166666667,Forbidden Games (Jeux interdits) (1952),43686
 6983,3.5,Jane Eyre (1944),36969
-6985,4.3,"Passion of Joan of Arc, The (Passion de Jeanne d'Arc, La) (1928)",19254
+6985,4.3,"Passion of Joan of Arc, The (Passion de Jeanne dArc, La) (1928)",19254
 6986,4.1,Ben-Hur: A Tale of the Christ (1925),16641
 6987,4,"Cabinet of Dr. Caligari, The (Cabinet des Dr. Caligari., Das) (1920)",10323
 6989,3.166666667,Gorky Park (1983),85615
@@ -4920,8 +4920,8 @@ id,average_rating,title,imdbId
 7005,1.5,King Ralph (1991),102216
 7007,3.333333333,"Last Boy Scout, The (1991)",102266
 7008,2.9,Last Tango in Paris (Ultimo tango a Parigi) (1972),70849
-7009,3,Lorenzo's Oil (1992),104756
-7010,3.75,"Lover, The (Amant, L') (1992)",101316
+7009,3,Lorenzos Oil (1992),104756
+7010,3.75,"Lover, The (Amant, L) (1992)",101316
 7011,3.5,"Bullfighter, The (Matador) (1986)",91495
 7012,2,Mr. Destiny (1990),100201
 7013,3.95,"Night of the Hunter, The (1955)",48424
@@ -4948,7 +4948,7 @@ id,average_rating,title,imdbId
 7046,2.857142857,"Witches of Eastwick, The (1987)",94332
 7048,4,Nothing to Lose (1997),119807
 7050,3.5,Follow the Fleet (1936),27630
-7051,4,"What's New, Pussycat (1965)",59903
+7051,4,"Whats New, Pussycat (1965)",59903
 7055,3.5,Swing Time (1936),28333
 7056,3.875,"Public Enemy, The (1931)",22286
 7058,3,Life with Father (1947),39566
@@ -4960,7 +4960,7 @@ id,average_rating,title,imdbId
 7064,3.857142857,Beauty and the Beast (La belle et la bête) (1946),38348
 7065,3,"Birth of a Nation, The (1915)",4972
 7067,3,Juliet of the Spirits (Giulietta degli spiriti) (1965),59229
-7068,3.25,Last Year at Marienbad (L'Année dernière à Marienbad) (1961),54632
+7068,3.25,Last Year at Marienbad (LAnnée dernière à Marienbad) (1961),54632
 7069,4.25,"Macbeth (a.k.a. Tragedy of Macbeth, The) (1971)",67372
 7070,3.75,Red River (1948),40724
 7071,3.25,"Woman Under the Influence, A (1974)",72417
@@ -4972,7 +4972,7 @@ id,average_rating,title,imdbId
 7078,3.5,Jezebel (1938),30287
 7079,3.5,"Hunchback of Notre Dame, The (1939)",31455
 7080,3.5,42nd Street (1933),24034
-7081,5,I'm No Angel (1933),24166
+7081,5,Im No Angel (1933),24166
 7082,4,That Touch of Mink (1962),56575
 7083,2.5,Sweet Dreams (1985),90110
 7084,3.625,"Play It Again, Sam (1972)",69097
@@ -4993,11 +4993,11 @@ id,average_rating,title,imdbId
 7107,3.333333333,Foul Play (1978),77578
 7108,1.5,Crime Story (Zhong an zu) (1993),108656
 7110,3,Blind Beast (Môjuu) (1969),140384
-7111,4.5,Ryan's Daughter (1970),66319
+7111,4.5,Ryans Daughter (1970),66319
 7115,3.75,Deep Red (Profondo rosso) (1975),73582
 7116,4.7,Diabolique (Les diaboliques) (1955),46911
 7117,3,Leprechaun (1993),107387
-7121,3.75,Adam's Rib (1949),41090
+7121,3.75,Adams Rib (1949),41090
 7122,3.75,King of Hearts (1966),60908
 7123,3.75,Naked Lunch (1991),102511
 7125,3.5,Spring Forward (1999),156096
@@ -5012,7 +5012,7 @@ id,average_rating,title,imdbId
 7142,3,Honey (2003),322589
 7143,3.644444444,"Last Samurai, The (2003)",325710
 7147,3.827272727,Big Fish (2003),319061
-7149,3.208333333,Something's Gotta Give (2003),337741
+7149,3.208333333,Somethings Gotta Give (2003),337741
 7150,2.3,Stuck on You (2003),338466
 7151,3.75,Girl with a Pearl Earring (2003),335119
 7152,4,"Statement, The (2003)",340376
@@ -5048,7 +5048,7 @@ id,average_rating,title,imdbId
 7206,4,Mon Oncle (My Uncle) (1958),50706
 7207,3,Where the Boys Are (1960),54469
 7208,5,Dr. Jekyll and Mr. Hyde (1941),33553
-7209,3.666666667,"M. Hulot’s Holiday (Mr. Hulot's Holiday) (Vacances de Monsieur Hulot, Les) (1953)",46487
+7209,3.666666667,"M. Hulot’s Holiday (Mr. Hulots Holiday) (Vacances de Monsieur Hulot, Les) (1953)",46487
 7210,3.833333333,My Darling Clementine (1946),38762
 7211,4.5,People Will Talk (1951),43915
 7212,4,I Was a Male War Bride (1949),41498
@@ -5088,7 +5088,7 @@ id,average_rating,title,imdbId
 7303,3.5,The Diary of Anne Frank (1959),52738
 7305,2.5,Black Widow (1987),90738
 7307,4,Flesh & Blood (1985),89153
-7308,3.25,King Solomon's Mines (1985),89421
+7308,3.25,King Solomons Mines (1985),89421
 7309,4,"Black Pirate, The (1926)",16654
 7311,3,"Goodbye, Mr. Chips (1939)",31385
 7312,0.5,"Follow Me, Boys! (1966)",60420
@@ -5111,7 +5111,7 @@ id,average_rating,title,imdbId
 7349,4.5,Broken Wings (Knafayim Shvurot) (2002),317842
 7352,4,Wilbur Wants to Kill Himself (2002),329767
 7354,3,Mad Dog and Glory (1993),107473
-7355,5,Mr. Toad's Wild Ride (a.k.a. The Wind in the Willows) (1996),118172
+7355,5,Mr. Toads Wild Ride (a.k.a. The Wind in the Willows) (1996),118172
 7357,3.75,Peyton Place (1957),50839
 7358,2.5,Searching for Debra Winger (2002),318049
 7360,3.4,Dawn of the Dead (2004),363547
@@ -5129,7 +5129,7 @@ id,average_rating,title,imdbId
 7379,4,The Alamo (2004),318974
 7380,4,Ella Enchanted (2004),327679
 7381,2.666666667,"Whole Ten Yards, The (2004)",327247
-7382,3.5,I'm Not Scared (Io non ho paura) (2003),326977
+7382,3.5,Im Not Scared (Io non ho paura) (2003),326977
 7386,4,"Ten Commandments, The (1956)",49833
 7387,3.6,Dawn of the Dead (1978),77402
 7394,3,Those Magnificent Men in Their Flying Machines (1965),59797
@@ -5196,8 +5196,8 @@ id,average_rating,title,imdbId
 7697,3.5,"Prince and the Showgirl, The (1957)",50861
 7698,4.125,"China Syndrome, The (1979)",78966
 7700,4.75,"Wages of Fear, The (Salaire de la peur, Le) (1953)",46268
-7701,1.666666667,Look Who's Talking Too (1990),100050
-7702,3.5,"Bells of St. Mary's, The (1945)",37536
+7701,1.666666667,Look Whos Talking Too (1990),100050
+7702,3.5,"Bells of St. Marys, The (1945)",37536
 7705,3.5,Pat and Mike (1952),45012
 7706,3.583333333,Animal Crackers (1930),20640
 7708,2.5,Bedazzled (1967),61391
@@ -5205,7 +5205,7 @@ id,average_rating,title,imdbId
 7714,3.75,Camelot (1967),61439
 7720,4.25,"Four Musketeers, The (1974)",73012
 7728,3.625,"Postman Always Rings Twice, The (1946)",38854
-7738,3.75,That's The Way I Like It (a.k.a. Forever Fever) (1998),155713
+7738,3.75,Thats The Way I Like It (a.k.a. Forever Fever) (1998),155713
 7743,3.25,Explorers (1985),89114
 7748,3.5,Pierrot le fou (1965),59592
 7753,3.5,Tuesdays with Morrie (1999),207805
@@ -5216,13 +5216,13 @@ id,average_rating,title,imdbId
 7766,4.071428571,Throne of Blood (Kumonosu jô) (1957),50613
 7767,4.25,"Best of Youth, The (La meglio gioventù) (2003)",346336
 7771,4.5,Zorba the Greek (Alexis Zorbas) (1964),57831
-7773,5,"Bang, Bang, You're Dead (2002)",288439
+7773,5,"Bang, Bang, Youre Dead (2002)",288439
 7774,3.5,My Side of the Mountain (1969),64708
 7782,3.5,Sniper (1993),108171
 7786,3.5,Genghis Blues (1999),187859
 7787,4.5,To Hell and Back (1955),48729
-7789,2,"11'09""01 - September 11 (2002)",328802
-7790,4,"Bon Voyage, Charlie Brown (and Don't Come Back!) (1980)",80461
+7789,2,"1109""01 - September 11 (2002)",328802
+7790,4,"Bon Voyage, Charlie Brown (and Dont Come Back!) (1980)",80461
 7791,2.833333333,Internal Affairs (1990),99850
 7792,3.333333333,"Parallax View, The (1974)",71970
 7802,4.2,"Warriors, The (1979)",80120
@@ -5267,7 +5267,7 @@ id,average_rating,title,imdbId
 7916,3.5,Gidget (1959),52847
 7919,4.5,Drunken Angel (Yoidore tenshi) (1948),40979
 7920,3.5,Desperate Living (1977),75936
-7921,3,"Devil's Rain, The (1975)",72869
+7921,3,"Devils Rain, The (1975)",72869
 7922,2.5,"Valachi Papers,The (1972)",68341
 7924,4.5,Stray Dog (Nora inu) (1949),41699
 7925,3.25,"Hidden Fortress, The (Kakushi-toride no san-akunin) (1958)",51808
@@ -5296,7 +5296,7 @@ id,average_rating,title,imdbId
 7983,3.375,Broadway Danny Rose (1984),87003
 7984,3.5,From Beyond (1986),91083
 7987,3.5,Dolls (1987),92906
-7990,3,Rock 'N' Roll High School (1979),79813
+7990,3,Rock N Roll High School (1979),79813
 7991,2.833333333,Death Race 2000 (1975),72856
 7995,3,"Wild Angels, The (1966)",61189
 8003,2,Bedlam (1946),38343
@@ -5347,12 +5347,12 @@ id,average_rating,title,imdbId
 8190,3,"Americanization of Emily, The (1964)",57840
 8191,4,Anne of the Thousand Days (1969),64030
 8194,2.75,Baby Doll (1956),48973
-8195,2.833333333,"Avventura, L' (Adventure, The) (1960)",53619
+8195,2.833333333,"Avventura, L (Adventure, The) (1960)",53619
 8196,2.5,Beyond the Valley of the Dolls (1970),65466
 8197,3.666666667,Hiroshima Mon Amour (1959),52893
 8199,4.75,Ugetsu (Ugetsu monogatari) (1953),46478
 8207,4.2,"Day of the Jackal, The (1973)",69947
-8208,5,"Razor's Edge, The (1946)",38873
+8208,5,"Razors Edge, The (1946)",38873
 8225,3.625,Night of the Living Dead (1990),100258
 8228,4.1,"Maltese Falcon, The (a.k.a. Dangerous Female) (1931)",22111
 8235,4,Safety Last! (1923),14429
@@ -5383,7 +5383,7 @@ id,average_rating,title,imdbId
 8361,3.06,"Day After Tomorrow, The (2004)",319262
 8362,2.5,Raising Helen (2004),350028
 8363,2,Soul Plane (2004),367085
-8364,3.25,Baadasssss! (How to Get the Man's Foot Outta Your Ass) (2003),367790
+8364,3.25,Baadasssss! (How to Get the Mans Foot Outta Your Ass) (2003),367790
 8366,3.333333333,Saved! (2004),332375
 8367,3,"Time of the Wolf, The (Le temps du loup) (2003)",324197
 8368,3.761904762,Harry Potter and the Prisoner of Azkaban (2004),304141
@@ -5416,7 +5416,7 @@ id,average_rating,title,imdbId
 8482,3,"Picture of Dorian Gray, The (1945)",37988
 8484,3.5,"Human Condition I, The (Ningen no joken I) (1959)",53114
 8485,4,Samsara (2001),196069
-8487,2.75,Please Don't Eat the Daisies (1960),54188
+8487,2.75,Please Dont Eat the Daisies (1960),54188
 8491,3.5,White Heat (1949),42041
 8492,3.833333333,"Christmas Carol, A (Scrooge) (1951)",44008
 8493,3.714285714,Memphis Belle (1990),100133
@@ -5429,7 +5429,7 @@ id,average_rating,title,imdbId
 8524,3.5,"High and the Mighty, The (1954)",47086
 8525,2.5,"Ugly Dachshund, The (1966)",61135
 8526,2.333333333,Around the World in 80 Days (2004),327437
-8527,3,I'll Sleep When I'm Dead (2003),319531
+8527,3,Ill Sleep When Im Dead (2003),319531
 8528,3.337837838,Dodgeball: A True Underdog Story (2004),364725
 8529,3.364864865,"Terminal, The (2004)",362227
 8530,3.875,Dear Frankie (2004),377752
@@ -5439,11 +5439,11 @@ id,average_rating,title,imdbId
 8535,3.5,De-Lovely (2004),352277
 8537,4,Kaena: The Prophecy (Kaena: La prophétie) (2003),297753
 8542,4,"Day at the Races, A (1937)",28772
-8544,3.5,"Now You See Him, Now You Don't (1972)",69031
+8544,3.5,"Now You See Him, Now You Dont (1972)",69031
 8571,3,Bob & Carol & Ted & Alice (1969),64100
 8572,4.5,"Littlest Rebel, The (1935)",26641
 8574,2.25,"Claymation Christmas Celebration, A (1987)",272045
-8575,2,"Happenstance (Battement d'ailes du papillon, Le) (2001)",243135
+8575,2,"Happenstance (Battement dailes du papillon, Le) (2001)",243135
 8576,4,Kopps (2003),339230
 8577,4,Comandante (2003),342213
 8580,4.333333333,Into the Woods (1991),99851
@@ -5459,7 +5459,7 @@ id,average_rating,title,imdbId
 8607,3.833333333,Tokyo Godfathers (2003),388473
 8609,4.5,Our Hospitality (1923),14341
 8610,3.416666667,All of Me (1984),86873
-8611,2.25,"Farmer's Daughter, The (1947)",39370
+8611,2.25,"Farmers Daughter, The (1947)",39370
 8612,3.25,Lassie Come Home (1943),36098
 8614,2.625,Overboard (1987),93693
 8616,3.5,By the Light of the Silvery Moon (1953),45586
@@ -5479,7 +5479,7 @@ id,average_rating,title,imdbId
 8643,3.5,"Cinderella Story, A (2004)",356470
 8644,3.342105263,"I, Robot (2004)",343818
 8645,3.676470588,"Maria Full of Grace (Maria, Llena eres de gracia) (2004)",390221
-8650,4.25,Long Day's Journey Into Night (1962),56196
+8650,4.25,Long Days Journey Into Night (1962),56196
 8654,2,Prince Valiant (1954),47365
 8656,3.833333333,"Short Film About Killing, A (Krótki film o zabijaniu) (1988)",95468
 8657,3.5,"Tin Star, The (1957)",51087
@@ -5490,7 +5490,7 @@ id,average_rating,title,imdbId
 8670,4.5,"Testament of Dr. Mabuse, The (Das Testament des Dr. Mabuse) (1933)",23563
 8672,3.5,Battle Hymn (1957),50171
 8675,5,"Enemy Below, The (1957)",50356
-8684,4,"Man Escaped, A (Un  condamné à mort s'est échappé ou Le vent souffle où il veut) (1956)",49902
+8684,4,"Man Escaped, A (Un  condamné à mort sest échappé ou Le vent souffle où il veut) (1956)",49902
 8689,4,"Shock to the System, A (1990)",100602
 8690,3,Slaughterhouse-Five (1972),69280
 8695,3,"Bachelor and the Bobby-Soxer, The (1947)",39169
@@ -5535,7 +5535,7 @@ id,average_rating,title,imdbId
 8808,3.0625,"Princess Diaries 2: Royal Engagement, The (2004)",368933
 8810,2.638888889,AVP: Alien vs. Predator (2004),370263
 8811,0.5,Yu-Gi-Oh! (2004),403703
-8813,3,We Don't Live Here Anymore (2004),361309
+8813,3,We Dont Live Here Anymore (2004),361309
 8814,1,Without a Paddle (2004),364751
 8819,2.5,Double Trouble (1967),61595
 8820,2.5,Spinout (1966),61015
@@ -5549,9 +5549,9 @@ id,average_rating,title,imdbId
 8833,3.875,Vanity Fair (2004),241025
 8835,1.5,Paparazzi (2004),338325
 8836,2.333333333,Wicker Park (2004),324554
-8838,3.6,Alice Doesn't Live Here Anymore (1974),71115
+8838,3.6,Alice Doesnt Live Here Anymore (1974),71115
 8839,2.5,"Mangler, The (1995)",113762
-8840,2.5,Who's That Knocking at My Door? (1967),63803
+8840,2.5,Whos That Knocking at My Door? (1967),63803
 8848,2,"Vitelloni, I (a.k.a. The Young and the Passionate) (1953)",46521
 8850,2.5,Flipper (1963),57063
 8851,2,Smile (1975),73722
@@ -5595,7 +5595,7 @@ id,average_rating,title,imdbId
 8929,4,Black Beauty (1971),66834
 8930,3.5,"Five Obstructions, The (Fem benspænd, De) (2003)",354575
 8931,3.5,Born Rich (2003),342143
-8933,4.666666667,"Decline of the American Empire, The (Déclin de l'empire américain, Le) (1986)",90985
+8933,4.666666667,"Decline of the American Empire, The (Déclin de lempire américain, Le) (1986)",90985
 8935,1,All I Want for Christmas (1991),101301
 8937,4.375,Friday Night Lights (2004),390022
 8938,4.666666667,Tarnation (2003),390538
@@ -5611,7 +5611,7 @@ id,average_rating,title,imdbId
 8957,3.272727273,Saw (2004),387564
 8958,3.952380952,Ray (2004),350258
 8961,3.861111111,"Incredibles, The (2004)",317705
-8963,0.5,It's All About Love (2003),273689
+8963,0.5,Its All About Love (2003),273689
 8964,1.5,Callas Forever (2002),274407
 8965,2.785714286,"Polar Express, The (2004)",338348
 8966,3.535714286,Kinsey (2004),362269
@@ -5626,19 +5626,19 @@ id,average_rating,title,imdbId
 8981,3.921052632,Closer (2004),376541
 8982,3.5,I Am David (2003),327919
 8983,3.323529412,House of Flying Daggers (Shi mian mai fu) (2004),385004
-8984,2.911764706,Ocean's Twelve (2004),349903
+8984,2.911764706,Oceans Twelve (2004),349903
 8985,1.791666667,Blade: Trinity (2004),359013
 8986,4,"Bellboy, The (1960)",53644
-8987,3.5,Bush's Brain (2004),403910
+8987,3.5,Bushs Brain (2004),403910
 8988,4,Cinderfella (1960),53716
 8989,3.5,Damn Yankees! (1958),51516
-8998,3.5,That's Entertainment (1974),72272
-8999,4,"That's Entertainment, Part II (1976)",75323
-9000,3.5,That's Entertainment! III (1994),111408
+8998,3.5,Thats Entertainment (1974),72272
+8999,4,"Thats Entertainment, Part II (1976)",75323
+9000,3.5,Thats Entertainment! III (1994),111408
 9001,4,"Wackiest Ship in the Army, The (1960)",54453
 9004,3.5,D.A.R.Y.L. (1985),88979
 9005,2.5,Fire in the Sky (1993),106912
-9010,5,Love Me If You Dare (Jeux d'enfants) (2003),364517
+9010,5,Love Me If You Dare (Jeux denfants) (2003),364517
 9012,4,Ruby Gentry (1952),45109
 9018,3.666666667,Control Room (2004),391024
 25737,0.5,"Golem, The (Golem, wie er in die Welt kam, Der) (1920)",11237
@@ -5647,18 +5647,18 @@ id,average_rating,title,imdbId
 25752,4,"Freshman, The (1925)",15841
 25753,3.5,Greed (1924),15881
 25755,3.5,"Phantom of the Opera, The (1925)",16220
-25763,2,"Pandora's Box (Büchse der Pandora, Die) (1929)",18737
+25763,2,"Pandoras Box (Büchse der Pandora, Die) (1929)",18737
 25764,4.5,"Cameraman, The (1928)",18742
 25769,4,"Steamboat Bill, Jr. (1928)",19421
 25771,3.35,"Andalusian Dog, An (Chien andalou, Un) (1929)",20530
 25773,4,Little Caesar (1931),21079
-25774,3,"Golden Age, The (Âge d'Or, L') (1930)",21577
+25774,3,"Golden Age, The (Âge dOr, L) (1930)",21577
 25777,3.666666667,Monkey Business (1931),22158
 25788,3.5,Scarface (1932),23427
 25792,3.5,"I Was Born, But... (a.k.a. Children of Tokyo) (Otona no miru ehon - Umarete wa mita keredo) (1932)",23634
 25795,4,Dinner at Eight (1933),23948
 25801,5,She Done Him Wrong (1933),24548
-25805,3.833333333,"Atalante, L' (1934)",24844
+25805,3.833333333,"Atalante, L (1934)",24844
 25807,3,"Black Cat, The (1934)",24894
 25825,3.75,Fury (1936),27652
 25826,0.5,Libeled Lady (1936),27884
@@ -5692,7 +5692,7 @@ id,average_rating,title,imdbId
 25945,4.5,They Live by Night (1949),40872
 25947,4.25,Unfaithfully Yours (1948),40919
 25952,4.25,"Letter to Three Wives, A (1949)",41587
-25962,4,King Solomon's Mines (1950),42646
+25962,4,King Solomons Mines (1950),42646
 25965,2,Summer Stock (1950),43012
 25971,3.75,Carrie (1952),44486
 25972,4,Clash by Night (1952),44502
@@ -5715,7 +5715,7 @@ id,average_rating,title,imdbId
 26085,3,Mutiny on the Bounty (1962),56264
 26086,4,"Occurrence at Owl Creek Bridge, An (La rivière du hibou) (1962)",56300
 26093,3.5,"Wonderful World of the Brothers Grimm, The (1962)",56700
-26094,5,"Eclisse, L' (Eclipse) (1962)",56736
+26094,5,"Eclisse, L (Eclipse) (1962)",56736
 26111,3.333333333,Becket (1964),57877
 26116,3,"Hush... Hush, Sweet Charlotte (1964)",58213
 26117,3.5,"Killers, The (1964)",58262
@@ -5729,7 +5729,7 @@ id,average_rating,title,imdbId
 26152,4,Batman (1966),60153
 26157,0.5,Manos: The Hands of Fate (1966),60666
 26160,3.5,Asterix and the Gauls (Astérix le Gaulois) (1967),61369
-26163,4,Don't Look Back (1967),61589
+26163,4,Dont Look Back (1967),61589
 26164,4,Fando and Lis (Fando y Lis) (1968),61643
 26171,3.75,Play Time (a.k.a. Playtime) (1967),62136
 26172,4,Point Blank (1967),62138
@@ -5738,8 +5738,8 @@ id,average_rating,title,imdbId
 26180,3.5,Up the Down Staircase (1967),62425
 26188,0.5,"Heart Is a Lonely Hunter, The (1968)",63050
 26198,3,"Yours, Mine and Ours (1968)",63829
-26199,4,Alice's Restaurant (1969),64002
-26208,4,My Night At Maud's (Ma Nuit Chez Maud) (1969),64612
+26199,4,Alices Restaurant (1969),64002
+26208,4,My Night At Mauds (Ma Nuit Chez Maud) (1969),64612
 26228,4,"Swedish Love Story, A (Kärlekshistoria, En) (1970)",65955
 26229,3.5,"Landlord, The (1970)",65963
 26231,3.833333333,Performance (1970),66214
@@ -5756,7 +5756,7 @@ id,average_rating,title,imdbId
 26313,3.75,California Split (1974),71269
 26317,2,Emmanuelle (1974),71464
 26318,4.5,"Phantom of Liberty, The (Fantôme de la liberté, Le) (1974)",71487
-26320,2.5,Flesh for Frankenstein (a.k.a. Andy Warhol's Frankenstein) (1973),71508
+26320,2.5,Flesh for Frankenstein (a.k.a. Andy Warhols Frankenstein) (1973),71508
 26322,3.5,Gone in 60 Seconds (1974),71571
 26323,4.5,"Groove Tube, The (1974)",71583
 26324,3.5,Harry and Tonto (1974),71598
@@ -5764,7 +5764,7 @@ id,average_rating,title,imdbId
 26326,4.5,"Holy Mountain, The (Montaña sagrada, La) (1973)",71615
 26338,3,Cousin cousine (1975),72826
 26342,3.5,"Farewell, My Lovely (1975)",72973
-26346,3,"Story of Adele H., The (Histoire d'Adèle H., L') (1975)",73114
+26346,3,"Story of Adele H., The (Histoire dAdèle H., L) (1975)",73114
 26349,3.5,Night Moves (1975),73453
 26350,4.5,"Passenger, The (Professione: reporter) (1975)",73580
 26366,2.25,Harlan County U.S.A. (1976),74605
@@ -5778,7 +5778,7 @@ id,average_rating,title,imdbId
 26403,4,"Hobbit, The (1977)",77687
 26404,2.5,In Praise of Older Women (1978),77728
 26409,1,"Clonus Horror, The (1979)",78062
-26413,4,Snake in the Eagle's Shadow (Se ying diu sau) (1978),78252
+26413,4,Snake in the Eagles Shadow (Se ying diu sau) (1978),78252
 26414,3.5,"Wedding, A (1978)",78481
 26422,5,Hair (1979),79261
 26425,3.5,"In-Laws, The (1979)",79336
@@ -5804,10 +5804,10 @@ id,average_rating,title,imdbId
 26554,4.25,"Quiet Earth, The (1985)",89869
 26555,3.166666667,Spies Like Us (1985),90056
 26562,4,White Nights (1985),90319
-26564,2.25,'Round Midnight (1986),90557
+26564,2.25,Round Midnight (1986),90557
 26574,4,Ginger and Fred (Ginger e Fred) (1986),91113
 26578,5,"Sacrifice, The (Offret - Sacraficatio) (1986)",91670
-26581,2,Sherman's March (1985),91943
+26581,2,Shermans March (1985),91943
 26585,3.5,"Better Tomorrow, A (Ying hung boon sik) (1986)",92263
 26587,4.4,"Decalogue, The (Dekalog) (1989)",92337
 26599,5,"Law of Desire (Ley del deseo, La) (1987)",93412
@@ -5818,7 +5818,7 @@ id,average_rating,title,imdbId
 26631,3,Alice (Neco z Alenky) (1988),95715
 26649,3.4,Lonesome Dove (1989),96639
 26655,4.5,Common Threads: Stories from the Quilt (1989),97099
-26662,3.833333333,Kiki's Delivery Service (Majo no takkyûbin) (1989),97814
+26662,3.833333333,Kikis Delivery Service (Majo no takkyûbin) (1989),97814
 26663,4,Monsieur Hire (1989),97904
 26680,3.5,Cry-Baby (1990),99329
 26684,4,Frankenhooker (1990),99611
@@ -5838,7 +5838,7 @@ id,average_rating,title,imdbId
 26732,4,Johnny Stecchino (1991),102164
 26736,4,Riki-Oh: The Story of Ricky (Lik Wong) (1991),102293
 26737,4,Light Sleeper (1992),102307
-26749,5,Prospero's Books (1991),102722
+26749,5,Prosperos Books (1991),102722
 26750,3,Quigley Down Under (1990),102744
 26775,1.5,Johnny Suede (1991),104567
 26776,3.916666667,Porco Rosso (Crimson Pig) (Kurenai no buta) (1992),104652
@@ -5865,7 +5865,7 @@ id,average_rating,title,imdbId
 26915,4.5,Tromeo and Juliet (1996),114733
 26947,4.5,Pusher (1996),117407
 26974,4.166666667,Gummo (1997),119237
-26999,2,"Lion King II: Simba's Pride, The (1998)",120131
+26999,2,"Lion King II: Simbas Pride, The (1998)",120131
 27002,3.333333333,From the Earth to the Moon (1998),120570
 27005,3.5,"Interview, The (1998)",120714
 27020,3.5,Gia (1998),123865
@@ -5893,7 +5893,7 @@ id,average_rating,title,imdbId
 27397,4,Joint Security Area (Gongdong gyeongbi guyeok JSA) (2000),260991
 27410,4,Conspiracy (2001),266425
 27416,4,Jalla! Jalla! (2000),269389
-27423,4,"O Auto da Compadecida (Dog's Will, A) (2000)",271383
+27423,4,"O Auto da Compadecida (Dogs Will, A) (2000)",271383
 27441,3,Blood: The Last Vampire (2000),275230
 27478,2.666666667,Ali G Indahouse (2002),284837
 27482,1,Cube 2: Hypercube (2002),285492
@@ -5903,16 +5903,16 @@ id,average_rating,title,imdbId
 27592,5,Sympathy for Mr. Vengeance (Boksuneun naui geot) (2002),310775
 27604,2.8,Suicide Club (Jisatsu saakuru) (2001),312843
 27611,3.428571429,Battlestar Galactica (2003),314979
-27646,4.5,Soldier's Girl (2003),324013
+27646,4.5,Soldiers Girl (2003),324013
 27648,1.5,Bright Young Things (2003),325123
 27660,3.676470588,"Animatrix, The (2003)",328832
 27664,5,"Brown Bunny, The (2003)",330099
 27674,3.75,11:14 (2003),331811
 27685,1,Bring It On Again (2004),334965
-27689,1,"Crimson Rivers 2: Angels of the Apocalypse (Rivières pourpres II - Les anges de l'apocalypse, Les) (2004)",337103
+27689,1,"Crimson Rivers 2: Angels of the Apocalypse (Rivières pourpres II - Les anges de lapocalypse, Les) (2004)",337103
 27700,4.5,Evil (Ondskan) (2003),338309
 27704,2.5,Battle Royale 2: Requiem (Batoru rowaiaru II: Chinkonka) (2003),338763
-27706,3.133333333,Lemony Snicket's A Series of Unfortunate Events (2004),339291
+27706,3.133333333,Lemony Snickets A Series of Unfortunate Events (2004),339291
 27713,4,Bukowski: Born into This (2003),342150
 27721,3.909090909,"Very Long Engagement, A (Un long dimanche de fiançailles) (2004)",344510
 27722,2.5,Last Life in the Universe (Ruang rak noi nid mahasan) (2003),345549
@@ -5921,7 +5921,7 @@ id,average_rating,title,imdbId
 27728,4.333333333,Ghost in the Shell 2: Innocence (a.k.a. Innocence) (Inosensu) (2004),347246
 27731,3.666666667,"Cat Returns, The (Neko no ongaeshi) (2002)",347618
 27741,4.25,"Twilight Samurai, The (Tasogare Seibei) (2002)",351817
-27751,3.5,'Salem's Lot (2004),355987
+27751,3.5,Salems Lot (2004),355987
 27768,3.5,Intimate Strangers (Confidences trop intimes) (2004),363532
 27772,2.25,Ju-on: The Grudge (2002),364385
 27773,3.921875,Old Boy (2003),364569
@@ -5964,14 +5964,14 @@ id,average_rating,title,imdbId
 27882,5,Riding Giants (2004),389326
 27899,3.5,What the #$*! Do We Know!? (a.k.a. What the Bleep Do We Know!?) (2004),399877
 27904,3.392857143,"Scanner Darkly, A (2006)",405296
-27912,4,Outfoxed: Rupert Murdoch's War on Journalism (2004),418038
-27922,4,Jerry Seinfeld: 'I'm Telling You for the Last Time' (1998),500140
+27912,4,Outfoxed: Rupert Murdochs War on Journalism (2004),418038
+27922,4,Jerry Seinfeld: Im Telling You for the Last Time (1998),500140
 30707,3.7,Million Dollar Baby (2004),405159
 30712,4.25,"Narrow Margin, The (1952)",44954
 30723,4,Vincent & Theo (1990),100873
 30745,3.666666667,Gozu (Gokudô kyôfu dai-gekijô: Gozu) (2003),361668
 30749,3.984375,Hotel Rwanda (2004),395169
-30783,3,Blood and Black Lace (Sei donne per l'assassino) (1964),58567
+30783,3,Blood and Black Lace (Sei donne per lassassino) (1964),58567
 30793,3.180851064,Charlie and the Chocolate Factory (2005),367594
 30803,3.833333333,3-Iron (Bin-jip) (2004),423866
 30810,3.568965517,"Life Aquatic with Steve Zissou, The (2004)",362270
@@ -6008,7 +6008,7 @@ id,average_rating,title,imdbId
 31284,3.5,"Star Is Born, A (1976)",75265
 31290,0.5,Beastmaster 2: Through the Portal of Time (1991),101412
 31364,2.25,Memories of Murder (Salinui chueok) (2003),353969
-31374,2.25,Hobson's Choice (1954),47094
+31374,2.25,Hobsons Choice (1954),47094
 31408,4.25,Summer Storm (Sommersturm) (2004),420206
 31410,3.975,"Downfall (Untergang, Der) (2004)",363163
 31413,5,"White Sound, The (Das weiße Rauschen) (2001)",276617
@@ -6017,15 +6017,15 @@ id,average_rating,title,imdbId
 31427,4.5,Hide and Seek (2005),382077
 31431,1,Boogeyman (2005),357507
 31433,4.166666667,"Wedding Date, The (2005)",372532
-31435,4.75,Rory O'Shea Was Here (Inside I'm Dancing) (2004),417791
+31435,4.75,Rory OShea Was Here (Inside Im Dancing) (2004),417791
 31437,4,Nobody Knows (Dare mo shiranai) (2004),408664
 31445,2,Employee of the Month (2004),362590
-31502,2.5,Salem's Lot (1979),79844
+31502,2.5,Salems Lot (1979),79844
 31522,2.75,"Marriage of Maria Braun, The (Ehe der Maria Braun, Die) (1979)",79095
 31524,4,"Bitter Tears of Petra von Kant, The (bitteren Tränen der Petra von Kant, Die) (1972)",68278
 31547,4.5,Lessons of Darkness (Lektionen in Finsternis) (1992),104706
 31549,4,Fata Morgana (1971),67085
-31658,4.203703704,Howl's Moving Castle (Hauru no ugoku shiro) (2004),347149
+31658,4.203703704,Howls Moving Castle (Hauru no ugoku shiro) (2004),347149
 31660,4,Steamboy (Suchîmubôi) (2004),348121
 31682,4.5,"Nomi Song, The (2004)",402406
 31685,3.229166667,Hitch (2005),386588
@@ -6059,7 +6059,7 @@ id,average_rating,title,imdbId
 32160,3.5,Twentieth Century (1934),25919
 32170,1.5,Chronicles (Crónicas) (2004),382621
 32174,2,"Green Berets, The (1968)",63035
-32203,4,Brian's Song (1971),68315
+32203,4,Brians Song (1971),68315
 32211,3.5,Thriller: A Cruel Picture (Thriller - en grym film) (1974),72285
 32234,4.25,Julia (1977),76245
 32280,2,The 3 Penny Opera (1931),21818
@@ -6077,9 +6077,9 @@ id,average_rating,title,imdbId
 32395,3,Attack of the Mushroom People (Matango) (1963),57295
 32444,3.25,Carmen (1983),85297
 32456,3,"Pom Poko (a.k.a. Raccoon War, The) (Heisei tanuki gassen pompoko) (1994)",110008
-32460,5,Knockin' on Heaven's Door (1997),119472
+32460,5,Knockin on Heavens Door (1997),119472
 32464,3,City of Hope (1991),101588
-32469,4,We're No Angels (1955),48801
+32469,4,Were No Angels (1955),48801
 32515,5,Walker (1987),96409
 32525,5,The Earrings of Madame de... (1953),46022
 32554,4,Memories (Memorîzu) (1995),113799
@@ -6090,22 +6090,22 @@ id,average_rating,title,imdbId
 32596,3.1,Sahara (2005),318649
 32598,3.0625,Fever Pitch (2005),332047
 32632,4,Electra Glide in Blue (1973),70022
-32666,1,National Lampoon's Lady Killers (National Lampoon's Gold Diggers) (2003),376717
-32686,3,Blood on Satan's Claw (a.k.a. Satan's Skin) (1971),66849
+32666,1,National Lampoons Lady Killers (National Lampoons Gold Diggers) (2003),376717
+32686,3,Blood on Satans Claw (a.k.a. Satans Skin) (1971),66849
 32728,3,"Little Girl Who Lives Down the Lane, The (1976)",74806
 32735,4,Arabian Nights (Il fiore delle mille e una notte) (1974),71502
 32743,3.5,Ringu 0: Bâsudei (2000),235712
-32797,4.5,Satan's Brew (Satansbraten) (1976),75165
+32797,4.5,Satans Brew (Satansbraten) (1976),75165
 32825,4.25,Sexmission (Seksmisja) (1984),88083
 32840,4.5,Vincent (1982),84868
 32844,0.5,Waterloo Bridge (1940),33238
 32853,3,"Sorrow and the Pity, The (Le chagrin et la pitié) (1969)",66904
 32882,2.75,"Big Store, The (1941)",33388
-32892,4,Ivan's Childhood (a.k.a. My Name is Ivan) (Ivanovo detstvo) (1962),56111
+32892,4,Ivans Childhood (a.k.a. My Name is Ivan) (Ivanovo detstvo) (1962),56111
 32898,4.333333333,"Trip to the Moon, A (Voyage dans la lune, Le) (1902)",417
 32914,3,Carrie (2002),319970
 32943,4,Life Is Sweet (1990),100024
-33004,3.294117647,"Hitchhiker's Guide to the Galaxy, The (2005)",371724
+33004,3.294117647,"Hitchhikers Guide to the Galaxy, The (2005)",371724
 33021,3.5,Dark Habits (Entre tinieblas) (1983),85496
 33085,2,"Amityville Horror, The (2005)",384806
 33124,3.5,Before the Fall (NaPolA - Elite für den Führer) (2004),384369
@@ -6156,7 +6156,7 @@ id,average_rating,title,imdbId
 34002,2.5,Room Service (1938),30696
 34018,3,At the Circus (1939),31060
 34048,2.85,War of the Worlds (2005),407304
-34072,3.888888889,"March of the Penguins (Marche de l'empereur, La) (2005)",428803
+34072,3.888888889,"March of the Penguins (Marche de lempereur, La) (2005)",428803
 34129,2,Rebound (2005),376108
 34143,2.666666667,Dark Water (2005),382628
 34150,2.533333333,Fantastic Four (2005),120667
@@ -6167,7 +6167,7 @@ id,average_rating,title,imdbId
 34271,2.75,Hustle & Flow (2005),410097
 34319,3.159090909,"Island, The (2005)",399201
 34321,3.333333333,Bad News Bears (2005),408524
-34323,3.333333333,"Devil's Rejects, The (2005)",395584
+34323,3.333333333,"Devils Rejects, The (2005)",395584
 34326,4.5,Last Days (2005),403217
 34332,3.458333333,Sky High (2005),405325
 34334,2.125,Stealth (2005),382992
@@ -6259,15 +6259,15 @@ id,average_rating,title,imdbId
 39768,4.5,Life is a Miracle (Zivot je cudo) (2004),322420
 39779,3.5,Tarzan and His Mate (1934),25862
 39869,4,Manderlay (2005),342735
-39941,4,"Love on the Run (Amour en fuite, L') (1979)",78771
+39941,4,"Love on the Run (Amour en fuite, L) (1979)",78771
 40148,4.5,Revolver (2005),365686
 40226,5,Wild Zero (2000),267116
 40278,3.5,Jarhead (2005),418763
 40339,2.333333333,Chicken Little (2005),371606
-40412,4.75,Dead Man's Shoes (2004),419677
+40412,4.75,Dead Mans Shoes (2004),419677
 40414,4.333333333,Joyeux Noël (Merry Christmas) (2005),424205
 40491,4.5,"Match Factory Girl, The (Tulitikkutehtaan tyttö) (1990)",98532
-40574,3,Get Rich or Die Tryin' (2005),430308
+40574,3,Get Rich or Die Tryin (2005),430308
 40581,4.25,Just Friends (2005),433400
 40583,3.6875,Syriana (2005),365737
 40597,2,One-Way Ticket to Mombasa (Menolippu Mombasaan) (2002),328132
@@ -6316,7 +6316,7 @@ id,average_rating,title,imdbId
 42718,3.75,District 13 (Banlieue 13) (2004),414852
 42721,1,BloodRayne (2005),383222
 42723,2.625,Hostel (2005),450278
-42725,3.5,Grandma's Boy (2006),456554
+42725,3.5,Grandmas Boy (2006),456554
 42728,3,Tristan & Isolde (2006),375154
 42730,3,Glory Road (2006),385726
 42732,3.25,Last Holiday (2006),408985
@@ -6326,7 +6326,7 @@ id,average_rating,title,imdbId
 42783,1.5,Shadows of Our Forgotten Ancestors (Tini zabutykh predkiv) (1964),58642
 42900,5,Cul-de-sac (1966),60268
 42935,4,Riding Alone for Thousands of Miles (Qian li zou dan qi) (2005),437447
-42946,3,Project A ('A' gai waak) (1983),85127
+42946,3,Project A (A gai waak) (1983),85127
 42958,3.5,Little Manhattan (2005),412922
 43177,1,Over the Edge (1979),79688
 43267,5,On Probation (Tiempo de Valientes) (2005),462570
@@ -6334,14 +6334,14 @@ id,average_rating,title,imdbId
 43351,3,"Temptations, The (1998)",164292
 43376,3.666666667,Sophie Scholl: The Final Days (Sophie Scholl - Die letzten Tage) (2005),426578
 43391,3,Matti: Hell Is for Heroes (Matti) (2006),390245
-43396,3.5625,"World's Fastest Indian, The (2005)",412080
+43396,3.5625,"Worlds Fastest Indian, The (2005)",412080
 43419,2,Bandidas (2006),416496
 43556,3.5,Annapolis (2006),417433
-43558,2,Big Momma's House 2 (2006),421729
+43558,2,Big Mommas House 2 (2006),421729
 43560,3.75,Nanny McPhee (2005),396752
 43635,4,Bye Bye Birdie (1963),56891
 43679,4,Final Destination 3 (2006),414982
-43708,3.5,Block Party (a.k.a. Dave Chappelle's Block Party) (2005),425598
+43708,3.5,Block Party (a.k.a. Dave Chappelles Block Party) (2005),425598
 43744,4,Imagine Me & You (2005),421994
 43832,3,"Call of Cthulhu, The (2005)",478988
 43836,2.125,"Pink Panther, The (2006)",383216
@@ -6363,7 +6363,7 @@ id,average_rating,title,imdbId
 44022,3.175,Ice Age 2: The Meltdown (2006),438097
 44073,2,Stromboli (1950),41931
 44191,4.01369863,V for Vendetta (2006),434409
-44193,2.833333333,She's the Man (2006),454945
+44193,2.833333333,Shes the Man (2006),454945
 44195,3.9125,Thank You for Smoking (2006),427944
 44197,4.5,Find Me Guilty (2006),419749
 44199,3.875,Inside Man (2006),454848
@@ -6423,7 +6423,7 @@ id,average_rating,title,imdbId
 45672,2.55,Click (2006),389860
 45679,4,"Seventh Victim, The (1943)",36341
 45720,3.142857143,"Devil Wears Prada, The (2006)",458352
-45722,3.415254237,Pirates of the Caribbean: Dead Man's Chest (2006),383574
+45722,3.415254237,Pirates of the Caribbean: Dead Mans Chest (2006),383574
 45726,2.5,"You, Me and Dupree (2006)",463034
 45728,3.5,Clerks II (2006),424345
 45730,2.25,Lady in the Water (2006),452637
@@ -6434,23 +6434,23 @@ id,average_rating,title,imdbId
 45942,4,"Mother and the Whore, The (Maman et la putain, La) (1973)",70359
 45950,3.789473684,"Inconvenient Truth, An (2006)",497116
 45969,3.5,Career Opportunities (1991),101545
-45987,4,Chuck Berry Hail! Hail! Rock 'n' Roll (1987),92758
+45987,4,Chuck Berry Hail! Hail! Rock n Roll (1987),92758
 46062,3.5,High School Musical (2006),475293
-46322,4.083333333,Jet Li's Fearless (Huo Yuan Jia) (2006),446059
+46322,4.083333333,Jet Lis Fearless (Huo Yuan Jia) (2006),446059
 46335,2.571428571,"Fast and the Furious: Tokyo Drift, The (Fast and the Furious 3, The) (2006)",463985
 46337,1.25,Garfield: A Tail of Two Kitties (2006),455499
-46347,4.5,Metal: A Headbanger's Journey (2005),478209
+46347,4.5,Metal: A Headbangers Journey (2005),478209
 46530,2.615384615,Superman Returns (2006),348150
 46544,4.5,Edward II (1991),101798
 46559,4,"Road to Guantanamo, The (2006)",468094
-46561,3,Leonard Cohen: I'm Your Man (2005),478197
+46561,3,Leonard Cohen: Im Your Man (2005),478197
 46574,0.5,"OH in Ohio, The (2006)",422861
 46578,3.907894737,Little Miss Sunshine (2006),449059
 46664,3.5,"Fallen Idol, The (1948)",40338
 46723,3.5625,Babel (2006),449467
 46772,2,Strangers with Candy (2005),369994
 46850,3.666666667,Wordplay (2006),492506
-46855,3.5,Army of Shadows (L'armée des ombres) (1969),64040
+46855,3.5,Army of Shadows (Larmée des ombres) (1969),64040
 46865,1.75,Little Man (2006),430304
 46919,4,End of the Spear (2005),399862
 46948,3.25,Monster House (2006),385880
@@ -6480,7 +6480,7 @@ id,average_rating,title,imdbId
 47404,4,Mind Game (2004),452039
 47423,2.75,Half Nelson (2006),468489
 47465,3.5,Tideland (2005),410764
-47491,3.25,Adam's Apples (Adams æbler) (2005),418455
+47491,3.25,Adams Apples (Adams æbler) (2005),418455
 47493,3,Cabin in the Sky (1943),35703
 47518,3.590909091,Accepted (2006),384793
 47606,3,Captain January (1936),27421
@@ -6504,7 +6504,7 @@ id,average_rating,title,imdbId
 48061,4.5,Snoopy Come Home (1972),69289
 48082,3.277777778,"Science of Sleep, The (La science des rêves) (2006)",354899
 48142,3,"Black Dahlia, The (2006)",387877
-48159,3,Everyone's Hero (2006),430779
+48159,3,Everyones Hero (2006),430779
 48165,4.5,"Seventh Continent, The (Der siebente Kontinent) (1989)",98327
 48198,3,Streamers (1983),86377
 48231,3.5,Taxidermia (2006),410730
@@ -6515,7 +6515,7 @@ id,average_rating,title,imdbId
 48319,2.75,Flyboys (2006),454824
 48322,3.166666667,Jackass Number Two (2006),493430
 48385,3.272727273,Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan (2006),443453
-48394,3.673076923,"Pan's Labyrinth (Laberinto del fauno, El) (2006)",457430
+48394,3.673076923,"Pans Labyrinth (Laberinto del fauno, El) (2006)",457430
 48414,3,Open Season (2006),400717
 48501,4.5,G.O.R.A. (2004),384116
 48516,4.202380952,"Departed, The (2006)",407887
@@ -6559,10 +6559,10 @@ id,average_rating,title,imdbId
 49314,3.5,Harsh Times (2006),433387
 49394,3.5,Simon of the Desert (Simón del desierto) (1965),59719
 49396,3.5,Tenacious D in The Pick of Destiny (2006),365830
-49526,3,National Lampoon's Van Wilder: The Rise of Taj (2006),480271
+49526,3,National Lampoons Van Wilder: The Rise of Taj (2006),480271
 49528,2.25,Turistas (2006),454970
 49530,4.040540541,Blood Diamond (2006),450259
-49647,3.5,Charlotte's Web (2006),413895
+49647,3.5,Charlottes Web (2006),413895
 49649,2.166666667,Eragon (2006),449010
 49651,3.6,Rocky Balboa (2006),479143
 49688,4,"Dam Busters, The (1955)",46889
@@ -6598,7 +6598,7 @@ id,average_rating,title,imdbId
 50740,4.5,Seven Up! (1964),58578
 50742,4.5,7 Plus Seven (1970),66356
 50792,2.5,Catch and Release (2006),395495
-50794,3.5,Smokin' Aces (2006),475394
+50794,3.5,Smokin Aces (2006),475394
 50798,1.5,Epic Movie (2007),799949
 50802,3.25,Because I Said So (2007),490084
 50804,2.25,Hannibal Rising (2007),367959
@@ -6606,9 +6606,9 @@ id,average_rating,title,imdbId
 50842,4,"Boss of It All, The (Direktøren for det hele) (2006)",469754
 50851,3.75,Cocaine Cowboys (2006),380268
 50872,3.983050847,Ratatouille (2007),382932
-50912,3.625,"Paris, I Love You (Paris, je t'aime) (2006)",401711
+50912,3.625,"Paris, I Love You (Paris, je taime) (2006)",401711
 50923,3,"Astronaut Farmer, The (2007)",469263
-50954,3.75,It's a Boy Girl Thing (2006),482527
+50954,3.75,Its a Boy Girl Thing (2006),482527
 51044,4,Magical Mystery Tour (1967),61937
 51077,2.285714286,Ghost Rider (2007),259324
 51080,3.9,Breach (2007),401997
@@ -6663,13 +6663,13 @@ id,average_rating,title,imdbId
 52606,3.5,Big Nothing (2006),488085
 52617,5,Woman on the Beach (Haebyeonui yeoin) (2006),835787
 52644,2.833333333,Vacancy (2007),452702
-52666,3.375,Benny's Video (1992),103793
+52666,3.375,Bennys Video (1992),103793
 52668,4.5,In the Land of Women (2007),419843
-52694,2.25,Mr. Bean's Holiday (2007),453451
+52694,2.25,Mr. Beans Holiday (2007),453451
 52712,3,"Invisible, The (2007)",435670
 52717,3.5,"Condemned, The (2007)",443473
 52722,2.717391304,Spider-Man 3 (2007),413300
-52730,2.5,It's a Very Merry Muppet Christmas Movie (2002),329737
+52730,2.5,Its a Very Merry Muppet Christmas Movie (2002),329737
 52767,4.5,21 Up (1977),75610
 52831,4,Maniac Cop (1988),95583
 52885,4.090909091,Paprika (Papurika) (2006),851578
@@ -6684,18 +6684,18 @@ id,average_rating,title,imdbId
 53038,0.5,Red Dust (1932),23382
 53121,3.115384615,Shrek the Third (2007),413267
 53123,3.863636364,Once (2006),907657
-53125,3.272727273,Pirates of the Caribbean: At World's End (2007),449088
+53125,3.272727273,Pirates of the Caribbean: At Worlds End (2007),449088
 53129,4,Mr. Brooks (2007),780571
 53133,2.5,Gracie (2007),441007
-53138,4,"Librarian: Return to King Solomon's Mines, The (2006)",455596
+53138,4,"Librarian: Return to King Solomons Mines, The (2006)",455596
 53189,4,Eagle vs Shark (2007),494222
 53207,3.25,88 Minutes (2008),411061
 53318,3.9,Cashback (2006),460740
-53322,3.24,Ocean's Thirteen (2007),496806
+53322,3.24,Oceans Thirteen (2007),496806
 53326,2,Them (Ils) (2006),465203
 53435,3.166666667,Hostel: Part II (2007),498353
 53447,4,Paranoid Park (2007),842929
-53460,2.75,Surf's Up (2007),423294
+53460,2.75,Surfs Up (2007),423294
 53464,1.9375,Fantastic Four: Rise of the Silver Surfer (2007),486576
 53466,2.5,Nancy Drew (2007),479500
 53468,3.833333333,Fido (2006),457572
@@ -6747,7 +6747,7 @@ id,average_rating,title,imdbId
 54910,0.5,Behind the Mask: The Rise of Leslie Vernon (2006),437857
 54995,3.678571429,Planet Terror (2007),1077258
 54997,4,3:10 to Yuma (2007),381849
-54999,3.875,Shoot 'Em Up (2007),465602
+54999,3.875,Shoot Em Up (2007),465602
 55031,4.5,"Evening with Kevin Smith, An (2002)",346952
 55052,3.833333333,Atonement (2007),783233
 55063,4.25,My Winnipeg (2007),1093842
@@ -6785,7 +6785,7 @@ id,average_rating,title,imdbId
 55451,4.2,The Jane Austen Book Club (2007),866437
 55498,3.5,Silk (2007),494834
 55555,5,"Edge of Heaven, The (Auf der anderen Seite) (2007)",880502
-55566,4,Tyler Perry's Why Did I Get Married? (2007),906108
+55566,4,Tyler Perrys Why Did I Get Married? (2007),906108
 55577,2.916666667,Saw IV (2007),890870
 55652,3,Scum (1979),79871
 55684,3,"City of Violence, The (Jjakpae) (2006)",821470
@@ -6795,7 +6795,7 @@ id,average_rating,title,imdbId
 55757,2.5,Chilly Scenes of Winter (Head Over Heels) (1979),79278
 55765,3.454545455,American Gangster (2007),765429
 55768,2.857142857,Bee Movie (2007),389790
-55805,3.4,Before the Devil Knows You're Dead (2007),292963
+55805,3.4,Before the Devil Knows Youre Dead (2007),292963
 55814,3.9,"Diving Bell and the Butterfly, The (Scaphandre et le papillon, Le) (2007)",401383
 55820,4.010204082,No Country for Old Men (2007),477348
 55830,2.8125,Be Kind Rewind (2008),799934
@@ -6804,7 +6804,7 @@ id,average_rating,title,imdbId
 55895,3.5,"Desperate Hours, The (1955)",47985
 55908,3.916666667,"Man from Earth, The (2007)",756683
 55995,2.5,Beowulf (2007),442933
-55999,3.25,Mr. Magorium's Wonder Emporium (2007),457419
+55999,3.25,Mr. Magoriums Wonder Emporium (2007),457419
 56003,2.75,Southland Tales (2006),405336
 56030,3.5,Darfur Now (2007),988102
 56069,2.5,Murder Party (2007),878695
@@ -6817,9 +6817,9 @@ id,average_rating,title,imdbId
 56171,3.2,"Golden Compass, The (2007)",385752
 56174,3.19047619,I Am Legend (2007),480249
 56176,1.833333333,Alvin and the Chipmunks (2007),952640
-56251,3.833333333,Futurama: Bender's Big Score (2007),471711
+56251,3.833333333,Futurama: Benders Big Score (2007),471711
 56274,4,Margot at the Wedding (2007),757361
-56286,3.5,I'm Not There (2007),368794
+56286,3.5,Im Not There (2007),368794
 56333,3.75,"Savages, The (2007)",775529
 56336,1,Wrong Turn 2: Dead End (2007),804555
 56339,3.875,"Orphanage, The (Orfanato, El) (2007)",464141
@@ -6832,7 +6832,7 @@ id,average_rating,title,imdbId
 56757,3.315789474,Sweeney Todd: The Demon Barber of Fleet Street (2007),408236
 56775,3.357142857,National Treasure: Book of Secrets (2007),465234
 56782,4.153846154,There Will Be Blood (2007),469494
-56788,3.857142857,Charlie Wilson's War (2007),472062
+56788,3.857142857,Charlie Wilsons War (2007),472062
 56801,1.875,AVPR: Aliens vs. Predator - Requiem (2007),758730
 56805,3.75,Walk Hard: The Dewey Cox Story (2007),841046
 56869,5,Drained (O cheiro do Ralo) (2006),489458
@@ -6844,7 +6844,7 @@ id,average_rating,title,imdbId
 56949,3.125,27 Dresses (2008),988595
 57038,5,To the Left of the Father (Lavoura Arcaica) (2001),241663
 57223,0.5,D-War (Dragon Wars) (2007),372873
-57243,4.333333333,"Band's Visit, The (Bikur Ha-Tizmoret) (2007)",1032856
+57243,4.333333333,"Bands Visit, The (Bikur Ha-Tizmoret) (2007)",1032856
 57274,3.333333333,[REC] (2007),1038988
 57326,2.5,In the Name of the King: A Dungeon Siege Tale (2008),460780
 57353,4.25,Flawless (2007),780516
@@ -6862,11 +6862,11 @@ id,average_rating,title,imdbId
 57792,3.5,Caramel (Sukkar banat) (2007),825236
 57845,4.5,Joe Strummer: The Future Is Unwritten (2007),800099
 57910,2.5,Teeth (2007),780622
-57951,3,Fool's Gold (2008),770752
+57951,3,Fools Gold (2008),770752
 57972,4,Deep Water (2006),460766
 57980,3,"Art of Negative Thinking, The (Kunsten å tenke negativt) (2006)",945356
 58025,2.272727273,Jumper (2008),489099
-58029,4,It's a Free World... (2007),807054
+58029,4,Its a Free World... (2007),807054
 58047,3.916666667,"Definitely, Maybe (2008)",832266
 58103,3.25,Vantage Point (2008),443274
 58105,2.75,"Spiderwick Chronicles, The (2008)",416236
@@ -6901,8 +6901,8 @@ id,average_rating,title,imdbId
 58879,3.833333333,Shine a Light (2008),893382
 58889,3,"Business of Being Born, The (2008)",995061
 58904,3.5,Chan Is Missing (1982),83728
-58964,3,Inside (À l'intérieur) (2007),856288
-58972,2.5,Nim's Island (2008),410377
+58964,3,Inside (À lintérieur) (2007),856288
+58972,2.5,Nims Island (2008),410377
 58975,2.5,"Ruins, The (2008)",963794
 58998,3.295454545,Forgetting Sarah Marshall (2008),800039
 59014,2.125,Superhero Movie (2008),426592
@@ -6948,7 +6948,7 @@ id,average_rating,title,imdbId
 59832,3,Where the Sidewalk Ends (1950),43132
 59834,0.5,100 Rifles (1969),63970
 59846,3.5,"Iron Mask, The (1929)",20030
-59900,2.333333333,You Don't Mess with the Zohan (2008),960144
+59900,2.333333333,You Dont Mess with the Zohan (2008),960144
 59935,3.5,Flesh Gordon (1974),68595
 59945,3,"Mark of Zorro, The (1920)",11439
 59985,3.5,Chaos Theory (2007),460745
@@ -6973,7 +6973,7 @@ id,average_rating,title,imdbId
 60384,5,Z Channel: A Magnificent Obsession (2004),405496
 60397,3.333333333,Mamma Mia! (2008),795421
 60471,2.5,Rogue (2007),479528
-60487,3.5,"It's the Great Pumpkin, Charlie Brown (1966)",60550
+60487,3.5,"Its the Great Pumpkin, Charlie Brown (1966)",60550
 60514,2.75,Journey to the Center of the Earth (2008),373051
 60516,2.5,Meet Dave (2008),765476
 60609,4,Death Note (2006),758742
@@ -7024,7 +7024,7 @@ id,average_rating,title,imdbId
 62081,3.375,Eagle Eye (2008),1059786
 62113,3.25,How to Lose Friends & Alienate People (2008),455538
 62115,5,Six Shooter (2004),425458
-62155,3.285714286,Nick and Norah's Infinite Playlist (2008),981227
+62155,3.285714286,Nick and Norahs Infinite Playlist (2008),981227
 62203,4,Martyrs (2008),1029234
 62250,3,Gomorrah (Gomorra) (2008),929425
 62331,4.5,Dead Leaves (2004),439533
@@ -7046,7 +7046,7 @@ id,average_rating,title,imdbId
 62801,4,Lone Wolf and Cub: Baby Cart to Hades (Kozure Ôkami: Shinikazeni mukau ubaguruma) (1972),68817
 62849,3.55,RocknRolla (2008),1032755
 62912,3,High School Musical 3: Senior Year (2008),962726
-62956,3.916666667,Futurama: Bender's Game (2008),1054486
+62956,3.916666667,Futurama: Benders Game (2008),1054486
 62999,3.1875,Madagascar: Escape 2 Africa (2008),479952
 63062,3.666666667,Changeling (2008),824747
 63072,3.375,"Road, The (2009)",898367
@@ -7075,12 +7075,12 @@ id,average_rating,title,imdbId
 64034,4.0625,"Boy in the Striped Pajamas, The (Boy in the Striped Pyjamas, The) (2008)",914798
 64114,4.5,Fireproof (2008),1129423
 64116,1,Igor (2008),465502
-64153,1,"Devil's Chair, The (2006)",837791
+64153,1,"Devils Chair, The (2006)",837791
 64197,4.166666667,Hunger (2008),986233
 64229,3.5,Cadillac Records (2008),1042877
 64249,3.25,Shrek the Halls (2007),897387
-64278,5,"Pervert's Guide to Cinema, The (2006)",828154
-64285,3.75,Wallace and Gromit in 'A Matter of Loaf and Death' (2008),1118511
+64278,5,"Perverts Guide to Cinema, The (2006)",828154
+64285,3.75,Wallace and Gromit in A Matter of Loaf and Death (2008),1118511
 64321,4.5,"Friend of Mine, A (Ein Freund von mir) (2006)",441762
 64338,2.5,Gypsy (1993),107065
 64497,2.5,"Day the Earth Stood Still, The (2008)",970416
@@ -7093,7 +7093,7 @@ id,average_rating,title,imdbId
 64622,3.25,"Reader, The (2008)",976051
 64660,5,Waiter (Ober) (2006),476681
 64695,3,Sword of the Stranger (Sutorejia: Mukô hadan) (2007),1121794
-64701,3,I've Loved You So Long (Il y a longtemps que je t'aime) (2008),1068649
+64701,3,Ive Loved You So Long (Il y a longtemps que je taime) (2008),1068649
 64716,4.045454545,Seven Pounds (2008),814314
 64839,3.970588235,"Wrestler, The (2008)",1125849
 64900,4,"Chinese Ghost Story II, A (Sien nui yau wan II yan gaan do) (1990)",100625
@@ -7108,7 +7108,7 @@ id,average_rating,title,imdbId
 65126,3.75,Choke (2008),1024715
 65130,3.5,Revolutionary Road (2008),959337
 65133,3.75,Blackadder Back & Forth (1999),212579
-65135,3.25,Blackadder's Christmas Carol (1988),94754
+65135,3.25,Blackadders Christmas Carol (1988),94754
 65188,3.6,Dear Zachary: A Letter to a Son About His Father (2008),1152758
 65193,4,Wild Child (2008),1024255
 65216,5,Defiance (2008),1034303
@@ -7139,7 +7139,7 @@ id,average_rating,title,imdbId
 66171,3,Push (2009),465580
 66198,2.5,"International, The (2009)",963178
 66200,2.5,Two Lovers (2008),1103275
-66203,3.125,He's Just Not That Into You (2009),1001508
+66203,3.125,Hes Just Not That Into You (2009),1001508
 66246,2.5,Numbskull Emptybrook (Uuno Turhapuro) (1973),70860
 66297,3.583333333,Futurama: Into the Wild Green Yonder (2009),1054487
 66310,2,Frontière(s) (2007),814685
@@ -7150,7 +7150,7 @@ id,average_rating,title,imdbId
 66509,2.5,Funny People (2009),1201167
 66544,3,Nuremberg (2000),208629
 66596,1.5,Mystery Team (2009),1237838
-66659,0.5,Tyler Perry's Madea Goes to Jail (2009),1142800
+66659,0.5,Tyler Perrys Madea Goes to Jail (2009),1142800
 66665,4.2,Away We Go (2009),1176740
 66686,3.5,"Unsuspected, The (1947)",39941
 66744,4,"Divo, Il (2008)",1023490
@@ -7158,7 +7158,7 @@ id,average_rating,title,imdbId
 66798,4,"Pink Panther 2, The (2009)",838232
 66808,1,Far Cry (2008),400426
 66915,3,Rock-A-Doodle (1991),102802
-66934,3.625,Dr. Horrible's Sing-Along Blog (2008),1227926
+66934,3.625,Dr. Horribles Sing-Along Blog (2008),1227926
 67087,3.888888889,"I Love You, Man (2009)",1155056
 67193,2.666666667,Duplicity (2009),1135487
 67197,2.714285714,Knowing (2009),448011
@@ -7206,7 +7206,7 @@ id,average_rating,title,imdbId
 68838,4.25,Every Little Step (2008),977648
 68848,3.5,"Brothers Bloom, The (2008)",844286
 68872,4,Paisan (Paisà) (1946),38823
-68884,0.5,Shall We Kiss? (Un baiser s'il vous plait) (2007),920473
+68884,0.5,Shall We Kiss? (Un baiser sil vous plait) (2007),920473
 68901,3.5,Chop Shop (2007),990404
 68932,2,"Soloist, The (2009)",821642
 68945,3.5,Neon Genesis Evangelion: Death & Rebirth (Shin seiki Evangelion Gekijô-ban: Shito shinsei) (1997),169880
@@ -7214,7 +7214,7 @@ id,average_rating,title,imdbId
 68954,3.942622951,Up (2009),1049413
 68959,2.5,Fullmetal Alchemist the Movie: Conqueror of Shamballa (Gekijô-ban hagane no renkinjutsushi: Shanbara wo yuku mono) (2005),485323
 68965,0.5,Dance Flick (2009),1153706
-68967,4,"Summer Hours (Heure d'été, L') (2008)",836700
+68967,4,"Summer Hours (Heure dété, L) (2008)",836700
 69069,3.666666667,Fired Up (2009),1083456
 69118,1.5,In the Electric Mist (2009),910905
 69122,3.613636364,"Hangover, The (2009)",1119646
@@ -7241,7 +7241,7 @@ id,average_rating,title,imdbId
 69644,3.333333333,Ice Age: Dawn of the Dinosaurs (2009),1080016
 69654,4,Prison Break: The Final Break (2009),1131748
 69685,3,Daria: Is It College Yet? (2002),285627
-69712,2.875,My Sister's Keeper (2009),1078588
+69712,2.875,My Sisters Keeper (2009),1078588
 69720,1.5,Hood of Horror (2006),475298
 69746,2.5,Watchmen: Tales of the Black Freighter (2009),1295071
 69757,3.755555556,(500) Days of Summer (2009),1022603
@@ -7255,7 +7255,7 @@ id,average_rating,title,imdbId
 69945,2.5,"Fast and the Furious, The (1955)",46969
 69951,3.428571429,"Imaginarium of Doctor Parnassus, The (2009)",1054606
 69974,0.5,Shiver (Eskalofrío) (2008),896927
-70121,0.5,'Neath the Arizona Skies (1934),24805
+70121,0.5,Neath the Arizona Skies (1934),24805
 70159,4,Orphan (2009),1148204
 70183,3.625,"Ugly Truth, The (2009)",1142988
 70188,2.5,Wild River (1960),54476
@@ -7267,24 +7267,24 @@ id,average_rating,title,imdbId
 70336,2.416666667,G.I. Joe: The Rise of Cobra (2009),1046173
 70344,3.5,Cold Souls (2009),1127877
 70418,3,Introducing Dorothy Dandridge (1999),172348
-70465,4,Jerusalema (Gangster's Paradise: Jerusalema) (2008),783532
+70465,4,Jerusalema (Gangsters Paradise: Jerusalema) (2008),783532
 70488,3.5,Wings of Hope (Julianes Sturz in den Dschungel) (2000),249248
 70533,3.3,Evangelion: 1.0 You Are (Not) Alone (Evangerion shin gekijôban: Jo) (2007),923811
 70545,2,"Deal, The (2008)",848281
 70565,3,"Goods: Live Hard, Sell Hard, The (2009)",1092633
 70567,3.5,Adam (2009),1185836
 70597,2.5,Gigantic (2008),1176251
-70599,2.5,"Time Traveler's Wife, The (2009)",452694
+70599,2.5,"Time Travelers Wife, The (2009)",452694
 70663,3.5,"I Love You, Beth Cooper (2009)",1032815
 70678,4.5,Huhwihaji Anha (No Regret) (2006),996948
 70697,1.75,G-Force (2009),436339
 70728,3.5,Bronson (2009),1172570
 70751,2.5,Little Richard (2000),228528
 70762,5,"Curiosity of Chance, The (2006)",481273
-70846,2,Lorna's Silence (Le silence de Lorna) (2008),1186369
+70846,2,Lornas Silence (Le silence de Lorna) (2008),1186369
 70862,3.166666667,It Might Get Loud (2008),1229360
 70898,4.5,Post Grad (2009),1142433
-70927,3,To Each His Own Cinema (Chacun son cinéma ou Ce petit coup au coeur quand la lumière s'éteint et que le film commence) (2007),973844
+70927,3,To Each His Own Cinema (Chacun son cinéma ou Ce petit coup au coeur quand la lumière séteint et que le film commence) (2007),973844
 70946,0.5,Troll 2 (1990),105643
 70984,3.5,Taking Woodstock (2009),1127896
 70994,3.5,Halloween II (2009),1311067
@@ -7297,7 +7297,7 @@ id,average_rating,title,imdbId
 71135,3.857142857,Pandorum (2009),1188729
 71156,3.625,"Men Who Stare at Goats, The (2009)",1234548
 71180,5,Padre padrone (1977),76517
-71205,3.5,Jennifer's Body (2009),1131734
+71205,3.5,Jennifers Body (2009),1131734
 71211,3.055555556,"Informant!, The (2009)",1130080
 71248,2.625,Extract (2009),1225822
 71252,2.166666667,"Final Destination, The (Final Destination 4) (Final Destination in 3-D, The) (2009)",1144884
@@ -7309,7 +7309,7 @@ id,average_rating,title,imdbId
 71379,2.928571429,Paranormal Activity (2009),1179904
 71390,5,"Not Quite Hollywood: The Wild, Untold Story of Ozploitation! (2008)",996966
 71404,4,"3 Worlds of Gulliver, The (1960)",53882
-71429,4.333333333,World's Greatest Dad (2009),1262981
+71429,4.333333333,Worlds Greatest Dad (2009),1262981
 71433,4.5,"Black God, White Devil (Deus e o Diabo na Terra do Sol) (1964)",58006
 71438,3.5,Still Walking (Aruitemo aruitemo) (2008),1087578
 71460,1,Wanted (2009),1084972
@@ -7345,8 +7345,8 @@ id,average_rating,title,imdbId
 72104,3,Balance (1989),96880
 72109,4,Vampire Girl vs. Frankenstein Girl (Kyûketsu Shôjo tai Shôjo Furanken) (2009),1425928
 72129,3.25,Saw VI (2009),1233227
-72131,4,Michael Jackson's This Is It (2009),1477715
-72165,3,Cirque du Freak: The Vampire's Assistant (2009),450405
+72131,4,Michael Jacksons This Is It (2009),1477715
+72165,3,Cirque du Freak: The Vampires Assistant (2009),450405
 72169,3.25,Good Hair (2009),1213585
 72171,4.083333333,Black Dynamite (2009),1190536
 72176,3,Big Fan (2009),1228953
@@ -7372,7 +7372,7 @@ id,average_rating,title,imdbId
 72626,3,"Billy Blazes, Esq. (1919)",9932
 72630,3.5,Sleep Dealer (2008),804529
 72641,3.894736842,"Blind Side, The  (2009)",878804
-72647,4.5,Zorn's Lemma (1970),131149
+72647,4.5,Zorns Lemma (1970),131149
 72683,4,Limit (Limite) (1931),22080
 72694,2,Shrink (2009),1247692
 72696,1.5,Old Dogs (2009),976238
@@ -7381,14 +7381,14 @@ id,average_rating,title,imdbId
 72731,3,"Lovely Bones, The (2009)",380510
 72733,3.75,Invictus (2009),1057500
 72737,2.9,"Princess and the Frog, The (2009)",780521
-72741,3.5,Everybody's Fine (2009),780511
+72741,3.5,Everybodys Fine (2009),780511
 72762,2.5,Armored (2009),913354
 72781,4.5,Red Chapel (Røde kapel) (2006),1104746
 72880,4,Flaming Creatures (1963),54880
 72919,2.5,Did You Hear About the Morgans? (2009),1314228
 72947,4,Make the Yuletide Gay (2009),1305714
 72998,3.641791045,Avatar (2009),499549
-73015,2.375,It's Complicated (2009),1230414
+73015,2.375,Its Complicated (2009),1230414
 73017,3.875,Sherlock Holmes (2009),988045
 73023,3.785714286,Crazy Heart (2009),1263670
 73042,2.25,Alvin and the Chipmunks: The Squeakquel (2009),1231580
@@ -7399,10 +7399,10 @@ id,average_rating,title,imdbId
 73266,3.6,Youth in Revolt (2009),403702
 73268,3.333333333,Daybreakers (2010),433362
 73276,3,"Age of Stupid, The (2009)",1300563
-73290,4.5,Hachiko: A Dog's Story (a.k.a. Hachi: A Dog's Tale) (2009),1028532
+73290,4.5,Hachiko: A Dogs Story (a.k.a. Hachi: A Dogs Tale) (2009),1028532
 73319,3,Leap Year (2010),1216492
 73321,3.588235294,"Book of Eli, The (2010)",1037705
-73323,3.5,"Girl Who Kicked the Hornet's Nest, The (Luftslottet som sprängdes) (2009)",1343097
+73323,3.5,"Girl Who Kicked the Hornets Nest, The (Luftslottet som sprängdes) (2009)",1343097
 73344,4.416666667,"Prophet, A (Un Prophète) (2009)",1235166
 73386,1.5,Staten Island (2009),976246
 73392,3.5,Collapse (2009),1503769
@@ -7420,7 +7420,7 @@ id,average_rating,title,imdbId
 73881,3.875,3 Idiots (2009),1187043
 73929,2.375,Legion (2010),1038686
 74089,5,Peter Pan (1960),54176
-74115,2,Dante's Inferno Animated (2010),1472122
+74115,2,Dantes Inferno Animated (2010),1472122
 74152,4.5,Zach Galifianakis: Live at the Purple Onion (2006),804558
 74154,3.5,When in Rome (2010),1185416
 74156,2,Edge of Darkness (2010),1226273
@@ -7432,7 +7432,7 @@ id,average_rating,title,imdbId
 74370,3,"House of the Devil, The (2009)",1172994
 74416,4.25,Fish Tank (2009),1232776
 74438,2,"Legend of the Red Dragon (a.k.a. New Legend of Shaolin, The) (Hong Xi Guan: Zhi Shao Lin wu zu) (1994)",110054
-74450,3.75,Valentine's Day (2010),817230
+74450,3.75,Valentines Day (2010),817230
 74452,2.833333333,"Wolfman, The (2010)",780653
 74458,3.794117647,Shutter Island (2010),1130884
 74486,3.833333333,$9.99 (2008),790799
@@ -7451,7 +7451,7 @@ id,average_rating,title,imdbId
 74688,2,Dear John (2010),989757
 74698,2,Tooth Fairy (2010),808510
 74727,5,Gentlemen of Fortune (Dzhentlmeny udachi) (1972),68519
-74740,3.5,Fermat's Room (La habitación de Fermat) (2007),1016301
+74740,3.5,Fermats Room (La habitación de Fermat) (2007),1016301
 74754,5,"Room, The (2003)",368226
 74787,3,My Name is Khan (2010),1188996
 74789,3.125,Alice in Wonderland (2010),1014759
@@ -7459,12 +7459,12 @@ id,average_rating,title,imdbId
 74851,3,From Paris with Love (2010),1179034
 74868,3,Dorian Gray (2009),1235124
 74916,3.125,Greenberg (2010),1234654
-74944,3,Brooklyn's Finest (2010),1210042
-74946,3.375,She's Out of My League (2010),815236
+74944,3,Brooklyns Finest (2010),1210042
+74946,3.375,Shes Out of My League (2010),815236
 74948,3.666666667,Harry Brown (2009),1289406
 75341,2.25,Remember Me (2010),1403981
 75349,2.5,Teenage Caveman (2002),283043
-75440,4.5,Will Ferrell: You're Welcome America - A Final Night with George W Bush (2009),1386011
+75440,4.5,Will Ferrell: Youre Welcome America - A Final Night with George W Bush (2009),1386011
 75803,1.5,Our Family Wedding (2010),1305583
 75805,2.125,"Bounty Hunter, The (2010)",1038919
 75813,3.166666667,Leaves of Grass (2009),1151359
@@ -7475,7 +7475,7 @@ id,average_rating,title,imdbId
 75990,4.5,"Apprenticeship of Duddy Kravitz, The (1974)",71155
 76030,2.75,Case 39 (2009),795351
 76054,3.5,Oceans (Océans) (2009),765128
-76060,2,"Slammin' Salmon, The (2009)",1135525
+76060,2,"Slammin Salmon, The (2009)",1135525
 76077,3,Hot Tub Time Machine (2010),1231587
 76091,4,Mother (Madeo) (2009),1216496
 76093,4.151515152,How to Train Your Dragon (2010),892769
@@ -7507,7 +7507,7 @@ id,average_rating,title,imdbId
 77800,3.6,Four Lions (2010),1341167
 77808,2.5,Bobby Deerfield (1977),75774
 77810,4,Diary of a Nymphomaniac (Diario de una Ninfómana) (2008),1111890
-77837,4,You Don't Know Jack (2010),1132623
+77837,4,You Dont Know Jack (2010),1132623
 77846,4.125,12 Angry Men (1997),118528
 77866,2.75,Robin Hood (2010),955308
 77907,4.5,"Red Chapel, The (Røde kapel, Det) (2009)",1546653
@@ -7534,7 +7534,7 @@ id,average_rating,title,imdbId
 78499,4.071428571,Toy Story 3 (2010),435761
 78517,3,Joan Rivers: A Piece of Work (2010),1568150
 78544,4,Ricky Gervais Live 3: Fame (2007),993779
-78574,3.583333333,Winter's Bone (2010),1399683
+78574,3.583333333,Winters Bone (2010),1399683
 78637,2.8,Shrek Forever After (a.k.a. Shrek: The Final Chapter) (2010),892791
 78653,3.5,Everyone Else (Alle Anderen) (2009),1204773
 78703,3.5,TiMER (2009),1179794
@@ -7545,7 +7545,7 @@ id,average_rating,title,imdbId
 78893,1.5,"Last Airbender, The (2010)",938283
 78903,5,State of Siege (État de siège) (1972),70959
 78967,4,"Island of Dr. Moreau, The (1977)",76210
-79006,4,Empire of Dreams: The Story of the 'Star Wars' Trilogy (2004),416716
+79006,4,Empire of Dreams: The Story of the Star Wars Trilogy (2004),416716
 79008,4.25,South Park: Imaginationland (2008),1308667
 79029,4,Kurt Cobain About a Son (2006),790769
 79057,3.166666667,Predators (2010),1424381
@@ -7553,7 +7553,7 @@ id,average_rating,title,imdbId
 79132,4.04954955,Inception (2010),1375666
 79134,3,Grown Ups (2010),1375670
 79136,4.5,Thirst (2008),1101048
-79139,4,"Sorcerer's Apprentice, The (2010)",963966
+79139,4,"Sorcerers Apprentice, The (2010)",963966
 79163,4,Swedish Auto (2006),800228
 79185,2.8125,Knight and Day (2010),1013743
 79203,4.5,Nightwatching (2007),446750
@@ -7563,7 +7563,7 @@ id,average_rating,title,imdbId
 79259,2.5,Cherrybomb (2009),1248971
 79274,3.125,Batman: Under the Red Hood (2010),1569923
 79293,2.708333333,Salt (2010),944835
-79299,2.5,"No. 1 Ladies' Detective Agency, The (2008)",874957
+79299,2.5,"No. 1 Ladies Detective Agency, The (2008)",874957
 79318,4,Winnebago Man (2009),1396557
 79357,4.166666667,Mr. Nobody (2009),485947
 79428,2.5,Dinner for Schmucks (2010),427152
@@ -7573,7 +7573,7 @@ id,average_rating,title,imdbId
 79590,2.5,"Rebound, The (2009)",1205535
 79592,3.428571429,"Other Guys, The (2010)",1386588
 79677,5,"Two Escobars, The (2010)",1522863
-79686,4.5,All Tomorrow's Parties (2009),870210
+79686,4.5,All Tomorrows Parties (2009),870210
 79695,2.5,"Expendables, The (2010)",1320253
 79702,3.961538462,Scott Pilgrim vs. the World (2010),446029
 79720,3.25,Animal Kingdom (2010),1313092
@@ -7598,13 +7598,13 @@ id,average_rating,title,imdbId
 80549,3.678571429,Easy A (2010),1282140
 80551,2.5,Eat Pray Love (2010),879870
 80553,5,Howl (2010),1049402
-80572,2.5,I'm Still Here (2010),1356864
+80572,2.5,Im Still Here (2010),1356864
 80584,4.5,"Patrik Age 1.5 (Patrik 1,5) (2008)",1067733
 80586,3.75,Flipped (2010),817177
 80590,2,Wall Street: Money Never Sleeps (2010),1027718
 80599,4.5,Buster Keaton: A Hard Act to Follow (1987),172202
-80615,2,Legend of the Guardians: The Owls of Ga'Hoole (2010),1219342
-80693,4,It's Kind of a Funny Story (2010),804497
+80615,2,Legend of the Guardians: The Owls of GaHoole (2010),1219342
+80693,4,Its Kind of a Funny Story (2010),804497
 80717,5,Voyeur (Abel) (1986),90579
 80727,3.25,Middle Men (2009),1251757
 80736,1.5,"Poughkeepsie Tapes, The (2007)",1010271
@@ -7620,14 +7620,14 @@ id,average_rating,title,imdbId
 80906,3.95,Inside Job (2010),1645089
 80917,3,Monsters (2010),1470827
 80969,3.5,Never Let Me Go (2010),1334260
-81018,3.5,"Illusionist, The (L'illusionniste) (2010)",775489
+81018,3.5,"Illusionist, The (Lillusionniste) (2010)",775489
 81054,4,Love Is Colder Than Death (Liebe ist kälter als der Tod) (1969),64588
 81083,3.75,Kaboom (2010),1523483
 81132,4,Rubber (2010),1612774
 81138,2.5,7 Days (Les 7 jours du talion) (2010),445054
 81156,3.75,Jackass 3D (2010),1116184
 81158,3.333333333,Restrepo (2010),1559549
-81191,3,Waiting for 'Superman' (2010),1566648
+81191,3,Waiting for Superman (2010),1566648
 81229,4.027777778,Red (2010),1245526
 81417,3.5,Paranormal Activity 2 (2010),1536044
 81512,3,Hereafter (2010),1212419
@@ -7646,13 +7646,13 @@ id,average_rating,title,imdbId
 81819,4,Biutiful (2010),1164999
 81831,4,"First Beautiful Thing, The (La prima cosa bella) (2010)",1467273
 81834,3.924242424,Harry Potter and the Deathly Hallows: Part 1 (2010),926084
-81845,3.925,"King's Speech, The (2010)",1504320
+81845,3.925,"Kings Speech, The (2010)",1504320
 81847,3.666666667,Tangled (2010),398286
 81898,0.5,"Agony and the Ecstasy of Phil Spector, The (2009)",1518821
 81910,3,"Art of the Steal, The (2009)",1326733
 81932,4.136363636,"Fighter, The (2010)",964517
 81949,3,"Romantics, The (2010)",1403988
-82035,2.5,Cocaine Cowboys II: Hustlin' With the Godmother (2008),1176726
+82035,2.5,Cocaine Cowboys II: Hustlin With the Godmother (2008),1176726
 82037,3,"Tillman Story, The (2010)",1568334
 82041,3.5,"Loved Ones, The (2009)",1316536
 82093,1.5,London Boulevard (2010),1213648
@@ -7669,12 +7669,12 @@ id,average_rating,title,imdbId
 82461,2.884615385,Tron: Legacy (2010),1104001
 82463,3.5,Another Year (2010),1431181
 82499,3.25,How Do You Know (2010),1341188
-82527,4.166666667,Barney's Version (2010),1423894
+82527,4.166666667,Barneys Version (2010),1423894
 82534,3,"Company Men, The (2010)",1172991
 82608,5,Zerophilia (2005),421090
 82667,3.875,I Saw the Devil (Akmareul boatda) (2010),1588170
 82852,2.333333333,Little Fockers (2010),970866
-82854,1.75,Gulliver's Travels (2010),1320261
+82854,1.75,Gullivers Travels (2010),1320261
 82931,3.5,"Last Circus, The (Balada triste de trompeta) (Sad Trumpet Ballad, A) (2010)",1572491
 82934,3,"Most Dangerous Man in America: Daniel Ellsberg and the Pentagon Papers, The (2009)",1319726
 83086,1,Burlesque (2010),1126591
@@ -7686,11 +7686,11 @@ id,average_rating,title,imdbId
 83293,3.5,Waste Land (2010),1268204
 83318,5,"Goat, The (1921)",12224
 83322,4,"Boat, The (1921)",11984
-83332,4,Who Is Harry Nilsson (And Why Is Everybody Talkin' About Him?) (2010),756727
+83332,4,Who Is Harry Nilsson (And Why Is Everybody Talkin About Him?) (2010),756727
 83349,2.1875,"Green Hornet, The (2011)",990407
 83359,5,"Play House, The (1921)",12570
 83361,3.5,"Paleface, The (1922)",12543
-83374,2.5,"Warrior's Way, The (2010)",1032751
+83374,2.5,"Warriors Way, The (2010)",1032751
 83411,5,Cops (1922),13025
 83480,3,Season of the Witch (2011),479997
 83506,4,Ricky Gervais Live 4: Science (2010),1815899
@@ -7708,7 +7708,7 @@ id,average_rating,title,imdbId
 84160,3.5,Wishful Drinking (2010),1705977
 84187,3.75,Evangelion: 2.0 You Can (Not) Advance (Evangerion shin gekijôban: Ha) (2009),860906
 84236,4,"White Stripes Under Great White Northern Lights, The (2009)",1487275
-84304,3.5,What Women Want (a.k.a. I Know a Woman's Heart) (2011),1667150
+84304,3.5,What Women Want (a.k.a. I Know a Womans Heart) (2011),1667150
 84312,1,Home Alone 4 (2002),329200
 84374,2.9375,No Strings Attached (2011),1411238
 84392,3.5,"Lincoln Lawyer, The (2011)",1189340
@@ -7750,13 +7750,13 @@ id,average_rating,title,imdbId
 85612,3.5,Eden (2006),765444
 85736,4,BURN-E (2008),1334585
 85774,4.111111111,Senna (2010),1424432
-85780,3,Family Guy Presents: It's a Trap (2010),1701991
+85780,3,Family Guy Presents: Its a Trap (2010),1701991
 85788,3.5,Insidious (2010),1591095
 85796,2.25,Hobo with a Shotgun (2011),1640459
 85881,3.416666667,Win Win (2011),1606392
 86000,4.75,Boy (2010),1560139
 86014,3,Diary of a Wimpy Kid: Rodrick Rules (2011),1650043
-86028,2,Henry's Crime (2010),1220888
+86028,2,Henrys Crime (2010),1220888
 86059,1,Hop (2011),1411704
 86142,3.3,13 Assassins (Jûsan-nin no shikaku) (2010),1436045
 86190,3,Hanna (2011),993842
@@ -7800,7 +7800,7 @@ id,average_rating,title,imdbId
 87383,3,Curly Top (1935),26252
 87430,2.4,Green Lantern (2011),1133985
 87444,1.5,Elektra Luxx (2010),1340773
-87483,2,Mr. Popper's Penguins (2011),1396218
+87483,2,Mr. Poppers Penguins (2011),1396218
 87485,2.25,Bad Teacher (2011),1284575
 87520,2.722222222,Transformers: Dark of the Moon (2011),1399103
 87522,2.75,Larry Crowne (2011),1583420
@@ -7824,7 +7824,7 @@ id,average_rating,title,imdbId
 88235,4,"Guard, The (2011)",1540133
 88267,3.25,Winnie the Pooh (2011),1449283
 88272,2,"Woman, The (2011)",1714208
-88345,4,Mike's New Car (2002),323250
+88345,4,Mikes New Car (2002),323250
 88356,2,"Smurfs, The (2011)",472181
 88380,3.5,Dylan Dog: Dead of Night (2010),1013860
 88405,3.111111111,Friends with Benefits (2011),1632708
@@ -7858,7 +7858,7 @@ id,average_rating,title,imdbId
 89337,3,"Interrupters, The (2011)",1319744
 89343,3.5,Red State (2011),873886
 89356,3.5,Chinese Take-Out (Chinese Take-Away) (Un cuento chino) (2011),1705786
-89388,1,I Don't Know How She Does It (2011),1742650
+89388,1,I Dont Know How She Does It (2011),1742650
 89408,3,April Love (1957),50135
 89427,1.5,Shark Night 3D (2011),1633356
 89470,3.5,Contagion (2011),1598778
@@ -7894,7 +7894,7 @@ id,average_rating,title,imdbId
 90522,2,Johnny English Reborn (2011),1634122
 90524,2,Abduction (2011),1600195
 90531,3.642857143,Shame (2011),1723811
-90576,4.25,What's Your Number? (2011),770703
+90576,4.25,Whats Your Number? (2011),770703
 90600,4.166666667,Headhunters (Hodejegerne) (2011),1614989
 90603,2.5,Batman: Year One (2011),1672723
 90647,2.5,Puss in Boots (2011),448694
@@ -7934,7 +7934,7 @@ id,average_rating,title,imdbId
 91582,2.5,Stagecoach (1966),61024
 91610,2,Toronto Stories (2008),1113827
 91622,2.5,Young Adult (2011),1625346
-91628,1.75,New Year's Eve (2011),1598822
+91628,1.75,New Years Eve (2011),1598822
 91630,3.722222222,Mission: Impossible - Ghost Protocol (2011),1229238
 91653,3.5,We Bought a Zoo (2011),1389137
 91658,3.8125,"Girl with the Dragon Tattoo, The (2011)",1568346
@@ -7943,7 +7943,7 @@ id,average_rating,title,imdbId
 91688,1.5,Salvation Boulevard (2011),1251743
 91690,5,Friends with Kids (2011),1720616
 91842,2.375,Contraband (2012),1524137
-91869,3,Being Elmo: A Puppeteer's Journey (2011),1787660
+91869,3,Being Elmo: A Puppeteers Journey (2011),1787660
 91873,1.5,Joyful Noise (2012),1710396
 91886,4,Dolphin Tale (2011),1564349
 91890,3.5,"Iron Lady, The (2011)",1007029
@@ -7987,7 +7987,7 @@ id,average_rating,title,imdbId
 93242,1.5,Gone (2012),1838544
 93265,4.5,Courageous (2011),1630036
 93270,1.666666667,Project X (2012),1636826
-93272,2,Dr. Seuss' The Lorax (2012),1482459
+93272,2,Dr. Seuss The Lorax (2012),1482459
 93287,3.25,"Big Year, The (2011)",1053810
 93320,5,Trailer Park Boys (1999),383678
 93324,5,Undefeated (2011),1860355
@@ -8001,7 +8001,7 @@ id,average_rating,title,imdbId
 93512,3.375,"Jeff, Who Lives at Home (2012)",1588334
 93563,1.5,Lockout (2012),1592525
 93693,4,Casa de mi Padre (2012),1702425
-93700,4,Corman's World: Exploits of a Hollywood Rebel (2011),1185371
+93700,4,Cormans World: Exploits of a Hollywood Rebel (2011),1185371
 93721,3.75,Jiro Dreams of Sushi (2011),1772925
 93766,1,Wrath of the Titans (2012),1646987
 93805,3.5,Iron Sky (2012),1034314
@@ -8038,28 +8038,28 @@ id,average_rating,title,imdbId
 94959,3.711538462,Moonrise Kingdom (2012),1748122
 95067,2.5,"Thousand Words, A (2012)",763831
 95088,4.166666667,Safety Not Guaranteed (2012),1862079
-95105,1.75,Madagascar 3: Europe's Most Wanted (2012),1277953
-95113,5,Eaux d'artifice (1953),45719
+95105,1.75,Madagascar 3: Europes Most Wanted (2012),1277953
+95113,5,Eaux dartifice (1953),45719
 95115,4.5,Inauguration of the Pleasure Dome (1954),47114
-95135,4,Your Sister's Sister (2011),1742336
-95147,3.5,Dragon Ball: Sleeping Princess in Devil's Castle (Doragon bôru: Majinjô no nemuri hime) (1987),142249
-95165,3,Dragon Ball Z the Movie: The World's Strongest (a.k.a. Dragon Ball Z: The Strongest Guy in The World) (Doragon bôru Z: Kono yo de ichiban tsuyoi yatsu) (1990),142240
+95135,4,Your Sisters Sister (2011),1742336
+95147,3.5,Dragon Ball: Sleeping Princess in Devils Castle (Doragon bôru: Majinjô no nemuri hime) (1987),142249
+95165,3,Dragon Ball Z the Movie: The Worlds Strongest (a.k.a. Dragon Ball Z: The Strongest Guy in The World) (Doragon bôru Z: Kono yo de ichiban tsuyoi yatsu) (1990),142240
 95167,3.576923077,Brave (2012),1217209
 95182,3,Dragon Ball Z the Movie: The Tree of Might (Doragon bôru Z 3: Chikyû marugoto chô kessen) (1990),142233
-95199,2.25,What to Expect When You're Expecting (2012),1586265
+95199,2.25,What to Expect When Youre Expecting (2012),1586265
 95201,3,To Rome with Love (2012),1859650
 95207,1.75,Abraham Lincoln: Vampire Hunter (2012),1611224
 95307,2.6,Rock of Ages (2012),1336608
 95309,3.666666667,Seeking a Friend for the End of the World (2012),1307068
 95311,3.333333333,Presto (2008),1245104
 95313,5,Jack-Jack Attack (2005),455565
-95375,3,Boundin' (2003),395479
+95375,3,Boundin (2003),395479
 95377,5,One Man Band (2005),479113
 95441,2.95,Ted (2012),1637725
 95443,0.5,"Giant Mechanical Man, The (2012)",1769363
 95449,3.333333333,Magic Mike (2012),1915581
 95473,3.5,Dragon Ball Z: The Return of Cooler (Doragon bôru Z 6: Gekitotsu! Hyakuoku pawâ no senshi) (1992),142237
-95475,4.5,Dragon Ball Z: Cooler's Revenge (Doragon bôru Z 5: Tobikkiri no saikyô tai saikyô) (1991),1125254
+95475,4.5,Dragon Ball Z: Coolers Revenge (Doragon bôru Z 5: Tobikkiri no saikyô tai saikyô) (1991),1125254
 95499,4.5,Dragon Ball Z: Broly - The Legendary Super Saiyan (Doragon bôru Z 8: Moetsukiro!! Nessen retsusen-chô gekisen) (1993),142242
 95508,3.5,Cleanskin (2012),1598873
 95510,3.325,"Amazing Spider-Man, The (2012)",948470
@@ -8067,7 +8067,7 @@ id,average_rating,title,imdbId
 95558,3.3,Beasts of the Southern Wild (2012),2125435
 95567,4.5,People Like Us (2012),1716777
 95583,2.75,Savages (2012),1615065
-95654,3.5,Geri's Game (1997),131409
+95654,3.5,Geris Game (1997),131409
 95720,2.5,"Watch, The (2012)",1298649
 95740,0.5,"Adventures of Mary-Kate and Ashley, The: The Case of the United States Navy Adventure (1997)",283856
 95744,2.5,2 Days in New York (2012),1602472
@@ -8082,7 +8082,7 @@ id,average_rating,title,imdbId
 95963,3.5,Dragon Ball Z: Wrath of the Dragon (Doragon bôru Z 13: Ryûken bakuhatsu!! Gokû ga yaraneba dare ga yaru) (1995),142243
 95965,4.5,Dragon Ball Z: Bardock - The Father of Goku (Doragon bôru Z: Tatta hitori no saishuu kessen - Furiiza ni itonda Z senshi Kakarotto no chichi) (1990),142245
 96004,4,Dragon Ball Z: The History of Trunks (Doragon bôru Z: Zetsubô e no hankô!! Nokosareta chô senshi - Gohan to Torankusu) (1993),142247
-96007,3.5,Dragon Ball GT: A Hero's Legacy (Doragon bôru GT: Gokû gaiden! Yûki no akashi wa sû-shin-chû) (1997),142232
+96007,3.5,Dragon Ball GT: A Heros Legacy (Doragon bôru GT: Gokû gaiden! Yûki no akashi wa sû-shin-chû) (1997),142232
 96020,4,Sidewalls (Medianeras) (2011),1235841
 96075,5,Bleak House (2005),442632
 96079,3.9375,Skyfall (2012),1074638
@@ -8105,7 +8105,7 @@ id,average_rating,title,imdbId
 96590,2.5,"Cold Light of Day, The (2012)",1366365
 96606,4,Samsara (2011),770802
 96610,3.5,Looper (2012),1276104
-96616,2.25,That's My Boy (2012),1232200
+96616,2.25,Thats My Boy (2012),1232200
 96634,1,Apartment 143 (2011),1757742
 96655,4.5,Robot & Frank (2012),1990314
 96667,2.5,Ai Weiwei: Never Sorry (2012),1845773
@@ -8142,7 +8142,7 @@ id,average_rating,title,imdbId
 97742,2,Alex Cross (2012),1712170
 97744,4.5,"Ambassador, The (Ambassadøren) (2011)",2048877
 97752,3.428571429,Cloud Atlas (2012),1371111
-97757,2,'Hellboy': The Seeds of Creation (2004),424755
+97757,2,Hellboy: The Seeds of Creation (2004),424755
 97817,4,Pumping Iron II: The Women (1985),89852
 97826,5,"Patience Stone, The (2012)",1638353
 97836,1.75,Here Comes the Boom (2012),1648179
@@ -8220,8 +8220,8 @@ id,average_rating,title,imdbId
 99675,4,Eat Sleep Die (Äta sova dö) (2012),2085002
 99728,3.375,Gangster Squad (2013),1321870
 99741,3.5,"Company You Keep, The (2012)",1381404
-99764,5,It's Such a Beautiful Day (2012),2396224
-99795,4.5,Whores' Glory (2011),1327628
+99764,5,Its Such a Beautiful Day (2012),2396224
+99795,4.5,Whores Glory (2011),1327628
 99811,4,Beware of Mr. Baker (2012),1931388
 99813,4,"Batman: The Dark Knight Returns, Part 2 (2013)",2166834
 99839,4,Paul Williams Still Alive (2011),1956594
@@ -8233,7 +8233,7 @@ id,average_rating,title,imdbId
 100032,2,Beauty Is Embarrassing (2012),2040281
 100034,4,Girl Model (2011),1806911
 100083,1.5,Movie 43 (2013),1333125
-100106,4.5,"Pervert's Guide to Ideology, The (2012)",2152198
+100106,4.5,"Perverts Guide to Ideology, The (2012)",2152198
 100159,3.5,Sightseers (2012),2023690
 100163,2.25,Hansel & Gretel: Witch Hunters (2013),1428538
 100226,1.5,Why Stop Now (2012),1853643
@@ -8323,7 +8323,7 @@ id,average_rating,title,imdbId
 103299,3.25,American Mary (2012),1959332
 103335,3.375,Despicable Me 2 (2013),1690953
 103339,2,White House Down (2013),2334879
-103341,3.55,"World's End, The (2013)",1213663
+103341,3.55,"Worlds End, The (2013)",1213663
 103372,1.833333333,"Heat, The (2013)",2404463
 103384,2.166666667,"Lone Ranger, The (2013)",1210819
 103444,4.5,Woody Allen: A Documentary (2012),2397619
@@ -8353,7 +8353,7 @@ id,average_rating,title,imdbId
 104078,4,Alan Partridge: Alpha Papa (2013),469021
 104119,5,"Forsyte Saga, The (1967)",61253
 104129,2,Man of Tai Chi (2013),2016940
-104211,3,We're the Millers (2013),1723121
+104211,3,Were the Millers (2013),1723121
 104218,2.5,Grown Ups 2 (2013),2191701
 104241,2.333333333,Kick-Ass 2 (2013),1650554
 104243,2.9,Riddick (2013),1411250
@@ -8363,12 +8363,12 @@ id,average_rating,title,imdbId
 104303,3,Jobs (2013),2357129
 104312,3,"Mortal Instruments: City of Bones, The (2013)",1538403
 104321,2.5,Touchy Feely (2013),2364949
-104337,4,Lee Daniels' The Butler (2013),1327773
+104337,4,Lee Daniels The Butler (2013),1327773
 104339,4,In a World... (2013),2294677
 104374,4.033333333,About Time (2013),2194499
 104419,4.5,Justice League: Crisis on Two Earths (2010),1494772
 104441,3.5,"Frozen Ground, The (2013)",2005374
-104457,3.5,You're Next (2011),1853739
+104457,3.5,Youre Next (2011),1853739
 104590,4,Tidal Wave (2009),1153040
 104595,4,Family Band: The Cowsills Story (2011) ,2042520
 104597,3.5,"Chicago 8, The (2011)",1511476
@@ -8389,10 +8389,10 @@ id,average_rating,title,imdbId
 105197,4.375,Nebraska (2013),1821549
 105211,3.5,Enough Said (2013),2390361
 105213,3.2,Don Jon (2013),2229499
-105246,4.25,Mood Indigo (L'écume des jours) (2013),2027140
+105246,4.25,Mood Indigo (Lécume des jours) (2013),2027140
 105254,3,Crystal Fairy & the Magical Cactus and 2012 (2013),2332579
 105351,1.5,Runner Runner (2013),2364841
-105355,4.5,Blue Is the Warmest Color (La vie d'Adèle) (2013),2278871
+105355,4.5,Blue Is the Warmest Color (La vie dAdèle) (2013),2278871
 105429,4,Inequality for All (2013),2215151
 105468,4,Cloudy with a Chance of Meatballs 2 (2013),1985966
 105504,4.2,Captain Phillips (2013),1535109
@@ -8405,7 +8405,7 @@ id,average_rating,title,imdbId
 105769,4.5,"Congress, The (2013)",1821641
 105844,3.958333333,12 Years a Slave (2013),2024544
 105954,3.25,All Is Lost (2013),2017038
-106002,3.409090909,Ender's Game (2013),1731141
+106002,3.409090909,Enders Game (2013),1731141
 106004,3.5,Maniac (1963),56219
 106011,4.5,"Blue Umbrella, The (2013)",2616880
 106022,4,Toy Story of Terror (2013),2446040
@@ -8418,7 +8418,7 @@ id,average_rating,title,imdbId
 106236,3,Somm (2012),2204371
 106330,1.75,Last Vegas (2013),1204975
 106332,3.666666667,Muscle Shoals (2013),2492916
-106397,2.5,Stephen Tobolowsky's Birthday Party (2005),437489
+106397,2.5,Stephen Tobolowskys Birthday Party (2005),437489
 106417,3,Absent (Ausente) (2011),1796406
 106438,4.083333333,Philomena (2013),2431286
 106441,4.25,"Book Thief, The (2013)",816442
@@ -8454,7 +8454,7 @@ id,average_rating,title,imdbId
 107406,3.571428571,Snowpiercer (2013),1706620
 107412,5,"Kidnapping, Caucasian Style (Kavkazskaya plennitsa) (1967)",60584
 107447,5,Wrong Cops (2013),2166616
-107516,3.5,Punk's Dead: SLC Punk! 2 (2014),2836166
+107516,3.5,Punks Dead: SLC Punk! 2 (2014),2836166
 107555,5,Fireworks Wednesday (Chaharshanbe-soori) (2006),845439
 107559,5,Am Ende eiens viel zu kurzen Tages (Death of a superhero) (2011),1384927
 107649,5,Borgman (2013),1954315
@@ -8471,7 +8471,7 @@ id,average_rating,title,imdbId
 108156,2,Ride Along (2014),1408253
 108188,2.333333333,Jack Ryan: Shadow Recruit (2014),1205537
 108190,2.727272727,Divergent (2014),1840309
-108192,4,Hotel Chevalier (Part 1 of 'The Darjeeling Limited') (2007),1094249
+108192,4,Hotel Chevalier (Part 1 of The Darjeeling Limited) (2007),1094249
 108447,1.5,Atrocious (2010),1734067
 108506,2.5,Dark Touch (2013),2328549
 108514,4.5,Yeh Jawaani Hai Deewani (2013),2178470
@@ -8497,7 +8497,7 @@ id,average_rating,title,imdbId
 109161,4,Venus in Fur (La Vénus à la fourrure) (2013),2406252
 109183,4,Date and Switch (2014),1878942
 109187,1.75,"Zero Theorem, The (2013)",2333804
-109191,1.5,Winter's Tale (2014),1837709
+109191,1.5,Winters Tale (2014),1837709
 109205,4,No Nukes (1980),81242
 109249,5,"Journey, The (El viaje) (1992)",105744
 109295,2,Cold Comes the Night (2013),2511428
@@ -8547,7 +8547,7 @@ id,average_rating,title,imdbId
 110882,3.25,Locke (2013),2692904
 111113,3.125,Neighbors (2014),2004420
 111228,2.5,"Fragile Trust: Plagiarism, Power, and Jayson Blair at the New York Times, A (2013)",2525342
-111235,3.5,Jodorowsky's Dune (2013),1935156
+111235,3.5,Jodorowskys Dune (2013),1935156
 111360,2.285714286,Lucy (2014),2872732
 111362,3.791666667,X-Men: Days of Future Past (2014),1877832
 111364,2.928571429,Godzilla (2014),831387
@@ -8579,7 +8579,7 @@ id,average_rating,title,imdbId
 112277,1.5,Haunt (2013),2386278
 112290,3.357142857,Boyhood (2014),1065073
 112303,1.5,Think Like a Man Too (2014),2239832
-112334,3.5,"Internet's Own Boy: The Story of Aaron Swartz, The (2014)",3268458
+112334,3.5,"Internets Own Boy: The Story of Aaron Swartz, The (2014)",3268458
 112370,2.1,Transformers: Age of Extinction (2014),2109248
 112399,4.5,Finding Vivian Maier (2013),2714900
 112421,4.166666667,Frank (2014),1605717
@@ -8595,7 +8595,7 @@ id,average_rating,title,imdbId
 112653,4,"Battered Bastards of Baseball, The (2014)",3445270
 112655,2.5,No One Lives (2012),1763264
 112689,2.5,Miss Violence (2013),3078242
-112735,4.5,Charlie's Country (2013),3244512
+112735,4.5,Charlies Country (2013),3244512
 112749,2,And So It Goes (2014),2465146
 112767,4,Premature (2014),2182256
 112788,1.25,Sex Tape (2014),1956620
@@ -8618,7 +8618,7 @@ id,average_rating,title,imdbId
 113348,2.166666667,Teenage Mutant Ninja Turtles (2014),1291150
 113378,2.166666667,"Giver, The (2014)",435651
 113416,1.5,Revenge of the Green Dragons (2014),1396523
-113453,2.333333333,Let's Be Cops (2014),1924435
+113453,2.333333333,Lets Be Cops (2014),1924435
 113532,3.5,"Inbetweeners 2, The (2014)",3097204
 113565,3,"Sacrament, The (2013)",2383068
 113573,3,Sin City: A Dame to Kill For (2014),458481
@@ -8762,12 +8762,12 @@ id,average_rating,title,imdbId
 126420,1.5,American Heist (2015),2923316
 126430,5,The Pacific (2010),374463
 126548,3,The DUFF (2015),1666801
-127052,5,Operation 'Y' & Other Shurik's Adventures (1965),59550
+127052,5,Operation Y & Other Shuriks Adventures (1965),59550
 127096,2.5,Project Almanac (2015),2436386
 127098,4,Louis C.K.: Live at The Comedy Store (2015),4368814
 127108,5,Brooklyn (2015),2381111
 127114,4,The End of the Tour (2015),3416744
-127124,4,I'll See You in My Dreams (2015),3236120
+127124,4,Ill See You in My Dreams (2015),3236120
 127136,2.166666667,True Story (2015),2273657
 127152,4.25,Going Clear: Scientology and the Prison of Belief (2015),4257858
 127158,3.5,Tig (2015),3986532
@@ -8795,7 +8795,7 @@ id,average_rating,title,imdbId
 129354,3.5,Focus (2015),2381941
 129364,2,Every Thing Will Be Fine (2015),1707380
 129428,3,The Second Best Exotic Marigold Hotel (2015),2555736
-129514,5,George Carlin: It's Bad for Ya! (2008),963207
+129514,5,George Carlin: Its Bad for Ya! (2008),963207
 129653,3,Ismael (2013),1710393
 129657,1,Tracers (2015),2401097
 129659,3.5,"McFarland, USA (2015)",2097298
@@ -8807,7 +8807,7 @@ id,average_rating,title,imdbId
 130351,4,The Wrecking Crew (2008),1185418
 130448,0.5,Poltergeist (2015),1029360
 130450,1.5,Pan (2015),3332064
-130452,3,While We're Young (2014),1791682
+130452,3,While Were Young (2014),1791682
 130490,2.333333333,Insurgent (2015),2908446
 130520,4,Home (2015),2224026
 130522,5,The Brave Little Toaster Goes to Mars (1998),147926
@@ -8860,7 +8860,7 @@ id,average_rating,title,imdbId
 134368,3.7,Spy (2015),3079380
 134393,3.7,Trainwreck (2015),3152624
 134528,3.5,Aloha (2015),1243974
-134569,3.5,She's Funny That Way (2015),1767372
+134569,3.5,Shes Funny That Way (2015),1767372
 134783,3,Entourage (2015),1674771
 134853,4.041666667,Inside Out (2015),2096673
 134859,3.5,The Wolfpack (2015),2415458
@@ -8910,7 +8910,7 @@ id,average_rating,title,imdbId
 139130,4,Afro Samurai (2007),465316
 139385,3.625,The Revenant (2015),1663202
 139415,3,Irrational Man (2015),3715320
-139620,4,Everything's Gonna Be Great (1998),263438
+139620,4,Everythings Gonna Be Great (1998),263438
 139642,3.5,Southpaw (2015),1798684
 139644,3.428571429,Sicario (2015),3397884
 139757,4.25,Best of Enemies (2015),3518012
@@ -8921,7 +8921,7 @@ id,average_rating,title,imdbId
 140174,3.9,Room (2015),3170832
 140237,2,The Runner (2015),3687398
 140247,4,The Gift (2015),4178092
-140265,5,George Carlin: Jammin' in New York (1992),246643
+140265,5,George Carlin: Jammin in New York (1992),246643
 140267,4,The Witch (2015),4263482
 140523,2.5,"Visit, The (2015)",3567288
 140711,3.166666667,American Ultra (2015),3316948
@@ -8965,7 +8965,7 @@ id,average_rating,title,imdbId
 142997,3.5,Hotel Transylvania 2 (2015),2510894
 143255,1.5,Narcopolis (2014),1957938
 143257,2.5,Ashby (2015),3774466
-143377,3.5,Glen Campbell: I'll Be Me (2014),2049586
+143377,3.5,Glen Campbell: Ill Be Me (2014),2049586
 143385,3.5,Bridge of Spies (2015),3682448
 143410,2,Hyena Road,4034452
 143472,1.5,Into the Grizzly Maze (2015),1694021
@@ -8982,12 +8982,12 @@ id,average_rating,title,imdbId
 146309,4,The Boy and the Beast (2015),4272866
 146443,3,Plan B (2009),1408972
 146501,2.5,Land of Storms (2014),2474310
-146604,3,Naomi and Ely's No Kiss List (2015),3282858
+146604,3,Naomi and Elys No Kiss List (2015),3282858
 146656,4.166666667,Creed (2015),3076658
 146682,3.5,Twinsters (2015),2980626
 146688,2,Solace (2015),1291570
 147006,3,Bana Masal Anlatma (2015),4195278
-147010,4,Thou Gild'st the Even (2013),2905772
+147010,4,Thou Gildst the Even (2013),2905772
 147037,5,Straight-Jacket (2004),367097
 147426,3.5,İtirazım Var (2014),3646462
 147845,3.5,Manson Family Vacation (2015),3275216
@@ -8999,7 +8999,7 @@ id,average_rating,title,imdbId
 148881,5,World of Tomorrow (2015),4171032
 148888,3,Zoolander 2 (2016),1608290
 148956,4,How to Be Single (2016),1292566
-149352,3,Daddy's Home (2015),1528854
+149352,3,Daddys Home (2015),1528854
 149354,3.5,Sisters (2015),1850457
 149406,4.333333333,Kung Fu Panda 3 (2016),2267968
 149532,3,Marco Polo: One Hundred Eyes (2015),5248968
@@ -9020,7 +9020,7 @@ id,average_rating,title,imdbId
 152079,1.5,London Has Fallen (2016),3300542
 152081,4,Zootopia (2016),2948356
 152091,3,The Brothers Grimsby (2016),3381008
-152173,3,Michael Jackson's Thriller (1983),88263
+152173,3,Michael Jacksons Thriller (1983),88263
 152844,4,Demons (1971),165473
 153584,5,The Last Days of Emma Blank (2009),1239446
 155392,4,"Hello, My Name Is Doris (2016)",3766394
@@ -9028,13 +9028,13 @@ id,average_rating,title,imdbId
 155820,1,Keanu (2016),4139124
 156025,5,Ice Age: The Great Egg-Scapade (2016),5480340
 156387,4,Sing Street (2016),3544112
-156607,1.25,The Huntsman Winter's War (2016),2381991
+156607,1.25,The Huntsman Winters War (2016),2381991
 156609,3.75,Neighbors 2: Sorority Rising (2016),4438848
 156726,3.5,Hush (2016),5022702
 157200,1.5,Money Monster (2016),2241351
 157296,3.333333333,Finding Dory (2016),2277860
 157407,1.5,I Am Wrath (2016),3212232
-157667,1.5,Mother's Day (2016),4824302
+157667,1.5,Mothers Day (2016),4824302
 158238,3.75,The Nice Guys (2016),3799694
 158314,4.5,Daniel Tosh: Completely Serious (2007),1054478
 158528,3.5,The Shallows (2016),4052882
@@ -9048,7 +9048,7 @@ id,average_rating,title,imdbId
 160080,1,Ghostbusters (2016),1289401
 160271,2.5,Central Intelligence (2016),1489889
 160438,4.25,Jason Bourne (2016),4196776
-160440,1.5,The Maid's Room (2014),2263814
+160440,1.5,The Maids Room (2014),2263814
 160563,2.5,The Legend of Tarzan (2016),918940
 160565,2,The Purge: Election Year (2016),4094724
 160567,4,Mike & Dave Need Wedding Dates (2016),2823054
