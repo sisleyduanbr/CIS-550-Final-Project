@@ -13,6 +13,19 @@ connection.connect((err) => err && console.log(err));
 
 /* routes functions */
 
+
+// /movie/watched/:username
+const getWatchedMovies = async function(req, res) {
+  connection.query(`
+    SELECT *
+    FROM movie
+    LIMIT 10
+  `, (err, data) => {
+    err ? console.log(err) : console.log(data)
+  });
+}
+
+
 /*
 EXAMPLE FROM SWIFTIFY 
 
@@ -41,5 +54,5 @@ const random = async function(req, res) {
 */
 
 module.exports = {
-
+  get_watched_movies: getWatchedMovies
 }
