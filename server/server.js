@@ -11,12 +11,29 @@ app.use(cors({
 // We use express to define our various API endpoints and
 // provide their handlers that we implemented in routes.js
 
+//registration
 app.post('/login_check', routes.login_check);
 app.post('/create_account', routes.create_account);
+
+//profile
 app.get('/display_user_info', routes.display_user_info);
 app.post('/update_profile', routes.update_profile);
+
+//movie
 app.get('/movie/watched', routes.get_watched_movies);
 
+//anime
+
+//anime ranking
+
+//anime watch list
+app.get('/anime/watched', routes.anime_watchlist);
+app.post('/anime/add_anime', routes.anime_addinterest);
+app.post('/anime/remove_anime', routes.anime_removeinterest);
+app.post('/anime/watched_anime', routes.anime_updatewatched);
+
+//anime search
+app.get('/anime/search', routes.anime_search);
 /* 
 
 ------ registration/authentication ------
@@ -45,7 +62,9 @@ app.get('/movie/watched', routes.get_watched_movies);
 
 ------ anime watch list ------ 
 /anime/watch/:username
-/anime/watch/:username (DELETE)
+/anime/add_anime/:username (ADD anime to interest list)
+/anime/remove_anime/:username (DELETE entry from interest list)
+/anime/watched_anime/:username (update anime from interest list to watched)
 
 ------ anime search ------
 anime/search:anime_title

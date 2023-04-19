@@ -57,12 +57,14 @@ const createAccount = async function(req, res) {
 /* PROFILE ROUTES */
 
 const displayUserInfo = async function(req, res) {
-  const username = req.query.username;
+  if (req.session.userId == null) {
+    res.redirect('/');
+  }  
 
   connection.query(`
     SELECT *
     FROM user
-    WHERE username = "${username}"
+    WHERE username = "${req.session.userId}"
   `, (err, data) => {
     if (err || data.length == 0) {
       console.log(err);
@@ -106,32 +108,54 @@ const getWatchedMovies = async function(req, res) {
   });
 }
 
+/* ANIME WATCH LIST */
 
-/*
-EXAMPLE FROM SWIFTIFY 
+const animeWatchlist = async function(req, res) {
+  const username = req.session.userId;
+  connection.query(`
+      WITH anime_
+  `)
+}
 
-const random = async function(req, res) {
-  const explicit = req.query.explicit === 'true' ? 1 : 0;
+const animeAddInterest = async function(req, res) {
+
+}
+
+const animeRemoveInterest = async function(req, res) {
+
+}
+
+const animeUpdateWatched = async function(req, res) {
+
+}
+
+/* ANIME SEARCH ROUTES */
+
+const animeSearch = async function(req, res) {
+  const anime_title = req.query.anime;
 
   connection.query(`
-    SELECT *
-    FROM Songs
-    WHERE explicit <= ${explicit}
-    ORDER BY RAND()
-    LIMIT 1
+    WITH anime_id AS (
+      SELECT anime.id, genre
+      FROM genre_anime JOIN anime ON genre_anime.id = anime.id
+      WHERE anime.title LIKE "%${anime_title}" OR anime.title LIKE "${anime_title}%" OR anime.title LIKE "%${anime_title}%" OR anime.title = "${anime_title}"
+    ),
+    anime_desc AS (
+      SELECT a.id, a.title, a.avg_rating, a.synopsis, a.type, a.num_episodes
+      FROM anime a
+      WHERE a.title LIKE "%${anime_title}" OR a.title LIKE "${anime_title}%" OR a.title LIKE "%${anime_title}%" OR a.title = "${anime_title}"
+    )
+    SELECT DISTINCT ad.id, ad.title, ad.avg_rating, ad.synopsis, ad.type, ad.num_episodes, JSON_EXTRACT(JSON_ARRAYAGG(JSON_OBJECT("genre", genre)), '$[*].genre') as genres
+    FROM anime_desc ad JOIN anime_id ai on ad.id = ai.id
+    GROUP BY ad.id
   `, (err, data) => {
-    if (err || data.length === 0) {
+    if (err) {
       console.log(err);
-      res.json({});
     } else {
-      res.json({
-        song_id: data[0].song_id,
-        title: data[0].title
-      });
+      res.json(data);
     }
-  });
+  })
 }
-*/
 
 var routes = {
   login_check: loginCheck,
@@ -139,6 +163,11 @@ var routes = {
   display_user_info: displayUserInfo,
   update_profile: updateProfile,
   get_watched_movies: getWatchedMovies,
+  anime_watchlist: animeWatchlist,
+  anime_addinterest: animeAddInterest,
+  anime_removeinterest: animeRemoveInterest,
+  anime_updatewatched: animeUpdateWatched,
+  anime_search: animeSearch,
 };
 
 module.exports = routes;
