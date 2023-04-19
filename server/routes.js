@@ -16,12 +16,12 @@ connection.connect((err) => err && console.log(err));
 
 const loginCheck = async function(req, res) {
   const username = req.body.username;
-  const password = req.body.password;
+  const password = sha256(req.body.password);
 
   connection.query(`
     SELECT username
     FROM user
-    WHERE username = ${username} AND password = ${password}
+    WHERE username = "${username}" AND password = "${password}"
   `, (err, data) => {
     if (err || data.length == 0) {
       console.log(err);
@@ -44,7 +44,7 @@ const createAccount = async function(req, res) {
 
   connection.query(`
     INSERT INTO user
-    VALUES (${username}, ${password}, ${occupation}, ${age}, ${gender}, ${zipcode})
+    VALUES ("${username}", "${password}", "${occupation}", "${age}", "${gender}", "${zipcode}")
   `, (err, data) => {
     if (err) {
       console.log(err);
@@ -62,7 +62,7 @@ const displayUserInfo = async function(req, res) {
   connection.query(`
     SELECT *
     FROM user
-    WHERE username = ${username}
+    WHERE username = "${username}"
   `, (err, data) => {
     if (err || data.length == 0) {
       console.log(err);
@@ -75,7 +75,7 @@ const displayUserInfo = async function(req, res) {
 
 const updateProfile = async function(req, res) {
   const new_username = req.body.username;
-  const new_password = sha256(req.body.password);
+  const new_password = req.body.password;
   const new_occupation = req.body.occupation;
   const new_age = req.body.age;
   const new_gender = req.body.gender;
@@ -83,8 +83,8 @@ const updateProfile = async function(req, res) {
 
   connection.query(`
     UPDATE user
-    SET username = ${new_username}, password = ${new_password}, occupation = ${new_occupation}, age = ${new_age}, gender = ${new_gender}, zipcode = ${new_zipcode}
-    WHERE username = ${session.userId}
+    SET username = "${new_username}", password = "${new_password}", occupation = "${new_occupation}", age = "${new_age}", gender = "${new_gender}", zipcode = "${new_zipcode}"
+    WHERE username = "${session.userId}"
   `, (err, data) => {
     if (err) {
       console.log(err);

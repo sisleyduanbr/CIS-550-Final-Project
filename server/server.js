@@ -11,16 +11,16 @@ app.use(cors({
 // We use express to define our various API endpoints and
 // provide their handlers that we implemented in routes.js
 
+app.post('/login_check', routes.login_check);
+app.post('/create_account', routes.create_account);
+app.get('/display_user_info', routes.display_user_info);
+app.post('/update_profile', routes.update_profile);
 app.get('/movie/watched', routes.get_watched_movies);
 
 /* 
 
 ------ registration/authentication ------
 /login_check (POST)
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 /create_account (POST)
 
 ------ profile ------
