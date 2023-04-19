@@ -1,9 +1,9 @@
 {
-  "rds_host": "",
-  "rds_port": "",
-  "rds_user": "",
-  "rds_password" : "",
-  "rds_db": "SWIFTIFY",
+  "rds_host": "final-project-db.czxutwpza95f.us-east-1.rds.amazonaws.com",
+  "rds_port": "3306",
+  "rds_user": "admin",
+  "rds_password" : "weloveanime",
+  "rds_db": "final_project",
   "server_host": "localhost",
   "server_port":"8080"
 }

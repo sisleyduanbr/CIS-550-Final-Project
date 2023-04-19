@@ -11,12 +11,12 @@ app.use(cors({
 // We use express to define our various API endpoints and
 // provide their handlers that we implemented in routes.js
 
+app.get('/movie/watched', routes.get_watched_movies);
+
 /* 
 
 ------ registration/authentication ------
 /login_check (POST)
-/get_login 
-
 /create_account (POST)
 
 ------ profile ------
