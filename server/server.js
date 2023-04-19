@@ -17,6 +17,10 @@ app.get('/movie/watched', routes.get_watched_movies);
 
 ------ registration/authentication ------
 /login_check (POST)
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 /create_account (POST)
 
 ------ profile ------
