@@ -96,17 +96,51 @@ const updateProfile = async function(req, res) {
   })
 }
 
+/* MOVIE PAGE ROUTES */
 
 // /movie/watched/:username
 const getWatchedMovies = async function(req, res) {
+  username = req.params.username;
   connection.query(`
-    SELECT *
-    FROM movie
-    LIMIT 10
+    SELECT M.title, M.imdb_id
+    FROM watched W JOIN movie M ON M.id = W.movie_id
+    WHERE username = "${username}"
+  `, (err, data) => {
+    err ? console.log(err) : res.send(data)
+  });
+}
+// /add_movie
+const addMovieToWatched = async function(req, res) {
+  if (req.session.userId == null) {
+    res.redirect('/');
+  }
+  const username = req.session.userId;
+  const movie_id = req.body.movie_id;
+  const unique_id = username + '%' + movie_id;
+  connection.query(`
+    INSERT INTO watched (unique_id, username, movie_id)
+    VALUES ("${unique_id}", "${username}", "${movie_id}");
   `, (err, data) => {
     err ? console.log(err) : console.log(data)
   });
 }
+
+// /delete_movie
+const deleteMovieFromWatched = async function(req, res) {
+  if (req.session.userId == null) {
+    res.redirect('/');
+  }
+  const username = req.session.userId;
+  const movie_id = req.body.movie_id;
+  const unique_id = username + '%' + movie_id;
+  connection.query(`
+    DELETE FROM watched
+    WHERE unique_id = "${unique_id}"
+  `, (err, data) => {
+    err ? console.log(err) : console.log(data)
+  });
+}
+
 
 /* ANIME WATCH LIST */
 

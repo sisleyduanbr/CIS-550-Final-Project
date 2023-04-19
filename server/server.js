@@ -20,7 +20,9 @@ app.get('/display_user_info', routes.display_user_info);
 app.post('/update_profile', routes.update_profile);
 
 //movie
-app.get('/movie/watched', routes.get_watched_movies);
+app.get('/movie/watched/:username', routes.get_watched_movies);
+app.post('/add_movie', routes.add_movie);
+app.post('/delete_movie', routes.delete_movie);
 
 //anime
 
