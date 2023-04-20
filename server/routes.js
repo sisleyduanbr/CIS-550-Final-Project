@@ -191,6 +191,24 @@ const animeSearch = async function(req, res) {
   })
 }
 
+// ANIME RANKING
+
+// top animes
+// /anime
+const getTopAnimes = async function(req, res) {
+  connection.query(`
+    SELECT *
+    FROM anime
+    ORDER BY avg_rating DESC
+    LIMIT 8
+  `, (err, data) => {
+    if (err) console.log(err)
+    else res.json(data)
+  });
+}
+
+
+
 var routes = {
   login_check: loginCheck,
   create_account: createAccount,
@@ -202,6 +220,9 @@ var routes = {
   anime_removeinterest: animeRemoveInterest,
   anime_updatewatched: animeUpdateWatched,
   anime_search: animeSearch,
+  add_movie: addMovieToWatched,
+  delete_movie: deleteMovieFromWatched,
+  get_top_anime: getTopAnimes
 };
 
 module.exports = routes;

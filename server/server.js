@@ -27,6 +27,7 @@ app.post('/delete_movie', routes.delete_movie);
 //anime
 
 //anime ranking
+app.get('/anime', routes.get_top_anime);
 
 //anime watch list
 app.get('/anime/watched', routes.anime_watchlist);
