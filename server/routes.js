@@ -141,6 +141,98 @@ const deleteMovieFromWatched = async function(req, res) {
   });
 }
 
+const movieSearch = async function(req, res) {
+  const movie_title = req.query.title;
+
+  connection.query(`
+    WITH movie_id AS (
+      SELECT M.id, G.genre
+      FROM genre_movie G JOIN movie M ON G.id = M.id
+      WHERE M.title LIKE "%${movie_title}" OR M.title LIKE "${movie_title}%" OR M.title LIKE "%${movie_title}%" OR M.title = "${movie_title}"
+    ),
+    movie_desc AS (
+      SELECT *
+      FROM movie
+      WHERE title LIKE "%${movie_title}" OR title LIKE "${movie_title}%" OR title LIKE "%${movie_title}%" OR title = "${movie_title}"
+    )
+    SELECT DISTINCT md.title, md.avg_rating, md.imdb_id, JSON_EXTRACT(JSON_ARRAYAGG(JSON_OBJECT("genre", genre)), '$[*].genre') as genres
+    FROM movie_desc md JOIN movie_id mi on md.id = mi.id
+    GROUP BY md.id
+  `, (err, data) => {
+    if (err) {
+      console.log(err);
+    } else {
+      res.json(data);
+    }
+  })
+}
+
+// "Personalized recommendation", for users who already marked movies they have watched
+const movieRec = async function(req, res) {
+  /*
+  if (req.session.userId == null) {
+    res.redirect('/');
+  }
+  const username = req.session.userId;
+  */
+  const page = req.query.page;
+  const page_size = req.query.page_size;
+  const pageSize = page_size ? page_size : 10;
+  const username = "user1"; // FOR TESTING ONLY
+
+  connection.query(`
+    SELECT M.title, M.avg_rating, M.imdb_id
+    FROM movie M JOIN genre_movie G ON M.id = G.id
+    WHERE G.genre IN (
+      SELECT G.genre
+      FROM watched W JOIN genre_movie G on W.movie_id = G.id
+      WHERE W.username = "${username}"
+    ) AND M.title NOT IN (
+      SELECT M.title
+      FROM movie M JOIN watched W ON M.id = W.movie_id
+      WHERE W.username = '${username}'
+    )
+    ORDER BY M.avg_rating DESC
+    LIMIT ${page_size} OFFSET ${((page - 1) * pageSize)}
+  `, (err, data) => {
+    err ? console.log(err) : res.send(data)
+  });
+}
+
+// Recommend Top movies
+const getTopMovies = async function(req, res) {
+  const page = req.query.page;
+  const page_size = req.query.page_size;
+  const pageSize = page_size ? page_size : 10;
+  connection.query(`
+    SELECT *
+    FROM movie
+    ORDER BY avg_rating DESC
+    LIMIT ${page_size} OFFSET ${((page - 1) * pageSize)}
+  `, (err, data) => {
+    if (err) console.log(err)
+    else res.json(data)
+  });
+}
+
+// Recommend Top movies by genre
+const getTopMoviesByGenre = async function(req, res) {
+  const genre = req.params.genre;
+  const page = req.query.page;
+  const page_size = req.query.page_size;
+  const pageSize = page_size ? page_size : 10;
+  connection.query(`
+    SELECT M.title, M.avg_rating, M.imdb_id
+    FROM movie M JOIN genre_movie G ON M.id = G.id
+    WHERE G.genre = '${genre}'
+    ORDER BY avg_rating DESC
+    LIMIT ${page_size} OFFSET ${((page - 1) * pageSize)}
+  `, (err, data) => {
+    if (err) console.log(err)
+    else res.json(data)
+  });
+}
+
 
 /* ANIME WATCH LIST */
 
@@ -222,7 +314,11 @@ var routes = {
   anime_search: animeSearch,
   add_movie: addMovieToWatched,
   delete_movie: deleteMovieFromWatched,
-  get_top_anime: getTopAnimes
+  get_top_anime: getTopAnimes,
+  movie_search: movieSearch,
+  movie_rec: movieRec,
+  top_movies: getTopMovies,
+  top_movies_genre: getTopMoviesByGenre,
 };
 
 module.exports = routes;

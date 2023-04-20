@@ -21,8 +21,12 @@ app.post('/update_profile', routes.update_profile);
 
 //movie
 app.get('/movie/watched/:username', routes.get_watched_movies);
-app.post('/add_movie', routes.add_movie);
-app.post('/delete_movie', routes.delete_movie);
+app.post('/movie/add', routes.add_movie);
+app.post('/movie/delete', routes.delete_movie);
+app.get('/movie/search', routes.movie_search);
+app.get('/movie/recommendation', routes.movie_rec);
+app.get('/movie/top', routes.top_movies)
+app.get('/movie/top/:genre', routes.top_movies_genre)
 
 //anime
 
