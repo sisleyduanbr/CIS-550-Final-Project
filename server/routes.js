@@ -237,14 +237,37 @@ const getTopMoviesByGenre = async function(req, res) {
 /* ANIME WATCH LIST */
 
 const animeWatchlist = async function(req, res) {
-  const username = req.session.userId;
+  const username = req.query.username;
+  
+  //const username = req.session.userId;
   connection.query(`
-      WITH anime_
-  `)
+      WITH anime_interests AS (
+        SELECT anime_id
+        FROM watchlist
+        WHERE username = "${username}"
+      ),
+      anime_desc AS (
+        SELECT a.id, a.title, a.avg_rating, a.synopsis, a.type, a.num_episodes
+        FROM anime a JOIN anime_interests ai ON a.id = ai.anime_id
+      ),
+      anime_genre AS (
+        SELECT genre_anime.id, genre_anime.genre
+        FROM genre_anime JOIN anime_interests ON genre_anime.id = anime_interests.anime_id
+      )
+      SELECT DISTINCT ad.id, ad.title, ad.avg_rating, ad.synopsis, ad.type, ad.num_episodes, JSON_EXTRACT(JSON_ARRAYAGG(JSON_OBJECT("genre", genre)), '$[*].genre') as genres
+      FROM anime_desc ad JOIn anime_genre ag ON ad.id = ag.id
+      GROUP BY ad.id
+  `, (err, data) => {
+    if (err) {
+      console.log(err)
+    } else {
+      res.json(data);
+    }
+  })
 }
 
 const animeAddInterest = async function(req, res) {
-
+  
 }
 
 const animeRemoveInterest = async function(req, res) {
