@@ -233,6 +233,62 @@ const getTopMoviesByGenre = async function(req, res) {
   });
 }
 
+/* ANIME RANKINGS */
+
+const getTopAnimes = async function(req, res) {
+  const page = req.query.page;
+  const page_size = req.query.page_size;
+  const pageSize = page_size ? page_size : 10;
+
+  connection.query(`
+    SELECT *
+    FROM anime
+    ORDER BY avg_rating DESC
+    LIMIT ${page_size} OFFSET ${((page - 1) * pageSize)}
+  `, (err, data) => {
+    if (err) console.log(err)
+    else res.json(data)
+  });
+}
+
+const getTopAnimeGenre = async function(req, res) {
+  const genre = req.query.genre;
+  const page = req.query.page;
+  const page_size = req.query.page_size;
+  const pageSize = page_size ? page_size : 10;
+
+  connection.query(`
+    WITH anime_genre AS (
+      SELECT id
+      FROM genre_anime
+      WHERE genre = "${genre}"
+    ),
+    top_ranks AS (
+      SELECT anime.id, anime.title, anime.avg_rating, anime.synopsis, anime.type, anime.num_episodes
+      FROM genre_anime JOIN anime ON genre_anime.id = anime.id
+      GROUP BY anime.id
+    ),
+    top_anime AS (
+      SELECT *
+      FROM top_ranks
+      ORDER BY avg_rating DESC
+      LIMIT ${page_size} OFFSET ${((page - 1) * pageSize)}
+    )
+    SELECT DISTINCT top_anime.id, top_anime.title, top_anime.avg_rating, top_anime.synopsis, top_anime.type, top_anime.num_episodes, JSON_EXTRACT(JSON_ARRAYAGG(JSON_OBJECT("genre", genre)), '$[*].genre') as genres
+    FROM genre_anime JOIN top_anime ON genre_anime.id = top_anime.id
+    GROUP BY top_anime.id
+  `, (err, data) => {
+    if (err) {
+      console.log(err);
+    } else {
+      res.json(data);
+    }
+  })
+}
+
+/*
+
+*/
 
 /* ANIME WATCH LIST */
 
@@ -340,24 +396,6 @@ const animeSearch = async function(req, res) {
   })
 }
 
-// ANIME RANKING
-
-// top animes
-// /anime
-const getTopAnimes = async function(req, res) {
-  connection.query(`
-    SELECT *
-    FROM anime
-    ORDER BY avg_rating DESC
-    LIMIT 8
-  `, (err, data) => {
-    if (err) console.log(err)
-    else res.json(data)
-  });
-}
-
-
-
 var routes = {
   login_check: loginCheck,
   create_account: createAccount,
@@ -372,6 +410,7 @@ var routes = {
   add_movie: addMovieToWatched,
   delete_movie: deleteMovieFromWatched,
   get_top_anime: getTopAnimes,
+  get_top_anime_genre: getTopAnimeGenre,
   movie_search: movieSearch,
   movie_rec: movieRec,
   top_movies: getTopMovies,

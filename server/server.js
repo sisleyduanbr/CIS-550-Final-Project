@@ -32,6 +32,7 @@ app.get('/movie/top/:genre', routes.top_movies_genre)
 
 //anime ranking
 app.get('/anime', routes.get_top_anime);
+app.get('/anime/genre', routes.get_top_anime_genre);
 
 //anime watch list
 app.get('/anime/watched', routes.anime_watchlist);
