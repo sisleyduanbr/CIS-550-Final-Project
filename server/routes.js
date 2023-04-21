@@ -267,15 +267,49 @@ const animeWatchlist = async function(req, res) {
 }
 
 const animeAddInterest = async function(req, res) {
-  
+  if (req.session.userId == null) {
+    res.redirect('/');
+  }
+  const username = req.session.userId;
+  const anime_id = req.body.anime_id;
+  const unique_id = username + '%' + anime_id;
+  connection.query(`
+    INSERT INTO watchlist (unique_id, username, anime_id, watched)
+    VALUES ("${unique_id}", "${username}", "${anime_id}", 0);
+  `, (err, data) => {
+    err ? console.log(err) : console.log(data)
+  });
 }
 
 const animeRemoveInterest = async function(req, res) {
-
+  if (req.session.userId == null) {
+    res.redirect('/');
+  }
+  const username = req.session.userId;
+  const anime_id = req.body.anime_id;
+  const unique_id = username + '%' + anime_id;
+  connection.query(`
+    DELETE FROM watchlist
+    WHERE unique_id = "${unique_id}"
+  `, (err, data) => {
+    err ? console.log(err) : console.log(data)
+  });
 }
 
 const animeUpdateWatched = async function(req, res) {
-
+  if (req.session.userId == null) {
+    res.redirect('/');
+  }
+  const username = req.session.userId;
+  const anime_id = req.body.anime_id;
+  const unique_id = username + '%' + anime_id;
+  connection.query(`
+    UPDATE watchlist
+    SET watched = 1
+    WHERE unique_id = '${unique_id}'
+  `, (err, data) => {
+    err ? console.log(err) : console.log(data)
+  });
 }
 
 /* ANIME SEARCH ROUTES */
