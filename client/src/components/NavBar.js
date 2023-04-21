@@ -31,7 +31,7 @@ export default function NavBar() {
     <AppBar position='static' className='mb-4'>
       <Container maxWidth='xl'>
         <Toolbar disableGutters>
-          <NavText href='/' text='AnimeRec' isMain />
+          <NavText href='/' text='AniMate' isMain />
           <NavText href='/movies' text='movies' />
           <NavText href='/watchlist' text='watchlist' />
           <NavText href='/rankings' text='rankings' />
