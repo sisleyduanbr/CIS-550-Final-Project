@@ -1,17 +1,17 @@
 import { Card } from "@mui/material";
 const flexFormat = { display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-evenly' };
 
-export default function AnimeCards({animes}) {
+export default function MovieCards({movies}) {
     return (
         <div style={flexFormat} className="justify-content-start">
-            {animes.map((anime) => (
+            {movies.map((movie) => (
                 <div className="p-3 card col-3">
                     <div>
-                        <h5>{anime.title}</h5>
-                        {anime.synopsis.slice(0, 100)}...
+                        <h5>{movie.title}</h5>
                     </div>
-                    <div> number of episodes: {anime.num_episodes} </div>
-                    <div> type: {anime.type} </div>
+                    <div>
+                        Average ratings: {movie.avg_rating}
+                    </div>
                 </div>
             ))}
         </div>
