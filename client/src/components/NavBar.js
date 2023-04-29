@@ -36,6 +36,7 @@ export default function NavBar() {
           <NavText href='/watchlist' text='watchlist' />
           <NavText href='/rankings' text='rankings' />
           <NavText href='/login' text='login'/>
+          <NavText href='/profile' text='profile'/>
         </Toolbar>
       </Container>
     </AppBar>
