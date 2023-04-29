@@ -1,8 +1,10 @@
 import { Container } from "@mui/system";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import animes from "../data/anime";
 import {LoginContext} from "../contexts/LoginContext";
 import React, {useContext} from 'react'
+import AnimeCards from '../components/AnimeCards'
+const config = require('../config.json');
 
 export default function AnimeWatchlistPage() {
     const [animesInWatchlist, setAnimesInWatchlist] = useState([]);
@@ -12,20 +14,21 @@ export default function AnimeWatchlistPage() {
     const {gender} = useContext(LoginContext);
     const {occupation} = useContext(LoginContext);
 
-    useState(() => {
-        setAnimesInWatchlist(animes);
-    })
+    useEffect(() => {
+        const username = 'user1'
+        fetch(`http://${config.server_host}:${config.server_port}/anime/watched?username=${username}`)
+          .then(res => res.json())
+          .then(resJson => {
+              console.log(resJson)
+              setAnimesInWatchlist(resJson);
+          });
+      },[])
 
     return (
         <Container>
             <h2>Anime Watch List</h2>
-            <h2>Username: {username}</h2>
-            <h2>Password: {password}</h2>
-            <h2>Age: {age}</h2>
-            <h2>Gender: {gender}</h2>
-            <h2>Occupation: {occupation}</h2>
-            
-            
+            <AnimeCards animes={animesInWatchlist}/>
         </Container>
+
     )
 }

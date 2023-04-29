@@ -19,11 +19,11 @@ app.post('/create_account', routes.create_account);
 
 //profile
 app.get('/display_user_info', routes.display_user_info);
-app.post('/update_profile', routes.update_profile);
+app.post('/update_profile', jsonParser, routes.update_profile);
 
 //movie
 app.get('/movie/watched/:username', routes.get_watched_movies);
-app.post('/movie/add', routes.add_movie);
+app.post('/movie/add', jsonParser, routes.add_movie);
 app.post('/movie/delete', routes.delete_movie);
 app.get('/movie/search', routes.movie_search);
 app.get('/movie/recommendation', routes.movie_rec);
@@ -31,12 +31,15 @@ app.get('/movie/top', routes.top_movies)
 app.get('/movie/top/:genre', routes.top_movies_genre)
 
 //anime
+app.get('/anime/rec', routes.get_anime_rec_user);
+app.get('/anime/rec/genre', routes.get_anime_rec_user_genre);
 
 //anime ranking
 app.get('/anime', routes.get_top_anime);
 app.get('/anime/genre', routes.get_top_anime_genre);
 
 //anime watch list
+app.get('/anime/interested', routes.anime_interestlist);
 app.get('/anime/watched', routes.anime_watchlist);
 app.post('/anime/add_anime', routes.anime_addinterest);
 app.post('/anime/remove_anime', routes.anime_removeinterest);

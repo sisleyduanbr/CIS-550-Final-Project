@@ -13,6 +13,7 @@ import AnimeRankingsPage from "./pages/AnimeRankingsPage";
 import Login from "./pages/Login";
 import {LoginContext} from './contexts/LoginContext';
 
+import ProfilePage from "./pages/ProfilePage";
 
 export const theme = createTheme({
   palette: {
@@ -42,6 +43,7 @@ export default function App() {
           <Route path="/login" element={<LoginContext.Provider value={
             {username, setUsername, password, setPassword, setAge, setGender, setOccupation}
             }><Login/></LoginContext.Provider>}/>
+          <Route path="/profile" element={<ProfilePage/>} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
