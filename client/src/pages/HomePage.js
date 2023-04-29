@@ -11,6 +11,7 @@ export default function HomePage() {
   const [genres, setGenres] = useState([]);
   const [searchString, setSearchString] = useState("");
   const [searchResultAnimes, setSearchResultAnimes] = useState([]);
+  const [animeRec, setAnimeRec] = useState([]);
 
   useEffect(() => {
     setGenres(['Action']);
@@ -26,6 +27,14 @@ export default function HomePage() {
   }
 
   // anime recommendation by genre route
+  useEffect(() => {
+    fetch(`http://${config.server_host}:${config.server_port}/anime/rec`)
+      .then(res => res.json())
+      .then(resJson => {
+          console.log(resJson)
+          setAnimeRec(resJson);
+      });
+  }, [])
 
   return (
     <Container>

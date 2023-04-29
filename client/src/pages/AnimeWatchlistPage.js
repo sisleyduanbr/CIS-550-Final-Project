@@ -1,12 +1,18 @@
 import { Container } from "@mui/system";
 import { useState, useEffect } from "react";
 import animes from "../data/anime";
+import {LoginContext} from "../contexts/LoginContext";
+import React, {useContext} from 'react'
 import AnimeCards from '../components/AnimeCards'
 const config = require('../config.json');
 
 export default function AnimeWatchlistPage() {
     const [animesInWatchlist, setAnimesInWatchlist] = useState([]);
-    // animes on watch list
+    const {username} = useContext(LoginContext);
+    const {password} = useContext(LoginContext);
+    const {age} = useContext(LoginContext);
+    const {gender} = useContext(LoginContext);
+    const {occupation} = useContext(LoginContext);
 
     useEffect(() => {
         const username = 'user1'

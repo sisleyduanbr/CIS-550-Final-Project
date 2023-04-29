@@ -15,20 +15,20 @@ connection.connect((err) => err && console.log(err));
 /* ACCOUNT ROUTES */
 
 const loginCheck = async function(req, res) {
+  console.log(req.body);
   const username = req.body.username;
-  const password = sha256(req.body.password);
+  const password = req.body.password;
 
   connection.query(`
-    SELECT username
+    SELECT *
     FROM user
-    WHERE username = "${username}" AND password = "${password}"
+    WHERE username = "${username}" AND pw = "${password}"
   `, (err, data) => {
     if (err || data.length == 0) {
       console.log(err);
       res.json({});
     } else {
-      session = req.session;
-      session.userId = username;
+      console.log(data);
       res.send(data);
     }
   });
