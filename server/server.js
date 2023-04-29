@@ -2,6 +2,8 @@ const express = require('express');
 const cors = require('cors');
 const config = require('./config');
 const routes = require('./routes');
+var bodyParser = require('body-parser');
+var jsonParser = bodyParser.json();
 
 const app = express();
 app.use(cors({
@@ -17,7 +19,7 @@ app.post('/create_account', routes.create_account);
 
 //profile
 app.get('/display_user_info', routes.display_user_info);
-app.post('/update_profile', routes.update_profile);
+app.post('/update_profile', jsonParser, routes.update_profile);
 
 //movie
 app.get('/movie/watched/:username', routes.get_watched_movies);

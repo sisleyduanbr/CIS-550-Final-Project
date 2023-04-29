@@ -10,16 +10,22 @@ export default function AnimeRankingsPage() {
     const [topAnimes, setTopAnimes] = useState([]);
 
     useEffect(() => {
-        setGenres(anime_genres);
-    });
+        setGenres(['Romance']);
+    }, []);
+    
+    // get genre of the user
+    // top animes by genre
 
     useEffect(() => {
-        fetch(`http://${config.server_host}:${config.server_port}/anime`)
+        const page = 1
+        fetch(`http://${config.server_host}:${config.server_port}/anime?page=${page}&page_size=4`)
         .then(res => res.json())
         .then(resJson => {
             setTopAnimes(resJson);
         });
     }, [])
+
+
 
     return (
         <Container>

@@ -13,7 +13,7 @@ export default function HomePage() {
   const [searchResultAnimes, setSearchResultAnimes] = useState([]);
 
   useEffect(() => {
-    setGenres(anime_genres);
+    setGenres(['Action']);
   }, []);
 
   const handleSearch = () => {
@@ -24,6 +24,8 @@ export default function HomePage() {
           setSearchResultAnimes(resJson);
       });
   }
+
+  // anime recommendation by genre route
 
   return (
     <Container>

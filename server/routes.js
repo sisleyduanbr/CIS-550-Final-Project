@@ -77,16 +77,16 @@ const displayUserInfo = async function(req, res) {
 
 const updateProfile = async function(req, res) {
   const new_username = req.body.username;
-  const new_password = req.body.password;
+  const new_password = req.body.pw;
   const new_occupation = req.body.occupation;
   const new_age = req.body.age;
   const new_gender = req.body.gender;
-  const new_zipcode = req.body.zipcode;
+  const new_zipcode = req.body.zip_code;
 
   connection.query(`
     UPDATE user
-    SET username = "${new_username}", password = "${new_password}", occupation = "${new_occupation}", age = "${new_age}", gender = "${new_gender}", zipcode = "${new_zipcode}"
-    WHERE username = "${session.userId}"
+    SET username = "${new_username}", pw = "${new_password}", occupation = "${new_occupation}", age = "${new_age}", gender = "${new_gender}", zip_code = "${new_zipcode}"
+    WHERE username = "${new_username}"
   `, (err, data) => {
     if (err) {
       console.log(err);
@@ -109,12 +109,12 @@ const getWatchedMovies = async function(req, res) {
     err ? console.log(err) : res.send(data)
   });
 }
-// /add_movie
+// add_movie
 const addMovieToWatched = async function(req, res) {
   if (req.session.userId == null) {
     res.redirect('/');
   }
-  const username = req.session.userId;
+  const username = "user1" //req.session.userId;
   const movie_id = req.body.movie_id;
   const unique_id = username + '%' + movie_id;
   connection.query(`

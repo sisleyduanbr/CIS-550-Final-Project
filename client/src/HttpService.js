@@ -1,5 +1,5 @@
 import axios from "axios";
-const config = require('../config.json');
+const config = require('./config.json');
 
 // axios.defaults.headers.common['x-token'] = localStorage.getItem("token");
 
@@ -10,7 +10,7 @@ axios.interceptors.response.use(null, (e) => {
     e.response && e.response.status >= 400 && e.response.status < 500;
   if (!expectedError) {
     console.log("logging the error", e);
-    toast.error("an unexpected error occured...");
+    // toast.error("an unexpected error occured...");
   }
   return Promise.reject(e);
 });
