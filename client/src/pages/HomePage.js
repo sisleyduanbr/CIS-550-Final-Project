@@ -49,10 +49,12 @@ export default function HomePage() {
         <AnimeCards animes={searchResultAnimes}/>
       </div>}
 
-      <h2 className='mb-3'> Recommended animes by genre: </h2>
+      <h2>Recommended animes</h2>
+      <h4>Overall rec</h4>
+      <AnimeCards animes={animeRec}/>
       
       {genres.map((genre) => 
-        <AnimeGenre genre={genre}/>
+        <AnimeGenre genre={genre} top={false}/>
       )}
 
       {/* <LazyTable route={`http://${config.server_host}:${config.server_port}/top_albums`} columns={albumColumns} defaultPageSize={5} rowsPerPageOptions={[5, 10]}/> */}

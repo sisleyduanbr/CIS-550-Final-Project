@@ -7,7 +7,7 @@ import AnimeCards from '../components/AnimeCards'
 const config = require('../config.json');
 
 export default function AnimeWatchlistPage() {
-    const [animesInWatchlist, setAnimesInWatchlist] = useState([]);
+    const [animesInInterestlist, setAnimesInInterestlist] = useState([]);
     const {username} = useContext(LoginContext);
     const {password} = useContext(LoginContext);
     const {age} = useContext(LoginContext);
@@ -15,19 +15,19 @@ export default function AnimeWatchlistPage() {
     const {occupation} = useContext(LoginContext);
 
     useEffect(() => {
-        const username = 'user1'
-        fetch(`http://${config.server_host}:${config.server_port}/anime/watched?username=${username}`)
-          .then(res => res.json())
-          .then(resJson => {
-              console.log(resJson)
-              setAnimesInWatchlist(resJson);
-          });
-      },[])
+    const username = 'user1'
+    fetch(`http://${config.server_host}:${config.server_port}/anime/interested?username=${username}`)
+        .then(res => res.json())
+        .then(resJson => {
+            console.log(resJson)
+            setAnimesInInterestlist(resJson);
+        });
+    },[])
 
     return (
         <Container>
-            <h2>Anime Watch List</h2>
-            <AnimeCards animes={animesInWatchlist}/>
+            <h2>Anime Interest List</h2>
+            <AnimeCards animes={animesInInterestlist}/>
         </Container>
 
     )

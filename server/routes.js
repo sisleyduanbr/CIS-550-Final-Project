@@ -59,7 +59,7 @@ const createAccount = async function(req, res) {
 const displayUserInfo = async function(req, res) {
   if (req.session.userId == null) {
     res.redirect('/');
-  }  
+  }
 
   connection.query(`
     SELECT *
