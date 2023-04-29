@@ -1,6 +1,9 @@
 import { useRef, useState, useEffect, useContext} from 'react';
 import {LoginContext} from "../contexts/LoginContext";
+import http from "../HttpService";
 const config = require('../config.json');
+
+
 
 
 
@@ -8,22 +11,42 @@ function Login(){
 
   const {setUsername} = useContext(LoginContext);
   const {setPassword} = useContext(LoginContext);
-  const [data, setData] = useState([]);
-  var username = "";
-  var password = "";
+  const {setAge} = useContext(LoginContext);
+  const {setGender} = useContext(LoginContext);
+  const {setOccupation} = useContext(LoginContext);
+  const [user, setUser] = useState('');
+  const [pass, setPass] = useState('');
+  const [valid, setValid] = useState(true);
+  
  
+  const checkLogin = async () => {
+    
+    const {data} = await http.post("/login_check", {username: user, password: pass})
+    if(Object.keys(data).length === 0 && data.constructor === Object) {
+      console.log("account not found");
+      setValid(false);
+    } else {
+      setUsername(user);
+      setPassword(pass);
+      setAge(data[0].age);
+      setGender(data[0].gender);
+      setOccupation(data[0].occupation);
+    }
+  }
+
   return (
     <section>
       <h1>Log In</h1>
       <input type = "text" placeholder = "Username.." 
-      onChange={(e) => {username = e.target.value}}
+      onChange={(e) => {setUser(e.target.value)}}
       ></input>
       <br></br>
       <input type = "text" placeholder = "Password.."
-      onChange={(e) => {password = e.target.value}}
+      onChange={(e) => {setPass(e.target.value)}}
       ></input>
       <br></br>
-      <button onClick={(e) => checkLogin()}>Log In</button>
+      <button onClick={checkLogin}>Log In</button>
+      {!valid && <h1>Invalid Username or Password</h1>}
     </section>
   )
 
@@ -31,24 +54,7 @@ function Login(){
     <h1>Username or password is incorrect</h1>
   }
 
-  function checkLogin() {
 
-    fetch(`http://${config.server_host}:${config.server_port}/loginCheck?username=${username}&password=${password}`)
-    .then(res => res.json())
-    .then(resJson => setData(resJson));
-    console.log(data);
-    if(data == {}) {
-      //account doesnt exist
-      setStuff();
-    } else {
-      setStuff();
-    }
-  }
-
-  function setStuff() {
-    setUsername(username);
-    setPassword(password);
-  }
 } 
 
 export default Login

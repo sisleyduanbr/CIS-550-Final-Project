@@ -24,6 +24,9 @@ export const theme = createTheme({
 export default function App() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const [age, setAge] = useState("");
+  const [gender, setGender] = useState("");
+  const [occupation, setOccupation] = useState("");
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
@@ -33,11 +36,11 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/movies" element={<MoviePage />} />
           <Route path="/watchlist" element={<LoginContext.Provider value={
-            {username, setUsername, password, setPassword}
+            {username, password, age, gender, occupation}
             }><AnimeWatchlistPage/></LoginContext.Provider>}/>
           <Route path="/rankings" element={<AnimeRankingsPage />} />
           <Route path="/login" element={<LoginContext.Provider value={
-            {username, setUsername, password, setPassword}
+            {username, setUsername, password, setPassword, setAge, setGender, setOccupation}
             }><Login/></LoginContext.Provider>}/>
         </Routes>
       </BrowserRouter>
