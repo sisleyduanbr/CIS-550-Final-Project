@@ -11,9 +11,8 @@ import MoviePage from './pages/MoviePage';
 import AnimeWatchlistPage from "./pages/AnimeWatchlistPage";
 import AnimeRankingsPage from "./pages/AnimeRankingsPage";
 import Login from "./pages/Login";
-import {LoginContext} from './contexts/LoginContext';
-
 import ProfilePage from "./pages/ProfilePage";
+import {LoginContext} from './contexts/LoginContext';
 
 export const theme = createTheme({
   palette: {
@@ -28,6 +27,7 @@ export default function App() {
   const [age, setAge] = useState("");
   const [gender, setGender] = useState("");
   const [occupation, setOccupation] = useState("");
+  const [zipcode, setZipcode] = useState("");
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
@@ -43,7 +43,9 @@ export default function App() {
           <Route path="/login" element={<LoginContext.Provider value={
             {username, setUsername, password, setPassword, setAge, setGender, setOccupation}
             }><Login/></LoginContext.Provider>}/>
-          <Route path="/profile" element={<ProfilePage/>} />
+          <Route path="/profile" element={<LoginContext.Provider value={
+            {username, setUsername, password, setPassword, age, setAge, gender, setGender, occupation, setOccupation}
+            }><ProfilePage/></LoginContext.Provider>}/>
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
