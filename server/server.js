@@ -31,12 +31,15 @@ app.get('/movie/top', routes.top_movies)
 app.get('/movie/top/:genre', routes.top_movies_genre)
 
 //anime
+app.get('/anime/rec', routes.get_anime_rec_user);
+app.get('/anime/rec/genre', routes.get_anime_rec_user_genre);
 
 //anime ranking
 app.get('/anime', routes.get_top_anime);
 app.get('/anime/genre', routes.get_top_anime_genre);
 
 //anime watch list
+app.get('/anime/interested', routes.anime_interestlist);
 app.get('/anime/watched', routes.anime_watchlist);
 app.post('/anime/add_anime', routes.anime_addinterest);
 app.post('/anime/remove_anime', routes.anime_removeinterest);
