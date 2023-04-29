@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { CssBaseline, ThemeProvider } from '@mui/material'
 import { indigo, amber } from '@mui/material/colors'
 import { createTheme } from "@mui/material/styles";
+import React, {useState} from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 
 import NavBar from './components/NavBar';
@@ -9,6 +10,9 @@ import HomePage from './pages/HomePage';
 import MoviePage from './pages/MoviePage';
 import AnimeWatchlistPage from "./pages/AnimeWatchlistPage";
 import AnimeRankingsPage from "./pages/AnimeRankingsPage";
+import Login from "./pages/Login";
+import {LoginContext} from './contexts/LoginContext';
+
 
 export const theme = createTheme({
   palette: {
@@ -18,6 +22,8 @@ export const theme = createTheme({
 });
 
 export default function App() {
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
@@ -26,8 +32,13 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/movies" element={<MoviePage />} />
-          <Route path="/watchlist" element={<AnimeWatchlistPage />} />
+          <Route path="/watchlist" element={<LoginContext.Provider value={
+            {username, setUsername, password, setPassword}
+            }><AnimeWatchlistPage/></LoginContext.Provider>}/>
           <Route path="/rankings" element={<AnimeRankingsPage />} />
+          <Route path="/login" element={<LoginContext.Provider value={
+            {username, setUsername, password, setPassword}
+            }><Login/></LoginContext.Provider>}/>
         </Routes>
       </BrowserRouter>
     </ThemeProvider>

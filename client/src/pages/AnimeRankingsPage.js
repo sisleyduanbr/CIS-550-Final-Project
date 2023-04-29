@@ -19,7 +19,7 @@ export default function AnimeRankingsPage() {
         .then(resJson => {
             setTopAnimes(resJson);
         });
-    }, [])
+    }, [])          
 
     return (
         <Container>
