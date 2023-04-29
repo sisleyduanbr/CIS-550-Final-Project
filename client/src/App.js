@@ -9,6 +9,7 @@ import HomePage from './pages/HomePage';
 import MoviePage from './pages/MoviePage';
 import AnimeWatchlistPage from "./pages/AnimeWatchlistPage";
 import AnimeRankingsPage from "./pages/AnimeRankingsPage";
+import ProfilePage from "./pages/ProfilePage";
 
 export const theme = createTheme({
   palette: {
@@ -28,6 +29,7 @@ export default function App() {
           <Route path="/movies" element={<MoviePage />} />
           <Route path="/watchlist" element={<AnimeWatchlistPage />} />
           <Route path="/rankings" element={<AnimeRankingsPage />} />
+          <Route path="/profile" element={<ProfilePage/>} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>

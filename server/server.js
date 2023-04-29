@@ -2,6 +2,8 @@ const express = require('express');
 const cors = require('cors');
 const config = require('./config');
 const routes = require('./routes');
+var bodyParser = require('body-parser');
+var jsonParser = bodyParser.json();
 
 const app = express();
 app.use(cors({
@@ -16,12 +18,12 @@ app.post('/login_check', routes.login_check);
 app.post('/create_account', routes.create_account);
 
 //profile
-app.get('/display_user_info', routes.display_user_info); //sessionId
-app.post('/update_profile', routes.update_profile);
+app.get('/display_user_info', routes.display_user_info);
+app.post('/update_profile', jsonParser, routes.update_profile);
 
 //movie
 app.get('/movie/watched/:username', routes.get_watched_movies);
-app.post('/movie/add', routes.add_movie);
+app.post('/movie/add', jsonParser, routes.add_movie);
 app.post('/movie/delete', routes.delete_movie);
 app.get('/movie/search', routes.movie_search);
 app.get('/movie/recommendation', routes.movie_rec);
