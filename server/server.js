@@ -23,7 +23,7 @@ app.post('/update_profile', jsonParser, routes.update_profile);
 
 //movie
 app.get('/movie/watched/:username', routes.get_watched_movies);
-app.post('/movie/add', routes.add_movie);
+app.post('/movie/add', jsonParser, routes.add_movie);
 app.post('/movie/delete', routes.delete_movie);
 app.get('/movie/search', routes.movie_search);
 app.get('/movie/recommendation', routes.movie_rec);

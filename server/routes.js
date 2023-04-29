@@ -102,7 +102,7 @@ const updateProfile = async function(req, res) {
 const getWatchedMovies = async function(req, res) {
   username = req.params.username;
   connection.query(`
-    SELECT M.title, M.imdb_id
+    SELECT M.title, M.imdb_id, M.id
     FROM watched W JOIN movie M ON M.id = W.movie_id
     WHERE username = "${username}"
   `, (err, data) => {
@@ -111,11 +111,12 @@ const getWatchedMovies = async function(req, res) {
 }
 // add_movie
 const addMovieToWatched = async function(req, res) {
-  if (req.session.userId == null) {
-    res.redirect('/');
-  }
+  // if (req.session.userId == null) {
+  //   res.redirect('/');
+  // }
   const username = "user1" //req.session.userId;
   const movie_id = req.body.movie_id;
+  
   const unique_id = username + '%' + movie_id;
   connection.query(`
     INSERT INTO watched (unique_id, username, movie_id)
@@ -181,7 +182,7 @@ const movieRec = async function(req, res) {
   const username = "user1"; // FOR TESTING ONLY
 
   connection.query(`
-    SELECT M.title, M.avg_rating, M.imdb_id
+    SELECT M.title, M.avg_rating, M.imdb_id,  M.id
     FROM movie M JOIN genre_movie G ON M.id = G.id
     WHERE G.genre IN (
       SELECT G.genre

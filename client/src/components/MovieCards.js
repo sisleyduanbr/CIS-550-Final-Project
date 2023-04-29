@@ -22,7 +22,9 @@ export default function MovieCards({movies}) {
     },[])
 
     const handleWatched = (movie) => {
-        // http.post('/movie/add', )
+        console.log(movie)
+        http.post('/movie/add', {movie_id: movie.id});
+        setWatchedMovies([...watchedMovies, movie]);
     }
 
     return (
