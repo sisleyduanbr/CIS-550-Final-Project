@@ -2,8 +2,8 @@ const express = require('express');
 const cors = require('cors');
 const config = require('./config');
 const routes = require('./routes');
-var bodyParser = require('body-parser');
-var jsonParser = bodyParser.json();
+const bodyParser = require('body-parser');
+const jsonParser = bodyParser.json();
 
 const app = express();
 app.use(cors({
@@ -14,7 +14,7 @@ app.use(cors({
 // provide their handlers that we implemented in routes.js
 
 //registration
-app.post('/login_check', routes.login_check);
+app.post('/login_check', jsonParser, routes.login_check);
 app.post('/create_account', routes.create_account);
 
 //profile
