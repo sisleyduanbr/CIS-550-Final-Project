@@ -268,8 +268,6 @@ const getAnimeRecUser = async function(req, res) {
     ), recommended_anime AS (
       SELECT anime_score.id, ((score * 0.7) + (avg_rating * 0.3)) as agg_score
       FROM anime_score JOIN anime_ratings ON anime_score.id = anime_ratings.id
-      ORDER BY agg_score DESC
-      LIMIT 10
     ), anime_id AS (
       SELECT recommended_anime.id, genre
       FROM genre_anime JOIN recommended_anime ON genre_anime.id = recommended_anime.id
@@ -283,6 +281,8 @@ const getAnimeRecUser = async function(req, res) {
     SELECT DISTINCT ad.id, ad.title, ad.avg_rating, ad.agg_score, ad.synopsis, ad.type, ad.num_episodes, JSON_EXTRACT(JSON_ARRAYAGG(JSON_OBJECT("genre", genre)), '$[*].genre') as genres
     FROM anime_desc ad JOIN anime_id ai on ad.id = ai.id
     GROUP BY ad.id
+    ORDER BY ad.agg_score DESC
+    LIMIT 10
   `, (err, data) => {
     if (err) console.log(err);
     else res.json(data);
@@ -323,8 +323,6 @@ const getAnimeRecUserGenre = async function(req, res) {
     ), recommended_anime AS (
       SELECT anime_score.id, ((score * 0.7) + (avg_rating * 0.3)) as agg_score
       FROM anime_score JOIN anime_ratings ON anime_score.id = anime_ratings.id
-      ORDER BY agg_score DESC
-      LIMIT 10
     ), anime_id AS (
       SELECT recommended_anime.id, genre
       FROM genre_anime JOIN recommended_anime ON genre_anime.id = recommended_anime.id
@@ -338,6 +336,8 @@ const getAnimeRecUserGenre = async function(req, res) {
     SELECT DISTINCT ad.id, ad.title, ad.avg_rating, ad.agg_score, ad.synopsis, ad.type, ad.num_episodes, JSON_EXTRACT(JSON_ARRAYAGG(JSON_OBJECT("genre", genre)), '$[*].genre') as genres
     FROM anime_desc ad JOIN anime_id ai on ad.id = ai.id
     GROUP BY ad.id
+    ORDER BY ad.agg_score DESC
+    LIMIT 10
   `, (err, data) => {
     if (err) console.log(err);
     else res.json(data);
