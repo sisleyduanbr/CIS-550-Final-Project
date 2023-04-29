@@ -233,6 +233,117 @@ const getTopMoviesByGenre = async function(req, res) {
   });
 }
 
+/* ANIME RECOMMENDATIONS */
+
+//recommendation algorithm = (number_of_genres_anime_total_count / number_of_genres_in_anime) * 0.7 + (anime_rating) * 0.3
+
+const getAnimeRecUser = async function(req, res) {
+  ///const page = req.query.page;
+  //const page_size = req.query.page_size;
+  //const pageSize = page_size ? page_size : 10;
+
+  //const username = req.session.userId;
+  const username = "user1";
+  connection.query(`
+    WITH user_genre_counts AS (
+      SELECT genre, COUNT(*) AS count
+      FROM genre_movie JOIN watched ON genre_movie.id = watched.movie_id
+      WHERE watched.username = "${username}" AND genre != "(no genres listed)"
+      GROUP BY genre
+    ), anime_genre_counts AS (
+      SELECT anime.id, genre, COUNT(*) AS count
+      FROM anime JOIN genre_anime ON anime.id = genre_anime.id
+      GROUP BY id, genre
+    ), anime_total_counts AS (
+      SELECT anime.id, COUNT(*) as total_genres, SUM(COALESCE(user_genre_counts.count, 0) * anime_genre_counts.count) as matching
+      FROM anime JOIN anime_genre_counts ON anime.id = anime_genre_counts.id
+             LEFT JOIN user_genre_counts ON anime_genre_counts.genre = user_genre_counts.genre
+      GROUP BY id
+    ), anime_score AS (
+      SELECT id, (matching / total_genres) AS score
+      FROM anime_total_counts
+    ), anime_ratings AS (
+      SELECT id, avg_rating
+      FROM anime
+    ), recommended_anime AS (
+      SELECT anime_score.id, ((score * 0.7) + (avg_rating * 0.3)) as agg_score
+      FROM anime_score JOIN anime_ratings ON anime_score.id = anime_ratings.id
+      ORDER BY agg_score DESC
+      LIMIT 10
+    ), anime_id AS (
+      SELECT recommended_anime.id, genre
+      FROM genre_anime JOIN recommended_anime ON genre_anime.id = recommended_anime.id
+      WHERE genre_anime.id = recommended_anime.id
+    ),
+    anime_desc AS (
+      SELECT a.id, a.title, a.avg_rating, a.synopsis, a.type, a.num_episodes, recommended_anime.agg_score
+      FROM anime a JOIN recommended_anime ON recommended_anime.id = a.id
+      WHERE recommended_anime.id = a.id
+    )
+    SELECT DISTINCT ad.id, ad.title, ad.avg_rating, ad.agg_score, ad.synopsis, ad.type, ad.num_episodes, JSON_EXTRACT(JSON_ARRAYAGG(JSON_OBJECT("genre", genre)), '$[*].genre') as genres
+    FROM anime_desc ad JOIN anime_id ai on ad.id = ai.id
+    GROUP BY ad.id
+  `, (err, data) => {
+    if (err) console.log(err);
+    else res.json(data);
+  })
+}
+
+const getAnimeRecUserGenre = async function(req, res) {
+  const genre = req.query.genre;
+
+  ///const page = req.query.page;
+  //const page_size = req.query.page_size;
+  //const pageSize = page_size ? page_size : 10;
+
+  //const username = req.session.userId;
+  const username = "user1";
+
+  connection.query(`
+    WITH user_genre_counts AS (
+      SELECT genre, COUNT(*) AS count
+      FROM genre_movie JOIN watched ON genre_movie.id = watched.movie_id
+      WHERE watched.username = "${username}" AND genre = "${genre}"
+      GROUP BY genre
+    ), anime_genre_counts AS (
+      SELECT anime.id, genre, COUNT(*) AS count
+      FROM anime JOIN genre_anime ON anime.id = genre_anime.id
+      GROUP BY id, genre
+    ), anime_total_counts AS (
+      SELECT anime.id, COUNT(*) as total_genres, SUM(COALESCE(user_genre_counts.count, 0) * anime_genre_counts.count) as matching
+      FROM anime JOIN anime_genre_counts ON anime.id = anime_genre_counts.id
+            LEFT JOIN user_genre_counts ON anime_genre_counts.genre = user_genre_counts.genre
+      GROUP BY id
+    ), anime_score AS (
+      SELECT id, (matching / total_genres) AS score
+      FROM anime_total_counts
+    ), anime_ratings AS (
+      SELECT id, avg_rating
+      FROM anime
+    ), recommended_anime AS (
+      SELECT anime_score.id, ((score * 0.7) + (avg_rating * 0.3)) as agg_score
+      FROM anime_score JOIN anime_ratings ON anime_score.id = anime_ratings.id
+      ORDER BY agg_score DESC
+      LIMIT 10
+    ), anime_id AS (
+      SELECT recommended_anime.id, genre
+      FROM genre_anime JOIN recommended_anime ON genre_anime.id = recommended_anime.id
+      WHERE genre_anime.id = recommended_anime.id
+    ),
+    anime_desc AS (
+      SELECT a.id, a.title, a.avg_rating, a.synopsis, a.type, a.num_episodes, recommended_anime.agg_score
+      FROM anime a JOIN recommended_anime ON recommended_anime.id = a.id
+      WHERE recommended_anime.id = a.id
+    )
+    SELECT DISTINCT ad.id, ad.title, ad.avg_rating, ad.agg_score, ad.synopsis, ad.type, ad.num_episodes, JSON_EXTRACT(JSON_ARRAYAGG(JSON_OBJECT("genre", genre)), '$[*].genre') as genres
+    FROM anime_desc ad JOIN anime_id ai on ad.id = ai.id
+    GROUP BY ad.id
+  `, (err, data) => {
+    if (err) console.log(err);
+    else res.json(data);
+  })
+}
+
 /* ANIME RANKINGS */
 
 const getTopAnimes = async function(req, res) {
@@ -292,7 +403,7 @@ const getTopAnimeGenre = async function(req, res) {
 
 /* ANIME WATCH LIST */
 
-const animeWatchlist = async function(req, res) {
+const animeInterestList = async function(req, res) {
   const username = req.query.username;
   
   //const username = req.session.userId;
@@ -313,6 +424,35 @@ const animeWatchlist = async function(req, res) {
       SELECT DISTINCT ad.id, ad.title, ad.avg_rating, ad.synopsis, ad.type, ad.num_episodes, JSON_EXTRACT(JSON_ARRAYAGG(JSON_OBJECT("genre", genre)), '$[*].genre') as genres
       FROM anime_desc ad JOIn anime_genre ag ON ad.id = ag.id
       GROUP BY ad.id
+  `, (err, data) => {
+    if (err) {
+      console.log(err)
+    } else {
+      res.json(data);
+    }
+  })
+}
+
+const animeWatchList = async function(req, res) {
+  const username = req.query.username;
+  //const username = req.session.userId;
+  connection.query(`
+  WITH anime_interests AS (
+    SELECT anime_id
+    FROM watchlist
+    WHERE username = "${username}" AND watched = 1
+  ),
+  anime_desc AS (
+    SELECT a.id, a.title, a.avg_rating, a.synopsis, a.type, a.num_episodes
+    FROM anime a JOIN anime_interests ai ON a.id = ai.anime_id
+  ),
+  anime_genre AS (
+    SELECT genre_anime.id, genre_anime.genre
+    FROM genre_anime JOIN anime_interests ON genre_anime.id = anime_interests.anime_id
+  )
+  SELECT DISTINCT ad.id, ad.title, ad.avg_rating, ad.synopsis, ad.type, ad.num_episodes, JSON_EXTRACT(JSON_ARRAYAGG(JSON_OBJECT("genre", genre)), '$[*].genre') as genres
+  FROM anime_desc ad JOIn anime_genre ag ON ad.id = ag.id
+  GROUP BY ad.id
   `, (err, data) => {
     if (err) {
       console.log(err)
@@ -402,7 +542,10 @@ var routes = {
   display_user_info: displayUserInfo,
   update_profile: updateProfile,
   get_watched_movies: getWatchedMovies,
-  anime_watchlist: animeWatchlist,
+  get_anime_rec_user: getAnimeRecUser,
+  get_anime_rec_user_genre: getAnimeRecUserGenre,
+  anime_interestlist: animeInterestList,
+  anime_watchlist: animeWatchList,
   anime_addinterest: animeAddInterest,
   anime_removeinterest: animeRemoveInterest,
   anime_updatewatched: animeUpdateWatched,
