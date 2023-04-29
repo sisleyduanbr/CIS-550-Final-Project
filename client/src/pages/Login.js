@@ -26,6 +26,7 @@ function Login(){
       console.log("account not found");
       setValid(false);
     } else {
+      setValid(true);
       setUsername(user);
       setPassword(pass);
       setAge(data[0].age);
