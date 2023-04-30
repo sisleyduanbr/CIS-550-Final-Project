@@ -236,6 +236,30 @@ const getTopMoviesByGenre = async function(req, res) {
 
 /* ANIME RECOMMENDATIONS */
 
+const getGenreUserRec = async function(req, res) {
+  const username = "user1";
+  connection.query(`
+  WITH user_genre_counts AS (
+    SELECT genre, COUNT(*) AS count
+    FROM genre_movie JOIN watched ON genre_movie.id = watched.movie_id
+    WHERE watched.username = "${username}" AND genre != "(no genres listed)"
+    GROUP BY genre
+  ), anime_genre_counts AS (
+    SELECT anime.id, genre, COUNT(*) AS count
+    FROM anime JOIN genre_anime ON anime.id = genre_anime.id
+    GROUP BY id, genre
+  )
+  SELECT agc.genre, COUNT(*) as count
+  FROM anime_genre_counts agc JOIN user_genre_counts ugc ON agc.genre = ugc.genre
+  GROUP BY agc.genre
+  ORDER BY count DESC
+  LIMIT 5
+  `, (err, data) => {
+    if (err) console.log(err);
+    else res.json(data);
+  })
+}
+
 //recommendation algorithm = (number_of_genres_anime_total_count / number_of_genres_in_anime) * 0.7 + (anime_rating) * 0.3
 
 const getAnimeRecUser = async function(req, res) {
@@ -543,6 +567,7 @@ var routes = {
   display_user_info: displayUserInfo,
   update_profile: updateProfile,
   get_watched_movies: getWatchedMovies,
+  get_genre_user_rec: getGenreUserRec,
   get_anime_rec_user: getAnimeRecUser,
   get_anime_rec_user_genre: getAnimeRecUserGenre,
   anime_interestlist: animeInterestList,

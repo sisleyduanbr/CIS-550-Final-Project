@@ -31,6 +31,7 @@ app.get('/movie/top', routes.top_movies)
 app.get('/movie/top/:genre', routes.top_movies_genre)
 
 //anime
+app.get('/anime/genre_rec', routes.get_genre_user_rec);
 app.get('/anime/rec', routes.get_anime_rec_user);
 app.get('/anime/rec/genre', routes.get_anime_rec_user_genre);
 
