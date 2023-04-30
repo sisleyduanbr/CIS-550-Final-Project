@@ -1,21 +1,25 @@
 import AnimeGenre from "./AnimeGenre";
 import anime_genres from "../data/anime_genres";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Container, Divider } from "@mui/material";
 import AnimeCards from "../components/AnimeCards";
+import { LoginContext } from "../contexts/LoginContext";
 import background from "../images/image8.jpeg";
 const config = require('../config.json');
 
 export default function AnimeRankingsPage() {
     const [genres, setGenres] = useState([]);
     const [topAnimes, setTopAnimes] = useState([]);
+    const {username} = useContext(LoginContext);
 
     useEffect(() => {
-        setGenres(['Romance']);
-    }, []);
-    
-    // get genre of the user
-    // top animes by genre
+        fetch(`http://${config.server_host}:${config.server_port}/anime/genre_rec/${username}`)
+          .then(res => res.json())
+          .then(resJson => {
+            const mappedGenres = resJson.map((g) => g.genre)
+            setGenres(mappedGenres);
+          });
+      }, [])
 
     useEffect(() => {
         const page = 1

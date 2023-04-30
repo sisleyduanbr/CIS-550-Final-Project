@@ -104,7 +104,7 @@ const updateProfile = async function(req, res) {
 const getWatchedMovies = async function(req, res) {
   username = req.params.username;
   connection.query(`
-    SELECT M.title, M.imdb_id, M.id
+    SELECT M.title, M.imdb_id, M.id, M.avg_rating
     FROM watched W JOIN movie M ON M.id = W.movie_id
     WHERE username = "${username}"
   `, (err, data) => {
@@ -239,7 +239,7 @@ const getTopMoviesByGenre = async function(req, res) {
 /* ANIME RECOMMENDATIONS */
 
 const getGenreUserRec = async function(req, res) {
-  const username = "user1";
+  const {username} = req.params;
   connection.query(`
   WITH user_genre_counts AS (
     SELECT genre, COUNT(*) AS count

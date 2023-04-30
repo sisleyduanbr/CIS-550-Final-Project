@@ -22,9 +22,9 @@ export default function AnimeGenre({genre, top}) {
     return (
         <div className="m-3">
             {top ? 
-            <h4>Top {genre} Animes</h4>
+            <h2 className="mb-3">Top {genre} Animes</h2>
             :
-            <h4>{genre} Animes You Might Like</h4>
+            <h2 className="mb-3">{genre} Animes You Might Like</h2>
             }
             <AnimeCards animes={animesInGenre}/>
         </div>

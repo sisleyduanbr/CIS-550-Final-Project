@@ -16,12 +16,20 @@ export default function HomePage() {
   const [searchString, setSearchString] = useState("");
   const [searchResultAnimes, setSearchResultAnimes] = useState([]);
   const [animeRec, setAnimeRec] = useState([]);
-  const {username, password, setPassword, age, setAge, gender, setGender, occupation, setOccupation} = useContext(LoginContext);
-  const navigate = useNavigate();
+  const {username} = useContext(LoginContext);
+
+  // useEffect(() => {
+  //   setGenres(['Action']);
+  // }, []);
 
   useEffect(() => {
-    setGenres(['Action']);
-  }, []);
+    fetch(`http://${config.server_host}:${config.server_port}/anime/genre_rec/${username}`)
+      .then(res => res.json())
+      .then(resJson => {
+        const mappedGenres = resJson.map((g) => g.genre)
+        setGenres(mappedGenres);
+      });
+  }, [])
 
   const handleSearch = () => {
     fetch(`http://${config.server_host}:${config.server_port}/anime/search/?anime=${searchString}`)
@@ -36,6 +44,7 @@ export default function HomePage() {
     fetch(`http://${config.server_host}:${config.server_port}/anime/rec/${username}`)
       .then(res => res.json())
       .then(resJson => {
+          console.log("rec animes", resJson)
           setAnimeRec(resJson);
       });
   }, [username])
@@ -56,7 +65,7 @@ export default function HomePage() {
       </div>}
       
       <div className='m-3'>
-        <h4>Recommended For You</h4>
+        <h2 className="mb-3">Recommended For You</h2>
         <AnimeCards animes={animeRec}/>
       </div>
       
