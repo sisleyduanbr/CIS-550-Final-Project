@@ -29,16 +29,13 @@ export default function AnimeRankingsPage() {
 
     return (
         <Container>
-        <h2>Top Animes</h2>
-        <AnimeCards animes={topAnimes}/>
-        <h2> Recommended animes by genre: </h2>
-        <Divider />
-        {genres.map((genre) => 
-            <AnimeGenre genre={genre} top={true}/>
-        )}
-
-        {/* <LazyTable route={`http://${config.server_host}:${config.server_port}/top_albums`} columns={albumColumns} defaultPageSize={5} rowsPerPageOptions={[5, 10]}/> */}
-
+            <div className="m-3">
+                <h2>Top Animes</h2>
+                <AnimeCards animes={topAnimes}/>
+            </div>
+            {genres.map((genre) => 
+                <AnimeGenre genre={genre} top={true}/>
+            )}
         </Container>
     )
 }

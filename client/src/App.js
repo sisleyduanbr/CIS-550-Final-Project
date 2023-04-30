@@ -34,8 +34,12 @@ export default function App() {
       <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/movies" element={<MoviePage />} />
+          <Route path="/" element={<LoginContext.Provider value={
+            {username, setUsername, password, setPassword, setAge, setGender, setOccupation}
+            }><HomePage/></LoginContext.Provider>} />
+          <Route path="/movies" element={<LoginContext.Provider value={
+            {username, password, age, gender, occupation}
+            }><MoviePage/></LoginContext.Provider>} />
           <Route path="/watchlist" element={<LoginContext.Provider value={
             {username, password, age, gender, occupation}
             }><AnimeWatchlistPage/></LoginContext.Provider>}/>

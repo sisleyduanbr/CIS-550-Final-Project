@@ -15,7 +15,6 @@ connection.connect((err) => err && console.log(err));
 /* ACCOUNT ROUTES */
 
 const loginCheck = async function(req, res) {
-  console.log(req.body);
   const username = req.body.username;
   const password = req.body.password;
 
@@ -28,8 +27,11 @@ const loginCheck = async function(req, res) {
       console.log(err);
       res.json({});
     } else {
-      console.log(data);
-      res.send(data);
+      req.session.userId = 'user1' //data[0].username
+      console.log("req session after login is", req.session);
+      req.session.save(function () {
+        res.send(data);
+      });
     }
   });
 }
@@ -179,10 +181,10 @@ const movieRec = async function(req, res) {
   const page = req.query.page;
   const page_size = req.query.page_size;
   const pageSize = page_size ? page_size : 10;
-  const username = "user1"; // FOR TESTING ONLY
+  const {username} = req.params;
 
   connection.query(`
-    SELECT M.title, M.avg_rating, M.imdb_id,  M.id
+    SELECT DISTINCT M.title, M.avg_rating, M.imdb_id,  M.id
     FROM movie M JOIN genre_movie G ON M.id = G.id
     WHERE G.genre IN (
       SELECT G.genre
@@ -242,9 +244,11 @@ const getAnimeRecUser = async function(req, res) {
   ///const page = req.query.page;
   //const page_size = req.query.page_size;
   //const pageSize = page_size ? page_size : 10;
-
-  //const username = req.session.userId;
-  const username = "user1";
+  // if (req.session.userId == null) {
+  //   console.log("req session in ge anime user is", req.session);
+  //   return res.json([]);
+  // }
+  const {username} = req.params;
   connection.query(`
     WITH user_genre_counts AS (
       SELECT genre, COUNT(*) AS count
@@ -298,7 +302,7 @@ const getAnimeRecUserGenre = async function(req, res) {
   //const pageSize = page_size ? page_size : 10;
 
   //const username = req.session.userId;
-  const username = "user1";
+  const username = req.query.username;
 
   connection.query(`
     WITH user_genre_counts AS (
@@ -405,8 +409,9 @@ const getTopAnimeGenre = async function(req, res) {
 /* ANIME WATCH LIST */
 
 const animeInterestList = async function(req, res) {
-  const username = req.query.username;
-  
+  const username = req.params.username;
+  console.log("username is", username)
+
   //const username = req.session.userId;
   connection.query(`
       WITH anime_interests AS (
@@ -464,10 +469,10 @@ const animeWatchList = async function(req, res) {
 }
 
 const animeAddInterest = async function(req, res) {
-  if (req.session.userId == null) {
-    res.redirect('/');
-  }
-  const username = req.session.userId;
+  // if (req.session.userId == null) {
+  //   res.redirect('/');
+  // }
+  const username = req.body.username //req.session.userId; 
   const anime_id = req.body.anime_id;
   const unique_id = username + '%' + anime_id;
   connection.query(`
@@ -494,10 +499,10 @@ const animeRemoveInterest = async function(req, res) {
 }
 
 const animeUpdateWatched = async function(req, res) {
-  if (req.session.userId == null) {
-    res.redirect('/');
-  }
-  const username = req.session.userId;
+  // if (req.session.userId == null) {
+  //   res.redirect('/');
+  // }
+  const username = req.body.userId;
   const anime_id = req.body.anime_id;
   const unique_id = username + '%' + anime_id;
   connection.query(`

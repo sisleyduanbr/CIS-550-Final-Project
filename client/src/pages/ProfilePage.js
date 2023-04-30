@@ -6,7 +6,6 @@ import http from '../HttpService'
 import { LoginContext } from "../contexts/LoginContext";
 const config = require('../config.json');
 
-const flexFormat = { display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-evenly' };
 
 export default function ProfilePage() {
     
