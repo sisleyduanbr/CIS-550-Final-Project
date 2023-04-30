@@ -1,15 +1,8 @@
 import { useRef, useState, useEffect, useContext} from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import {LoginContext} from "../contexts/LoginContext";
-import {useNavigate} from 'react-router-dom';
 import http from "../HttpService";
 const config = require('../config.json');
-
-
-
-
-
-
 
 function Login(){
 

@@ -35,16 +35,18 @@ export default function App() {
       <BrowserRouter>
         <LoginContext.Provider value={{login,setLogin}}><NavBar/></LoginContext.Provider>
         <Routes>
-          <Route path="/" element={<LoginContext.Provider value={
+          <Route path="/" element={login ? <LoginContext.Provider value={
             {username, setUsername, password, setPassword, setAge, setGender, setOccupation}
-            }><HomePage/></LoginContext.Provider>} />
+            }><HomePage/></LoginContext.Provider> : <Navigate to='/login'/>} />
           <Route path="/movies" element={<LoginContext.Provider value={
             {username, password, age, gender, occupation}
             }><MoviePage/></LoginContext.Provider>} />
           <Route path="/watchlist" element={<LoginContext.Provider value={
             {username, password, age, gender, occupation}
             }><AnimeWatchlistPage/></LoginContext.Provider>}/>
-          <Route path="/rankings" element={<AnimeRankingsPage />} />
+          <Route path="/rankings" element={<LoginContext.Provider value={
+            {username, password, age, gender, occupation}
+            }><AnimeRankingsPage/></LoginContext.Provider>} />
           <Route path="/login" element={<LoginContext.Provider value={
             {username, setUsername, password, setPassword, setAge, setGender, setOccupation, login, setLogin}
             }><Login/></LoginContext.Provider>}/>
