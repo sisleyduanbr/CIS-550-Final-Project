@@ -3,6 +3,7 @@ import anime_genres from "../data/anime_genres";
 import { useEffect, useState } from "react";
 import { Container, Divider } from "@mui/material";
 import AnimeCards from "../components/AnimeCards";
+import background from "../images/image8.jpeg";
 const config = require('../config.json');
 
 export default function AnimeRankingsPage() {
@@ -28,6 +29,9 @@ export default function AnimeRankingsPage() {
 
 
     return (
+        <div style={{
+            backgroundImage: `url(${background})`
+        }}>
         <Container>
         <h2>Top Animes</h2>
         <AnimeCards animes={topAnimes}/>
@@ -40,5 +44,6 @@ export default function AnimeRankingsPage() {
         {/* <LazyTable route={`http://${config.server_host}:${config.server_port}/top_albums`} columns={albumColumns} defaultPageSize={5} rowsPerPageOptions={[5, 10]}/> */}
 
         </Container>
+        </div>
     )
 }

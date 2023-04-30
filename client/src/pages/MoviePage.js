@@ -3,6 +3,8 @@ import { Box, Card, Container, TextField } from '@mui/material';
 import { NavLink } from 'react-router-dom';
 import movies from '../data/movies';
 import MovieCards from '../components/MovieCards'
+import background from "../images/image5.jpeg";
+
 const config = require('../config.json');
 
 export default function MoviePage() {
@@ -51,6 +53,9 @@ export default function MoviePage() {
   return (
     // replace the empty object {} in the Container's style property with flexFormat. Observe the change to the Albums page.
     // then uncomment the code to display the cover image and once again observe the change, i.e. what happens to the layout now that each album card has a fixed width?
+    <div style={{
+      backgroundImage: `url(${background})`
+    }}>
     <Container>
       <div className="mt-4 mb-3" >
         <TextField label='search for a movie you watched' value={searchString} onChange={(e) => setSearchString(e.target.value)} style={{ width: "90%" }}/>
@@ -74,5 +79,6 @@ export default function MoviePage() {
       </div>
       
     </Container>
+    </div>
   );
 }

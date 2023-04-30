@@ -1,10 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { CssBaseline, ThemeProvider } from '@mui/material'
-import { indigo, amber } from '@mui/material/colors'
+import {blueGrey, red} from '@mui/material/colors'
 import { createTheme } from "@mui/material/styles";
 import React, {useState} from "react";
 import 'bootstrap/dist/css/bootstrap.css';
-
 import NavBar from './components/NavBar';
 import HomePage from './pages/HomePage';
 import MoviePage from './pages/MoviePage';
@@ -15,11 +14,22 @@ import ProfilePage from "./pages/ProfilePage";
 import {Navigate} from 'react-router-dom';
 import {LoginContext} from './contexts/LoginContext';
 
+
 export const theme = createTheme({
   palette: {
-    primary: indigo,
-    secondary: amber,
+    primary: red,
+    secondary: blueGrey
   },
+  components: {
+    AppBar: {
+        styleOverrides: {
+            dense: {
+                height: 500,
+                minHeight: 500
+            }
+        }
+    }
+},
 });
 
 export default function App() {

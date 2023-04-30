@@ -4,6 +4,7 @@ import animes from "../data/anime";
 import {LoginContext} from "../contexts/LoginContext";
 import React, {useContext} from 'react'
 import AnimeCards from '../components/AnimeCards'
+import background from "../images/image9.jpeg";
 const config = require('../config.json');
 
 export default function AnimeWatchlistPage() {
@@ -25,10 +26,14 @@ export default function AnimeWatchlistPage() {
     },[])
 
     return (
+        <div style={{
+            backgroundImage: `url(${background})`
+        }}>
         <Container>
             <h2>Anime Interest List</h2>
             <AnimeCards animes={animesInInterestlist}/>
         </Container>
+        </div>
 
     )
 }

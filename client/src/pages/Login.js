@@ -5,11 +5,6 @@ import http from "../HttpService";
 const config = require('../config.json');
 
 
-
-
-
-
-
 function Login(){
 
   const {setUsername} = useContext(LoginContext);
@@ -46,10 +41,9 @@ function Login(){
 
   return (
     <div
-    style={{
-      textAlign: "center"
-    }}
-    >
+    style={{ 
+    textAlign : 'center',
+  }}>
       <h1>Log In</h1>
       <input type = "text" placeholder = "Username.." 
       onChange={(e) => {setUser(e.target.value)}}
