@@ -4,13 +4,18 @@ import { mdiCheck } from '@mdi/js';
 import { useState, useEffect, useContext } from "react";
 import http from '../HttpService'
 import { LoginContext } from "../contexts/LoginContext";
+import {useNavigate} from 'react-router-dom';
 const config = require('../config.json');
 
 
 export default function ProfilePage() {
     
-    const {username, password, setPassword, age, setAge, gender, setGender, occupation, setOccupation} = useContext(LoginContext);
+    const {username, setUsername, password, setPassword, 
+        age, setAge, gender, setGender, occupation, setOccupation,
+        login, setLogin
+    } = useContext(LoginContext);
     const zip_code = 19104;
+    const navigate = useNavigate();
     
 
     const [editMode, setEditMode] = useState(false);
@@ -26,6 +31,16 @@ export default function ProfilePage() {
             occupation: occupation,
             zip_code: zip_code
         })
+    }
+
+    const logout = async () => {
+        setUsername("");
+        setPassword("");
+        setAge("");
+        setGender("");
+        setOccupation("");
+        setLogin(false);
+        navigate('/login');
     }
 
     return (
@@ -49,6 +64,7 @@ export default function ProfilePage() {
                 <div>
                     zip_code: {zip_code}
                 </div>
+                <button onClick={logout}>Logout</button>
             </div>}
 
         {editMode &&

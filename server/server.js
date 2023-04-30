@@ -47,6 +47,7 @@ app.get('/movie/top/:genre', routes.top_movies_genre)
 //anime
 app.get('/anime/rec/:username', routes.get_anime_rec_user);
 app.get('/anime/rec/:username/genre', routes.get_anime_rec_user_genre);
+app.get('/anime/genre_rec', routes.get_genre_user_rec);
 
 //anime ranking
 app.get('/anime', routes.get_top_anime);
