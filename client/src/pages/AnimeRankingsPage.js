@@ -3,6 +3,7 @@ import anime_genres from "../data/anime_genres";
 import { useEffect, useState } from "react";
 import { Container, Divider } from "@mui/material";
 import AnimeCards from "../components/AnimeCards";
+import background from "../images/image8.jpeg";
 const config = require('../config.json');
 
 export default function AnimeRankingsPage() {
@@ -28,6 +29,9 @@ export default function AnimeRankingsPage() {
 
 
     return (
+        <div style={{
+            backgroundImage: `url(${background})`
+        }}>
         <Container>
             <div className="m-3">
                 <h2>Top Animes</h2>
@@ -37,5 +41,6 @@ export default function AnimeRankingsPage() {
                 <AnimeGenre genre={genre} top={true}/>
             )}
         </Container>
+        </div>
     )
 }

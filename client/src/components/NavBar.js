@@ -10,7 +10,7 @@ const NavText = ({ href, text, isMain }) => {
       noWrap
       style={{
         marginRight: '30px',
-        fontFamily: 'monospace',
+        fontFamily: 'sans-serif',
         fontWeight: 700,
         letterSpacing: '.3rem',
       }}
@@ -18,7 +18,7 @@ const NavText = ({ href, text, isMain }) => {
       <NavLink
         to={href}
         style={{
-          color: 'inherit',
+          color: 'pink',
           textDecoration: 'none',
         }}
       >
@@ -28,14 +28,14 @@ const NavText = ({ href, text, isMain }) => {
   )
 }
 
+
 export default function NavBar() {
   const {login} = useContext(LoginContext);
-  const {setLogin} = useContext(LoginContext);
 
   return (
     <AppBar position='static' className='mb-4'>
       <Container maxWidth='xl'>
-        <Toolbar disableGutters>
+        <Toolbar disableGutters variant='regular'>
           {!login && <NavText text='AniMate' isMain />}
           {!login && <NavText href='/login' text='Log into your account bro'/>}
           {login && <NavText href='/' text='AniMate' isMain />}
