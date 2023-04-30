@@ -1,6 +1,6 @@
 import { Card } from "@mui/material";
 import Icon from '@mdi/react';
-import { mdiCheck } from '@mdi/js';
+import { mdiCheck, mdiEyePlus } from '@mdi/js';
 import { useState, useEffect } from "react";
 import http from '../HttpService';
 const config = require('../config.json');
@@ -41,7 +41,9 @@ export default function MovieCards({movies}) {
                     {watchedMovies.find((m) => m.title == movie.title) != null ?
                     <Icon path={mdiCheck} size={1} />
                     :
-                    <div onClick={() => handleWatched(movie)}>watched</div>}
+                    <div onClick={() => handleWatched(movie)}>
+                        <Icon path={mdiEyePlus} size={1} />
+                    </div>}
                 </div>
             ))}
         </div>
