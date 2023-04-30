@@ -1,5 +1,7 @@
 import { AppBar, Container, Toolbar, Typography } from '@mui/material'
 import { NavLink } from 'react-router-dom';
+import { useRef, useState, useEffect, useContext} from 'react';
+import {LoginContext} from "../contexts/LoginContext";
 
 const NavText = ({ href, text, isMain }) => {
   return (
@@ -27,16 +29,20 @@ const NavText = ({ href, text, isMain }) => {
 }
 
 export default function NavBar() {
+  const {login} = useContext(LoginContext);
+  const {setLogin} = useContext(LoginContext);
+
   return (
     <AppBar position='static' className='mb-4'>
       <Container maxWidth='xl'>
         <Toolbar disableGutters>
-          <NavText href='/' text='AniMate' isMain />
-          <NavText href='/movies' text='movies' />
-          <NavText href='/watchlist' text='watchlist' />
-          <NavText href='/rankings' text='rankings' />
-          <NavText href='/login' text='login'/>
-          <NavText href='/profile' text='profile'/>
+          {!login && <NavText text='AniMate' isMain />}
+          {!login && <NavText href='/login' text='Log into your account bro'/>}
+          {login && <NavText href='/' text='AniMate' isMain />}
+          {login && <NavText href='/movies' text='movies' />}
+          {login && <NavText href='/watchlist' text='watchlist' />}
+          {login && <NavText href='/rankings' text='rankings' /> }
+          {login && <NavText href='/profile' text='profile'/>}
         </Toolbar>
       </Container>
     </AppBar>

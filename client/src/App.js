@@ -12,6 +12,7 @@ import AnimeWatchlistPage from "./pages/AnimeWatchlistPage";
 import AnimeRankingsPage from "./pages/AnimeRankingsPage";
 import Login from "./pages/Login";
 import ProfilePage from "./pages/ProfilePage";
+import {Navigate} from 'react-router-dom';
 import {LoginContext} from './contexts/LoginContext';
 
 export const theme = createTheme({
@@ -27,24 +28,24 @@ export default function App() {
   const [age, setAge] = useState("");
   const [gender, setGender] = useState("");
   const [occupation, setOccupation] = useState("");
-  const [zipcode, setZipcode] = useState("");
+  const [login, setLogin] = useState(false);
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <BrowserRouter>
-        <NavBar />
+        <LoginContext.Provider value={{login,setLogin}}><NavBar/></LoginContext.Provider>
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/" element={login ? <HomePage /> : <Navigate to="/login"/>} />
           <Route path="/movies" element={<MoviePage />} />
           <Route path="/watchlist" element={<LoginContext.Provider value={
             {username, password, age, gender, occupation}
             }><AnimeWatchlistPage/></LoginContext.Provider>}/>
           <Route path="/rankings" element={<AnimeRankingsPage />} />
           <Route path="/login" element={<LoginContext.Provider value={
-            {username, setUsername, password, setPassword, setAge, setGender, setOccupation}
+            {username, setUsername, password, setPassword, setAge, setGender, setOccupation, login, setLogin}
             }><Login/></LoginContext.Provider>}/>
           <Route path="/profile" element={<LoginContext.Provider value={
-            {username, setUsername, password, setPassword, age, setAge, gender, setGender, occupation, setOccupation}
+            {username, setUsername, password, setPassword, age, setAge, gender, setGender, occupation, setOccupation, login, setLogin}
             }><ProfilePage/></LoginContext.Provider>}/>
         </Routes>
       </BrowserRouter>
