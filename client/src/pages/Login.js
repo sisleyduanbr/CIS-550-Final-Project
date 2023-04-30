@@ -2,7 +2,7 @@ import { useRef, useState, useEffect, useContext} from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import {LoginContext} from "../contexts/LoginContext";
 import http from "../HttpService";
-const config = require('../config.json');
+
 
 function Login(){
 
@@ -11,7 +11,6 @@ function Login(){
   const {setAge} = useContext(LoginContext);
   const {setGender} = useContext(LoginContext);
   const {setOccupation} = useContext(LoginContext);
-  const {login} = useContext(LoginContext);
   const {setLogin} = useContext(LoginContext);
   const [user, setUser] = useState('');
   const [pass, setPass] = useState('');
@@ -49,7 +48,7 @@ function Login(){
      
       <br></br>
       <br></br>
-      <input type = "text" placeholder = "Password.."
+      <input type = "password" placeholder = "Password.."
       onChange={(e) => {setPass(e.target.value)}}
       ></input>
       <br></br>

@@ -1,6 +1,5 @@
 import { Container } from "@mui/system";
 import { useState, useEffect } from "react";
-import animes from "../data/anime";
 import {LoginContext} from "../contexts/LoginContext";
 import React, {useContext} from 'react'
 import AnimeCards from '../components/AnimeCards'
