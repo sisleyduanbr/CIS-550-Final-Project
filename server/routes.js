@@ -182,7 +182,7 @@ const movieRec = async function(req, res) {
   const username = "user1"; // FOR TESTING ONLY
 
   connection.query(`
-    SELECT M.title, M.avg_rating, M.imdb_id,  M.id
+    SELECT DISTINCT M.title, M.avg_rating, M.imdb_id,  M.id
     FROM movie M JOIN genre_movie G ON M.id = G.id
     WHERE G.genre IN (
       SELECT G.genre
