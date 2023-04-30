@@ -65,7 +65,7 @@ export default function HomePage() {
       </div>}
       
       <div className='m-3'>
-        <h2 className="mb-3">Recommended For You</h2>
+        <h2 className="mb-3">Recommended For {username}</h2>
         <AnimeCards animes={animeRec}/>
       </div>
       

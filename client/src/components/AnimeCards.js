@@ -40,7 +40,7 @@ export default function AnimeCards({animes, interestList}) {
       }, [])
 
       useEffect(() => {
-        fetch(`http://${config.server_host}:${config.server_port}/anime/interested?username=${username}`)
+        fetch(`http://${config.server_host}:${config.server_port}/anime/interested/${username}`)
           .then(res => res.json())
           .then(resJson => {
               console.log(resJson)
@@ -75,11 +75,11 @@ export default function AnimeCards({animes, interestList}) {
                 <div className="p-3 card col-2 m-2">
                     <div onClick={() => handleModalOpen(anime)}>
                         <div className="d-flex justify-content-start">
-                            {anime.agg_score && <h4 className="text-bold"> {anime.agg_score.toPrecision(3)} </h4>}
+                            {anime.agg_score && <h4 className="text-bold" style={{color: '#D4AF37'}}> {anime.agg_score.toPrecision(3)} </h4>}
                         </div>
                         <h5>{anime.title}</h5>
                     </div>
-                    <div> avg rating: {anime.avg_rating}</div>
+                    <div> rating: {anime.avg_rating}</div>
                     <div> #episodes: {anime.num_episodes} </div>
                     <div> type: {anime.type} </div>
                     

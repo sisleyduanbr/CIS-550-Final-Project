@@ -12,7 +12,7 @@ export default function AnimeGenre({genre, top}) {
     // get all genres of users
     useEffect(() => {
         const page = 1
-        fetch(`http://${config.server_host}:${config.server_port}/anime/${top ? "": `rec/`}genre?username=${username}&genre=${genre}&page=${page}&page_size=8`)
+        fetch(`http://${config.server_host}:${config.server_port}/anime/${top ? "": `rec/`}genre?username=${username}&genre=${genre}&page=${page}&page_size=10`)
             .then(res => res.json())
             .then(resJson => {
                 setAnimesInGenre(resJson)

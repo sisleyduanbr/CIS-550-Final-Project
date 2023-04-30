@@ -23,7 +23,7 @@ export default function AnimeRankingsPage() {
 
     useEffect(() => {
         const page = 1
-        fetch(`http://${config.server_host}:${config.server_port}/anime?page=${page}&page_size=4`)
+        fetch(`http://${config.server_host}:${config.server_port}/anime?page=${page}&page_size=5`)
         .then(res => res.json())
         .then(resJson => {
             setTopAnimes(resJson);
