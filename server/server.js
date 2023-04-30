@@ -4,8 +4,22 @@ const config = require('./config');
 const routes = require('./routes');
 const bodyParser = require('body-parser');
 const jsonParser = bodyParser.json();
+const cookieParser = require("cookie-parser");
+
+let session = require('express-session');
+let sessionOptions = {
+  secret: 'secret',
+  cookie: {
+    maxAge:269999999999,
+    secure: false,
+  },
+  saveUninitialized: true,
+  resave: false
+};
 
 const app = express();
+app.use(session(sessionOptions))
+app.use(cookieParser());
 app.use(cors({
   origin: '*',
 }));
@@ -26,25 +40,25 @@ app.get('/movie/watched/:username', routes.get_watched_movies);
 app.post('/movie/add', jsonParser, routes.add_movie);
 app.post('/movie/delete', routes.delete_movie);
 app.get('/movie/search', routes.movie_search);
-app.get('/movie/recommendation', routes.movie_rec);
+app.get('/movie/:username/recommendation', routes.movie_rec);
 app.get('/movie/top', routes.top_movies)
 app.get('/movie/top/:genre', routes.top_movies_genre)
 
 //anime
+app.get('/anime/rec/:username', routes.get_anime_rec_user);
+app.get('/anime/rec/:username/genre', routes.get_anime_rec_user_genre);
 app.get('/anime/genre_rec', routes.get_genre_user_rec);
-app.get('/anime/rec', routes.get_anime_rec_user);
-app.get('/anime/rec/genre', routes.get_anime_rec_user_genre);
 
 //anime ranking
 app.get('/anime', routes.get_top_anime);
 app.get('/anime/genre', routes.get_top_anime_genre);
 
 //anime watch list
-app.get('/anime/interested', routes.anime_interestlist);
+app.get('/anime/interested/:username', routes.anime_interestlist);
 app.get('/anime/watched', routes.anime_watchlist);
-app.post('/anime/add_anime', routes.anime_addinterest);
+app.post('/anime/add_anime', jsonParser, routes.anime_addinterest);
 app.post('/anime/remove_anime', routes.anime_removeinterest);
-app.post('/anime/watched_anime', routes.anime_updatewatched);
+app.post('/anime/watched_anime', jsonParser, routes.anime_updatewatched);
 
 //anime search
 app.get('/anime/search', routes.anime_search);

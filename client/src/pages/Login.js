@@ -1,4 +1,5 @@
 import { useRef, useState, useEffect, useContext} from 'react';
+import { NavLink, useNavigate } from 'react-router-dom';
 import {LoginContext} from "../contexts/LoginContext";
 import {useNavigate} from 'react-router-dom';
 import http from "../HttpService";
@@ -23,7 +24,6 @@ function Login(){
   const [pass, setPass] = useState('');
   const [valid, setValid] = useState(true);
   const navigate = useNavigate();
-  
  
   const checkLogin = async () => {
     
@@ -40,7 +40,7 @@ function Login(){
       setAge(data[0].age);
       setGender(data[0].gender);
       setOccupation(data[0].occupation);
-      navigate('/');
+      navigate('/')
     }
   }
 

@@ -9,14 +9,9 @@ const config = require('../config.json');
 export default function AnimeWatchlistPage() {
     const [animesInInterestlist, setAnimesInInterestlist] = useState([]);
     const {username} = useContext(LoginContext);
-    const {password} = useContext(LoginContext);
-    const {age} = useContext(LoginContext);
-    const {gender} = useContext(LoginContext);
-    const {occupation} = useContext(LoginContext);
 
     useEffect(() => {
-    const username = 'user1'
-    fetch(`http://${config.server_host}:${config.server_port}/anime/interested?username=${username}`)
+    fetch(`http://${config.server_host}:${config.server_port}/anime/interested/${username}`)
         .then(res => res.json())
         .then(resJson => {
             console.log(resJson)
@@ -27,7 +22,7 @@ export default function AnimeWatchlistPage() {
     return (
         <Container>
             <h2>Anime Interest List</h2>
-            <AnimeCards animes={animesInInterestlist}/>
+            <AnimeCards animes={animesInInterestlist} interestList={true}/>
         </Container>
 
     )
