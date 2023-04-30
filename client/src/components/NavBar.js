@@ -40,7 +40,7 @@ export default function NavBar() {
           {!login && <NavText href='/login' text='Log into your account bro'/>}
           {login && <NavText href='/' text='AniMate' isMain />}
           {login && <NavText href='/movies' text='movies' />}
-          {login && <NavText href='/watchlist' text='watchlist' />}
+          {login && <NavText href='/watchlist' text='interested' />}
           {login && <NavText href='/rankings' text='rankings' /> }
           {login && <NavText href='/profile' text='profile'/>}
         </Toolbar>

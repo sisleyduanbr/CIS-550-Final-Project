@@ -25,7 +25,7 @@ export default function AnimeWatchlistPage() {
             backgroundImage: `url(${background})`
         }}>
         <Container>
-            <h2>Anime Interest List</h2>
+            <h2>{username}'s Interest List</h2>
             <AnimeCards animes={animesInInterestlist} interestList={true}/>
         </Container>
         </div>

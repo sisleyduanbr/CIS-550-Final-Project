@@ -42,8 +42,6 @@ export default function MoviePage() {
 
   return (
 
-    // replace the empty object {} in the Container's style property with flexFormat. Observe the change to the Albums page.
-    // then uncomment the code to display the cover image and once again observe the change, i.e. what happens to the layout now that each album card has a fixed width?
     <div style={{
       backgroundImage: `url(${background})`
     }}>
@@ -61,12 +59,12 @@ export default function MoviePage() {
       </div>}
 
       <div className='m-3'>
-        <h4>Watched movies</h4>
+        <h4>You Have Watched:</h4>
         <MovieCards movies={watchedMovies}/>
       </div>
 
       <div className='m-3'>
-        <h4>You may have watched </h4>
+        <h4>You may have watched: </h4>
         <MovieCards movies={recMovies}/>
       </div>
       
